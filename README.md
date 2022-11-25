@@ -17,7 +17,7 @@ if (Couldn't find remote ref refs/heads/gh-pages) {
     npm run deploy
   }
 
-# Настройка поддерживаемых браузеров
+## Настройка поддерживаемых браузеров
 Смотри файл babel.config.js
 
 ## Используемые технологии:
