@@ -1,8 +1,8 @@
-@font-face {
+/* @font-face {
   font-family: 'YS Text';
   src: 
-    local('YS\ Text-Bold'),
-    url('./YS\ Text-Bold.ttf') format('ttf');
+    local('YS-Text-Bold'),
+    url('./YS-Text-Bold.ttf') format('ttf');
   font-weight: bold;
   font-style: normal;
 }
@@ -10,8 +10,8 @@
 @font-face {
   font-family: 'YS Text';
   src: 
-    local('YS\ Text-Bold\ Italic'),
-    url('./YS\ Text-Bold\ Italic.ttf') format('ttf');
+    local('YS-Text-Bold\ Italic'),
+    url('./YS-Text-Bold\ Italic.ttf') format('ttf');
   font-weight: bold;
   font-style: italic;
 }
@@ -19,8 +19,8 @@
 @font-face {
   font-family: 'YS Text';
   src: 
-    local('YS\ Text-Light'),
-    url('./YS\ Text-Light.ttf') format('ttf');
+    local('YS-Text-Light'),
+    url('./YS-Text-Light.ttf') format('ttf');
   font-weight: light;
   font-style: normal;
 }
@@ -28,44 +28,44 @@
 @font-face {
   font-family: 'YS Text';
   src: 
-    local('YS\ Text-Light\ Italic'),
-    url('./YS\ Text-Light\ Italic.ttf') format('ttf');
+    local('YS-Text-Light\ Italic'),
+    url('./YS-Text-Light\ Italic.ttf') format('ttf');
   font-weight: light;
   font-style: italic;
-}
+} */
 
 @font-face {
   font-family: 'YS Text';
   src: 
-    local('YS\ Text-Medium'),
-    url('./YS\ Text-Medium.ttf') format('ttf');
+    local('YS-Text-Medium'),
+    url('./YS-Text-Medium.ttf') format('ttf');
   font-weight: 500;
   font-style: normal;
 }
 
-@font-face {
+/* @font-face {
   font-family: 'YS Text';
   src: 
-    local('YS\ Text-Medium\ Italic'),
-    url('./YS\ Text-Medium\ Italic.ttf') format('ttf');
+    local('YS-Text-Medium\ Italic'),
+    url('./YS-Text-Medium\ Italic.ttf') format('ttf');
   font-weight: 500;
   font-style: italic;
-}
+} */
 
 @font-face {
   font-family: 'YS Text';
   src: 
-    local('YS\ Text-Regular'),
-    url('./YS\ Text-Regular.ttf') format('ttf');
+    local('YS-Text-Regular'),
+    url('./YS-Text-Regular.ttf') format('ttf');
   font-weight: 400;
   font-style: normal;
 }
 
-@font-face {
+/* @font-face {
   font-family: 'YS Display';
   src: 
-    local('YS\ Display-Bold'),
-    url('./YS\ Display-Bold.ttf') format('ttf');
+    local('YS-Display-Bold'),
+    url('./YS-Display-Bold.ttf') format('ttf');
   font-weight: bold;
   font-style: normal;
 }
@@ -73,8 +73,8 @@
 @font-face {
   font-family: 'YS Display';
   src: 
-    local('YS\ Display-Heavy'),
-    url('./YS\ Display-Heavy.ttf') format('ttf');
+    local('YS-Display-Heavy'),
+    url('./YS-Display-Heavy.ttf') format('ttf');
   font-weight: heavy;
   font-style: normal;
 }
@@ -82,8 +82,8 @@
 @font-face {
   font-family: 'YS Display';
   src: 
-    local('YS\ Display-Light'),
-    url('./YS\ Display-Light.ttf') format('ttf');
+    local('YS-Display-Light'),
+    url('./YS-Display-Light.ttf') format('ttf');
   font-weight: light;
   font-style: normal;
 }
@@ -91,8 +91,8 @@
 @font-face {
   font-family: 'YS Display';
   src: 
-    local('YS\ Display-Medium'),
-    url('./YS\ Display-Medium.ttf') format('ttf');
+    local('YS-Display-Medium'),
+    url('./YS-Display-Medium.ttf') format('ttf');
   font-weight: 500;
   font-style: normal;
 }
@@ -100,8 +100,8 @@
 @font-face {
   font-family: 'YS Display';
   src: 
-    local('YS\ Display-Regular'),
-    url('./YS\ Display-Regular.ttf') format('ttf');
+    local('YS-Display-Regular'),
+    url('./YS-Display-Regular.ttf') format('ttf');
   font-weight: 400;
   font-style: normal;
 }
@@ -109,8 +109,8 @@
 @font-face {
   font-family: 'YS Display';
   src: 
-    local('YS\ Display-Thin'),
-    url('./YS\ Display-Thin.ttf') format('ttf');
+    local('YS-Display-Thin'),
+    url('./YS-Display-Thin.ttf') format('ttf');
   font-weight: thin;
   font-style: normal;
-}
+} */
