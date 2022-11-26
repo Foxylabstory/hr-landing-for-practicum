@@ -35,7 +35,7 @@
 
   <body class="page">
     <header class="header">
-      <img class="header__image" src="<%=require('./images/header/PracticumsLogo.svg')%>" alt="Лого Яндекс Практикума">
+      <img class="header__image" src="<%=require('../images/header/PracticumsLogo.svg')%>" alt="Лого Яндекс Практикума">
       <nav class="nav">
         <ul class="nav__list">
           <li class="nav__list-item"><a class="nav__link" href="#">Задачи наставника</a></li>
@@ -49,7 +49,10 @@
     <main class="main">
       <section
         class="block-1"
-        aria-label=""></section>
+        aria-label="">
+        @@include('../partials/section-test.html')
+
+      </section>
       <section
         class="block-2"
         aria-label=""></section>
