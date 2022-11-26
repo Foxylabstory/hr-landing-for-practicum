@@ -9,3 +9,15 @@
 @import url('../blocks/nav/__list/nav__list.css');
 @import url('../blocks/nav/__list-item/nav__list-item.css');
 @import url('../blocks/nav/__link/nav__link.css');
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__contacts/footer__contacts.css);
+@import url(../blocks/footer/__text/_font/footer__text_font.css);
+@import url(../blocks/footer/__text/footer__text.css);
+@import url(../blocks/footer/__links/footer__links.css);
+@import url(../blocks/footer/__journal/footer__journal.css);
+@import url(../blocks/footer/__info/footer__info.css);
+@import url(../blocks/footer/__journal/footer__journal.css);
+@import url(../blocks/footer/__menu/footer__menu.css);
+@import url(../blocks/footer/__help/footer__help.css);
+@import url(../blocks/footer/__services/footer__services.css);
