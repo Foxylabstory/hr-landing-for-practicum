@@ -1,0 +1,6 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  margin: 0 150px;
+  justify-content: space-between;
+}

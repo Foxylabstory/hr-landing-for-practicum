@@ -1,0 +1,9 @@
+.nav__link {
+  font-family: var(--primary-font-family);
+  color: var(--primary-font-color);
+  text-decoration: none;
+  font-style: var(--primary-font-style);
+  font-weight: var(--primary-font-weight);
+  font-size: 18px;
+  line-height: 144%;
+}
