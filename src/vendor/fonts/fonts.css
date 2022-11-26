@@ -1,0 +1,116 @@
+@font-face {
+  font-family: 'YS Text';
+  src: 
+    local('YS-Text-Bold'),
+    url('./YS-Text-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'YS Text';
+  src: 
+    local('YS-Text-Bold-Italic'),
+    url('./YS-Text-Bold-Italic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'YS Text';
+  src: 
+    local('YS-Text-Light'),
+    url('./YS-Text-Light.ttf') format('truetype');
+  font-weight: light;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'YS Text';
+  src: 
+    local('YS-Text-Light-Italic'),
+    url('./YS-Text-Light-Italic.ttf') format('truetype');
+  font-weight: light;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'YS Text';
+  src: 
+    local('YS-Text-Medium'),
+    url('../fonts/YS-Text-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'YS Text';
+  src: 
+    local('YS-Text-Medium-Italic'),
+    url('./YS-Text-Medium-Italic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'YS Text';
+  src: 
+    local('YS-Text-Regular'),
+    url('./YS-Text-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'YS Display';
+  src: 
+    local('YS-Display-Bold'),
+    url('./YS-Display-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'YS Display';
+  src: 
+    local('YS-Display-Heavy'),
+    url('./YS-Display-Heavy.ttf') format('truetype');
+  font-weight: heavy;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'YS Display';
+  src: 
+    local('YS-Display-Light'),
+    url('./YS-Display-Light.ttf') format('truetype');
+  font-weight: light;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'YS Display';
+  src: 
+    local('YS-Display-Medium'),
+    url('./YS-Display-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'YS Display';
+  src: 
+    local('YS-Display-Regular'),
+    url('./YS-Display-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'YS Display';
+  src: 
+    local('YS-Display-Thin'),
+    url('./YS-Display-Thin.ttf') format('truetype');
+  font-weight: thin;
+  font-style: normal;
+}

@@ -1,0 +1,38 @@
+:root {
+  --primary-background-color: #F5F5F5;
+  --secondary-background-color: #FFF;
+
+  --primary-font-family: 'YS Text';
+  --secondary-font-family: 'YS Display';
+
+  --primary-font-color: black;
+  --accent-font-color: #264BE0;
+
+  --primary-font-style: normal;
+
+  --primary-font-weight-500: 500;
+  --secondary-font-weight-400: 400;
+  --another-font-weight-700: 700;
+
+  --primary-plate-background-color: #D2D2D2;
+  --secondary-plate-background-color: #C7C7C7;
+  --bottom-plate-background-color: #6E6E6E;
+
+  --primary-emploee-plate-background-color: #D9D9D9;
+
+  --bubble-plate-background-color: #FFF;
+  --bubble-plate-background-color-clicked: #6C6C6C;
+
+  --mentor-plate-background-color: #BDBDBD;
+
+  --primary-button-background-color: #373737;
+  --secondary-button-background-color: #AFAFAF;
+  --footer-background-background-color: #E0E0E0;
+}
+
+.page {
+  background-color: var(--primary-background-color);
+  max-width: 1440px;
+  margin: 0 auto;
+  font-family: var(--primary-font-family);
+}
