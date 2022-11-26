@@ -41,7 +41,10 @@
     <main class="main">
       <section
         class="block-1"
-        aria-label=""></section>
+        aria-label="">
+
+
+      </section>
       <section
         class="block-2"
         aria-label=""></section>
@@ -56,7 +59,19 @@
         aria-label=""></section>
       <section
         class="block-6"
-        aria-label=""></section>
+        aria-label="">
+        @@include('../partials/test.html', {
+          "user": {
+            "name": "Vishal Sharma",
+            "weapon": "Groza"
+          },
+          "clan": "KLPD",
+          "tag": "Never Lose!!!"
+        })
+        @@include('../partials/footer.html')
+        @@include('../partials/new.html')
+        @@include('../partials/section.html')
+      </section>
       <section
         class="block-7"
         aria-label=""></section>

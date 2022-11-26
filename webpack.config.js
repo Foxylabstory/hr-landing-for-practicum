@@ -2,6 +2,7 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const FileIncludeWebpackPlugin = require('file-include-webpack-plugin');
 
 module.exports = {
   entry: './src/pages/index.js',
@@ -54,11 +55,18 @@ module.exports = {
     ]
   },
 
-  plugins: [  // добавьте массив на одном уровне с module
+  plugins: [  new FileIncludeWebpackPlugin({
+      source: './src/templates',
+      replace: [{
+        regex: /\[\[FILE_VERSION]]/g,
+        to: 'v=1.0.0',
+      }],
+    }),// добавьте массив на одном уровне с module
     new HtmlWebpackPlugin({
-      template: './src/index.html' // путь к файлу index.html
+      template: './src/templates/index.html' // путь к файлу index.html
     }),
     new CleanWebpackPlugin(),
     new MiniCssExtractPlugin(),
+    
   ]
 }
