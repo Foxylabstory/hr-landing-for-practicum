@@ -21,3 +21,8 @@
 @import url(../blocks/footer/__menu/footer__menu.css);
 @import url(../blocks/footer/__help/footer__help.css);
 @import url(../blocks/footer/__services/footer__services.css);
+
+
+.ol {
+  outline: solid 1px red;
+}
