@@ -1,0 +1,6 @@
+.conditions__plates {
+  display: flex;
+  gap: 26px;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}

@@ -1,12 +1,13 @@
 :root {
-  --primary-background-color: #F5F5F5;
-  --secondary-background-color: #FFF;
+  --primary-background-color: #FFF;
+  --secondary-background-color: #F2F2F2;
 
   --primary-font-family: 'YS Text';
   --secondary-font-family: 'YS Display';
 
   --primary-font-color: black;
   --secondary-font-color: #FFF;
+  --secondary-font-color-alfa: rgba(0, 0, 0, 0.4);
   --accent-font-color: #264BE0;
 
   --primary-font-style: normal;
@@ -33,7 +34,7 @@
 
 .page {
   background-color: var(--primary-background-color);
-  max-width: 1440px;
+  /* max-width: 1440px; */
   margin: 0 auto;
   font-family: var(--primary-font-family);
 }

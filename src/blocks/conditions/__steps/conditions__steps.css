@@ -1,0 +1,6 @@
+.conditions__steps {
+  display: grid;
+  grid-template-columns: 3 auto;
+  grid-template-rows: 5 auto;
+  grid-auto-flow: row dense;
+}

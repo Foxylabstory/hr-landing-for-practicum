@@ -10,6 +10,24 @@
 @import url('../blocks/nav/__list-item/nav__list-item.css');
 @import url('../blocks/nav/__link/nav__link.css');
 
+@import url('../blocks/conditions/conditions.css');
+@import url('../blocks/conditions/__container/conditions__container.css');
+@import url('../blocks/conditions/__header/conditions__header.css');
+@import url('../blocks/conditions/__header/_span/conditions__header_span.css');
+@import url('../blocks/conditions/__plates/conditions__plates.css');
+@import url('../blocks/conditions/__plate/conditions__plate.css');
+@import url('../blocks/conditions/__plate-image/conditions__plate-image.css');
+@import url('../blocks/conditions/__plate-description/conditions__plate-description.css');
+@import url('../blocks/conditions/__plate-header/conditions__plate-header.css');
+@import url('../blocks/conditions/__plate-text/conditions__plate-text.css');
+@import url('../blocks/conditions/__subheader/conditions__subheader.css');
+@import url('../blocks/conditions/__subheader/_span/conditions__subheader_span.css');
+@import url('../blocks/conditions/__steps/conditions__steps.css');
+@import url('../blocks/conditions/__step/conditions__step.css');
+@import url('../blocks/conditions/__step/_left/conditions__step_left.css');
+@import url('../blocks/conditions/__step/_center/conditions__step_center.css');
+@import url('../blocks/conditions/__step/_right/conditions__step_right.css');
+
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__contacts/footer__contacts.css);
 @import url(../blocks/footer/__text/_font/footer__text_font.css);
