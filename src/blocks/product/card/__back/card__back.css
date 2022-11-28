@@ -1,0 +1,14 @@
+.card__back{
+  border: 1px solid black;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+  backface-visibility: hidden;
+  position: absolute;
+  transition: transform .6s linear;
+  transform: perspective(300px) rotateY(180deg);
+  width: 382px;
+  height: 186px;
+}

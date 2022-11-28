@@ -25,7 +25,11 @@
 @import url('../blocks/product/education/__blocks/education__blocks.css');
 @import url('../blocks/product/education/__faculties/education__faculties.css');
 @import url('../blocks/product/card/card.css');
-@import url('../blocks/product/card/__container/card__container.css');
+@import url('../blocks/product/card//__center/card__center.css');
+@import url('../blocks/product/card/__front/card__front.css');
+@import url('../blocks/product/card/__back/card__back.css');
+@import url('../blocks/product/card/__back-text/card__back-text.css');
+@import url('../blocks/product/card/__back-more/card__back-more.css');
 @import url('../blocks/product/card/__faculty/card__faculty.css');
 @import url('../blocks/product/card/__coursename/card__coursename.css');
 @import url('../blocks/product/card/__description/card__description.css');

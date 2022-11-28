@@ -1,0 +1,17 @@
+.card__center{
+  position: absolute;
+  min-width: 100%;
+  transform: translate(-50%, -50%);
+  width: 382px;
+  height: 186px;
+  top: 50%;
+  left: 50%;
+
+}
+
+.card__center:hover > .card__front{
+  transform: perspective(300px) rotateY(-180deg);
+}
+.card__center:hover > .card__back{
+  transform: perspective(300px) rotateY(0deg);
+}
