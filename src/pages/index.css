@@ -10,6 +10,13 @@
 @import url('../blocks/nav/__list-item/nav__list-item.css');
 @import url('../blocks/nav/__link/nav__link.css');
 
+
+
+@import url('../blocks/call/call.css');
+@import url('../blocks/call/call__header/call__header.css');
+@import url('../blocks/call/__message/call__message.css');
+@import url('../blocks/call/__link/call__link.css');
+
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__contacts/footer__contacts.css);
 @import url(../blocks/footer/__text/_font/footer__text_font.css);
