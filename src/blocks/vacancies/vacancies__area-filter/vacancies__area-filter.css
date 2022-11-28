@@ -1,0 +1,9 @@
+.vacancies__area-filter {
+    margin: 0 0 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+}

@@ -1,0 +1,10 @@
+.vacancies__area {
+    margin: 0 10px 0;
+
+    font-style: var(--primary-font-style);
+    font-weight: var(--primary-font-weight-500);
+    font-size: 24px;
+    line-height: 32px;
+
+    color: var(--primary-font-color);
+}

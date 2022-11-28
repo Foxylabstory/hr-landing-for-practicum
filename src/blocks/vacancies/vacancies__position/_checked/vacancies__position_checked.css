@@ -1,0 +1,4 @@
+.vacancies__position_checked {
+    background-color: var(--secondary-element-background-color);
+    color: var(--secondary-font-color);
+}

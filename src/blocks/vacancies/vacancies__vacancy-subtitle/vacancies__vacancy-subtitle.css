@@ -1,0 +1,13 @@
+.vacancies__vacancy-subtitle {
+    font-style: var(--primary-font-style);
+    font-weight: var(--secondary-font-weight-400);
+    font-size: 20px;
+    line-height: 28px;
+    text-align: left;
+
+    color: var(--primary-font-color);
+    grid-area: subtitle;
+
+    margin: 0;
+    padding: 0;
+}

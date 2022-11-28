@@ -1,0 +1,10 @@
+.vacancies__vacancy-summary-container {
+    border-bottom: 1px solid var(--primary-font-color);
+    display: grid;
+    grid-template-columns: auto 33px;
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas:
+    "title icon"
+    "subtitle icon";
+    align-items: center;
+}
