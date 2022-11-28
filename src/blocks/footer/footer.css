@@ -24,3 +24,10 @@ a.footer__link:hover{
   text-decoration:underline;
   color: #04b;
 }
+
+@media (min-width: 769px) and (max-width: 1080px) {
+  .footer {
+    flex-direction: column;
+    gap: 30px;
+  }
+}
