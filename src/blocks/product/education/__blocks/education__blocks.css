@@ -1,5 +1,4 @@
 .education__blocks{
   display: flex;
   flex-direction: column;
-  gap: 11px;
 }

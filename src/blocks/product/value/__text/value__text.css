@@ -6,4 +6,9 @@
   letter-spacing: 0em;
   text-align: left;
   margin: 0;
+  margin-bottom: 10px;
+}
+
+.value__text:last-child{
+  margin-bottom:0;
 }
