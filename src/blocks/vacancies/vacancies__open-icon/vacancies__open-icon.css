@@ -3,5 +3,7 @@
    grid-area: icon;
    background-repeat: no-repeat;
    width: 39px;
-   height: 39px;
+   height: 19px;
+   transition: transform 1s;
+
 }
