@@ -10,8 +10,8 @@
 }
 
 .card__center:hover > .card__front{
-  transform: perspective(300px) rotateY(-180deg);
+  transform: perspective(1300px) rotateY(-180deg);
 }
 .card__center:hover > .card__back{
-  transform: perspective(300px) rotateY(0deg);
+  transform: perspective(1300px) rotateY(0deg);
 }

@@ -1,8 +1,7 @@
 .value__title{
   margin: 0;
-  font-family: YS Text;
   font-size: 40px;
-  font-weight: 500;
+  font-weight: var(--primary-font-weight-500);
   line-height: 48px;
   letter-spacing: 0em;
   text-align: left;

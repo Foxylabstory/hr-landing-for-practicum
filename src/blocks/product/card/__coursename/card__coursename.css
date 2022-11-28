@@ -1,7 +1,6 @@
 .card__coursename{
-  font-family: YS Text;
   font-size: 32px;
-  font-weight: 500;
+  font-weight: var(--primary-font-weight-500);
   line-height: 38px;
   letter-spacing: -0.5px;
   text-align: left;

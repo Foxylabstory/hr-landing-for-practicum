@@ -41,6 +41,7 @@
 /* Footer */
 @import url('../blocks/footer/footer.css');
 @import url('../blocks/footer/__contacts/footer__contacts.css');
+@import url('../blocks/footer/__phone/__phone.css');
 @import url('../blocks/footer/__text/_font/footer__text_font.css');
 @import url('../blocks/footer/__text/footer__text.css');
 @import url('../blocks/footer/__links/footer__links.css');

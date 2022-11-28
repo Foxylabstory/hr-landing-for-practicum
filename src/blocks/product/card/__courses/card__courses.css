@@ -1,7 +1,6 @@
 .card__courses{
-  font-family: YS Text;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: var(--primary-font-weight-500);
   line-height: 18px;
   letter-spacing: -0.5px;
   text-align: left;
