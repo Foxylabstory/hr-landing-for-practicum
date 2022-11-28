@@ -1,0 +1,5 @@
+.value__block{
+  display: flex;
+  gap: 93px;
+  justify-content: space-around;
+}

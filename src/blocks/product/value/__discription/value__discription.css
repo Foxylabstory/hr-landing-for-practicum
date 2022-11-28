@@ -1,0 +1,6 @@
+.value__discription{
+  display: flex;
+  flex-direction: column;
+  width: 540px;
+  gap: 30px;
+}

@@ -1,0 +1,8 @@
+.value__image{
+  background-image: url(../../../../images/faculties/value.jpg);
+  width: 100%;
+  min-height: 619px;
+  max-width: 472px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
