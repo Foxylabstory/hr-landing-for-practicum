@@ -1,0 +1,7 @@
+.conditions__plate {
+  max-width: 555px;
+  min-height: 246px;
+  background-color: var(--primary-background-color);
+  border-radius: 16px;
+  display: flex;
+}

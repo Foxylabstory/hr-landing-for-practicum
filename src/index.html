@@ -30,7 +30,9 @@
       content="Маргарита Толстова"
       name="design" />
     <title>Welcome to Practicum</title>
-    <link rel="stylesheet" href="./pages/index.css" />
+    <link
+      rel="stylesheet"
+      href="./pages/index.css" />
   </head>
 
   <body class="page">
@@ -55,8 +57,81 @@
         <a class="call__link" href="#">Хочу делиться знаниями</a>
       </section>
       <section
-        class="block-2"
-        aria-label=""></section>
+        class="conditions"
+        aria-label="секция описывающая роли">
+        <div class="conditions__container">
+          <h2 class="conditions__header">
+            В роли наставника и ревьюера <span class="conditions__header_span">вы будете</span>
+          </h2>
+          <div class="conditions__plates">
+            <div class="conditions__plate">
+              <img
+                class="conditions__plate-image"
+                src="<%=require('./images/conditions/mentor.svg')%>"
+                alt="Изображение наставника" />
+              <div class="conditions__plate-description">
+                <h3 class="conditions__plate-header">Менять жизнь людей к лучшему</h3>
+                <p class="conditions__plate-text">
+                  Тысячи наших студентов нуждаются в ваших знаниях и опыте — не бойтесь ими
+                  делиться.
+                </p>
+              </div>
+            </div>
+            <div class="conditions__plate">
+              <img
+                class="conditions__plate-image"
+                src="<%=require('./images/conditions/submarine.svg')%>"
+                alt="Изображение субмарины" />
+              <div class="conditions__plate-description">
+                <h3 class="conditions__plate-header">Учиться новому</h3>
+                <p class="conditions__plate-text">
+                  Вы узнаете, как давать обратную связь, выступать на публике и мотивировать людей.
+                </p>
+              </div>
+            </div>
+            <div class="conditions__plate">
+              <img
+                class="conditions__plate-image"
+                src="<%=require('./images/conditions/sand-watch.svg')%>"
+                alt="Изображение песочные часы" />
+              <div class="conditions__plate-description">
+                <h3 class="conditions__plate-header">
+                  Иметь доход в среднем от 35 до 50 тысяч ₽ в месяц
+                </h3>
+                <p class="conditions__plate-text">
+                  Удаленно, 2–3 часа в день, график выберете сами.
+                </p>
+              </div>
+            </div>
+            <div class="conditions__plate">
+              <img
+                class="conditions__plate-image"
+                src="<%=require('./images/conditions/wind.svg')%>"
+                alt="Изображение вихри" />
+              <div class="conditions__plate-description">
+                <h3 class="conditions__plate-header">Общаться с людьми из EdTech</h3>
+                <p class="conditions__plate-text">
+                  Станете частью сообщества экспертов и посмотрите на мир онлайн-образования
+                  изнутри.
+                </p>
+              </div>
+            </div>
+          </div>
+          <h3 class="conditions__subheader">
+            Как <span class="conditions__subheader_span">стать экспертом?</span>
+          </h3>
+          <div class="conditions__steps"></div>
+          <!-- <div class="conditions__steps">
+            <div class="conditions__step conditions__step_left">Выберите роль и&nbsp;заполните&nbsp;заявку</div>
+            <div class="conditions__first-arrow"></div>
+            <div class="conditions__step conditions__step_center">Пройдите отбор и&nbsp;бесплатное&nbsp;обучение</div>
+            <div class="conditions__second-arrow"></div>
+            <div class="conditions__step conditions__step_right">
+              Начните делиться знаниями&nbsp;со&nbsp;студентами Яндекс&nbsp;Практикума
+            </div>
+          </div> -->
+        </div>
+      </section>
       <section
         class="block-3"
         aria-label=""></section>
@@ -87,9 +162,19 @@
           <p class="footer__text">Звонок по России бесплатный</p>
         </div>
         <div class="footer__links">
-          <a class="footer__journal" href="https://thecode.media/">Журнал</a>
-          <img src="./images/footer/vkontakte.svg" class="logo__vkontakte" alt = "Вконтакте">
-          <img src="./images/footer/telegram.svg" class="logo__telegram" alt = "Телеграмм">
+          <a
+            class="footer__journal"
+            href="https://thecode.media/"
+            >Журнал</a
+          >
+          <img
+            src="./images/footer/vkontakte.svg"
+            class="logo__vkontakte"
+            alt="Вконтакте" />
+          <img
+            src="./images/footer/telegram.svg"
+            class="logo__telegram"
+            alt="Телеграмм" />
         </div>
         <div class="footer__copyright">
           <p class="footer__text">&copy; 2022 АНО ДПО «ШАД», ООО «Яндекс»</p>
@@ -110,25 +195,25 @@
         </div>
         <div class="footer__services">
           <p class="footer__text">
-            Информация на данной странице описывает возможные варианты получения дополнительного дохода в месяц 
-          (т.н. подработка). Не является предложением о работе. Размещенные объявления о потребности 
-          в тех или иных услугах не являются вакансиями.
+            Информация на данной странице описывает возможные варианты получения дополнительного
+            дохода в месяц (т.н. подработка). Не является предложением о работе. Размещенные
+            объявления о потребности в тех или иных услугах не являются вакансиями.
           </p>
-          
+
           <p class="footer__text">
-            Образовательные услуги оказываются АНО ДПО «ШАД». 
-            ШАД — это Школа анализа данных, основанная Яндексом и оказывающая 
-            образовательные услуги на основании Лицензии № 036031 от 24 марта 2015 года. 
+            Образовательные услуги оказываются АНО ДПО «ШАД». ШАД — это Школа анализа данных,
+            основанная Яндексом и оказывающая образовательные услуги на основании Лицензии № 036031
+            от 24 марта 2015 года.
           </p>
           <p class="footer__text">
-            Сертификат о прохождении обучения по программе дополнительного 
-            профессионального образования также выдается АНО ДПО «ШАД».
+            Сертификат о прохождении обучения по программе дополнительного профессионального
+            образования также выдается АНО ДПО «ШАД».
           </p>
         </div>
       </div>
     </footer>
 
-    <div
+    <!-- <div
       class="popup"
       id="">
       <div class="popup__container">
@@ -222,6 +307,6 @@
           </div>
         </div>
       </div>
-    </template>
+    </template> -->
   </body>
 </html>

@@ -1,0 +1,13 @@
+.conditions__step {
+  width: 350px;
+  height: 145px;
+  border-radius: 50px;
+  background-color: var(--primary-background-color);
+  font-style: var(--primary-font-style);
+  font-weight: var(--secondary-font-weight-400);
+  font-size: 24px;
+  line-height: 133%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
