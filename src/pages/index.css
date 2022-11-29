@@ -71,7 +71,6 @@
 /* Stories */
 @import url('../blocks/stories/stories.css');
 @import url('../blocks/stories/__header/stories__header.css');
-@import url('../blocks/stories/__block/stories__block.css');
 @import url('../blocks/stories/story/story.css');
 @import url('../blocks/stories/story/__avatar/story__avatar.css');
 @import url('../blocks/stories/story/__info/story__info.css');
