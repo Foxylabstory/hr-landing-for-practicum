@@ -1,9 +1,8 @@
-.nav__link {
-  font-family: var(--primary-font-family);
-  color: var(--primary-font-color);
-  text-decoration: none;
+.conditions__plate-text {
+  margin: 15px 0;
   font-style: var(--primary-font-style);
   font-weight: var(--secondary-font-weight-400);
   font-size: 18px;
   line-height: 144%;
+  color: var(--secondary-font-color-alfa);
 }

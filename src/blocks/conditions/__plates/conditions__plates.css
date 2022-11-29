@@ -1,0 +1,6 @@
+.conditions__plates {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 26px;
+  margin-top: 40px;
+}
