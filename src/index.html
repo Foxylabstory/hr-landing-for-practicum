@@ -341,7 +341,7 @@
             <li class="vacancies__position">Для ревьюеров</li>
           </ul>
           <ul class="vacancies__area-filter">
-            <li class="vacancies__area">Программирование</li>
+            <li class="vacancies__area vacancies__area_checked">Программирование</li>
             <li class="vacancies__area">Аналитика</li>
             <li class="vacancies__area">Дизайн</li>
             <li class="vacancies__area">Маркетинг</li>
@@ -366,12 +366,35 @@
                   <h4 class="vacancies__description-header">Я подхожу. Что вы можете мне предложить?</h4>
                   <p class="vacancies__description-text">• Удалённое сотрудничество и ежемесячное вознаграждение;• частичную занятость и возможность совмещать участие в проекте с основной работой;• обмен опытом с разработчиками в нашем сообществе;• обучение в Школе наставников Яндекс.Практикума.</p>
                 </div>
-                <nav class="vacancies__options">
-                  <button class="vacancies__apply-button">Откликнуться</button>
-                  <button class="vacancies__share-button">
-                    <img class="vacancies__share-icon" src="./images/vacancies/share.svg" alt="Поделиться">
-                    <p class="vacancies__share-button-text">Поделиться</p>
-                  </button>
+                <nav class="ol vacancies__options">
+                  <button class="vacancies__apply-button"aria-label="Откликнуться">Откликнуться</button>
+                  <button class="vacancies__share-button vacancies__share-button_checked" aria-label="Поделиться">Поделиться</button>
+                  <ul class="vacancies__share-box">
+                    <li class="vacancies__share-item">
+                      <a href="#" class="vacancies__share-link">
+                        <div class="vacancies__share-link-image vacancies__share-link-image_chain"></div>
+                        Скопировать ссылку
+                      </a>
+                    </li>
+                    <li class="vacancies__share-item">
+                      <a href="#" class="vacancies__share-link">
+                        <div class="vacancies__share-link-image vacancies__share-link-image_vk"></div>
+                        ВКонтакте
+                      </a>
+                    </li>
+                    <li class="vacancies__share-item">
+                      <a href="#" class="vacancies__share-link">
+                        <div class="vacancies__share-link-image vacancies__share-link-image_tg"></div>
+                        Telegram
+                      </a>
+                    </li>
+                    <li class="vacancies__share-item">
+                      <a href="#" class="vacancies__share-link">
+                        <div class="vacancies__share-link-image vacancies__share-link-image_wa"></div>
+                        WhatsApp
+                      </a>
+                    </li>
+                  </ul>
                 </nav>
               </article>
             </li>

@@ -1,0 +1,10 @@
+.vacancies__share-box {
+  position: absolute;
+  bottom: 0;
+  right: 152px;
+  width: 264px;
+  min-height: 255px;
+  background-color: var(--primary-background-color);
+  border: 1px solid #000;
+  border-radius: 20px;
+}

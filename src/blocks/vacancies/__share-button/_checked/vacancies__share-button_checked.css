@@ -1,0 +1,4 @@
+.vacancies__share-button_checked {
+  background-color: var(--from-light-to-click-color);
+  color: var(--secondary-font-color);
+}

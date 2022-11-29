@@ -1,0 +1,25 @@
+.vacancies__share-link {
+  color: var(--primary-font-color);
+  text-decoration: none;
+  font-style: var(--primary-font-style);
+  font-weight: var(--secondary-font-weight-400);
+  font-size: 18px;
+  line-height: 144%;
+  text-align: center;
+  position: relative;
+}
+
+.vacancies__share-link::before {
+  content: '';
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 0;
+  top: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.vacancies__share-link:nth-of-type(1)::before {
+  background-image: url('../../../images/vacancies/chain.svg');
+}
