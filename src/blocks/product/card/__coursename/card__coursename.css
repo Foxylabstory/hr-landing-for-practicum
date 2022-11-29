@@ -1,0 +1,8 @@
+.card__coursename{
+  font-size: 32px;
+  font-weight: var(--primary-font-weight-500);
+  line-height: 38px;
+  letter-spacing: -0.5px;
+  text-align: left;
+  margin: 0;
+}

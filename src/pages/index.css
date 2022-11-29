@@ -38,19 +38,51 @@
 @import url('../blocks/conditions/__step/_center/conditions__step_center.css');
 @import url('../blocks/conditions/__step/_right/conditions__step_right.css');
 
-@import url(../blocks/footer/footer.css);
-@import url(../blocks/footer/__contacts/footer__contacts.css);
-@import url(../blocks/footer/__text/_font/footer__text_font.css);
-@import url(../blocks/footer/__text/footer__text.css);
-@import url(../blocks/footer/__links/footer__links.css);
-@import url(../blocks/footer/__journal/footer__journal.css);
-@import url(../blocks/footer/__info/footer__info.css);
-@import url(../blocks/footer/__journal/footer__journal.css);
-@import url(../blocks/footer/__menu/footer__menu.css);
-@import url(../blocks/footer/__help/footer__help.css);
-@import url(../blocks/footer/__services/footer__services.css);
+/* Product and Faculties */
+@import url('../blocks/product/product.css');
+@import url('../blocks/product/value/value.css');
+@import url('../blocks/product/value/__title/value__title.css');
+@import url('../blocks/product/value/__block/value__block.css');
+@import url('../blocks/product/value/__image/value__image.css');
+@import url('../blocks/product/value/__discription/value__discription.css');
+@import url('../blocks/product/value/__trust/value__trust.css');
+@import url('../blocks/product/value//__info/value__info.css');
+@import url('../blocks/product/value/__text/value__text.css');
+@import url('../blocks/product/education/education.css');
+@import url('../blocks/product/education/__title/education__title.css');
+@import url('../blocks/product/education/__blocks/education__blocks.css');
+@import url('../blocks/product/education/__faculties/education__faculties.css');
+@import url('../blocks/product/card/card.css');
+@import url('../blocks/product/card/_big/card_big.css');
+@import url('../blocks/product/card//__center/card__center.css');
+@import url('../blocks/product/card/__front/card__front.css');
+@import url('../blocks/product/card/__back/card__back.css');
+@import url('../blocks/product/card/__back-text/card__back-text.css');
+@import url('../blocks/product/card/__back-text/_big/card__back-text_big.css');
+@import url('../blocks/product/card/__back-more/card__back-more.css');
+@import url('../blocks/product/card/__faculty/card__faculty.css');
+@import url('../blocks/product/card/__coursename/card__coursename.css');
+@import url('../blocks/product/card/__description/card__description.css');
+@import url('../blocks/product/card/__courses/card__courses.css');
+@import url('../blocks/product/education/__faculties/_higher/education__faculties_higher.css');
+
+/* Footer */
+@import url('../blocks/footer/footer.css');
+@import url('../blocks/footer/__contacts/footer__contacts.css');
+@import url('../blocks/footer/__phone/__phone.css');
+@import url('../blocks/footer/__text/_font/footer__text_font.css');
+@import url('../blocks/footer/__text/footer__text.css');
+@import url('../blocks/footer/__links/footer__links.css');
+@import url('../blocks/footer/__link/footer__link.css');
+@import url('../blocks/footer/__journal/footer__journal.css');
+@import url('../blocks/footer/__info/footer__info.css');
+@import url('../blocks/footer/__menu/footer__menu.css');
+@import url('../blocks/footer/__help/footer__help.css');
+@import url('../blocks/footer/__services/footer__services.css');
+@import url('../blocks/footer/__link/_underline/footer__link_underline.css');
 
 
 .ol {
   outline: solid 1px red;
 }
+

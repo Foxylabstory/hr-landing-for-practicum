@@ -1,4 +1,5 @@
-.footer__contacts{
+.value__discription{
   display: flex;
   flex-direction: column;
+  width: 540px;
 }

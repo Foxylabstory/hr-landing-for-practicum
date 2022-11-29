@@ -1,5 +1,5 @@
 .footer__services{
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
+  display: grid;
+  grid-template-rows: 120px 80px 80px;
+  gap: 30px;
 }

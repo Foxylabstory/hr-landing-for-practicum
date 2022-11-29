@@ -1,0 +1,9 @@
+.card_big{
+  width: 280px;
+  height: 300px;
+  margin-right: 8px;
+}
+
+.card_big:last-child {
+  margin-right: 0;
+}

@@ -1,0 +1,5 @@
+.card__back-text_big{
+  font-size: 32px;
+  font-weight: var(--primary-font-weight-500);
+  line-height: 38px;
+}

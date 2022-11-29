@@ -1,0 +1,9 @@
+.education__faculties{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 11px;
+}
+
+.education__faculties:last-child {
+  margin-bottom: 0;
+}

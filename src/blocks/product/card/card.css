@@ -1,0 +1,10 @@
+.card{
+  position: relative;
+  width: 360px;
+  height: 186px;
+  margin-right: 8px;
+}
+
+.card:last-child {
+  margin-right: 0;
+}

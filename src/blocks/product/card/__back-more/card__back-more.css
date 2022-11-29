@@ -1,0 +1,9 @@
+.card__back-more{
+  padding: 0 20px 20px 20px;
+  font-size: 16px;
+  font-weight: var(--primary-font-weight-400);
+  line-height: 18px;
+  letter-spacing: -0.5px;
+  text-align: left;
+  opacity: 0.5;
+}
