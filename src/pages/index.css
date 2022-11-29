@@ -20,6 +20,7 @@
 @import url('../blocks/call/call__header/call__header.css');
 @import url('../blocks/call/__message/call__message.css');
 @import url('../blocks/call/__link/call__link.css');
+@import url('../blocks/call/__image/call__image.css');
 
 @import url('../blocks/conditions/conditions.css');
 @import url('../blocks/conditions/__container/conditions__container.css');

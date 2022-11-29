@@ -15,5 +15,32 @@
   backdrop-filter: blur(6px);
   /* Note: backdrop-filter has minimal browser support */
   border-radius: 120px;
+  margin-top: 50px;
   margin-bottom: 142px;
+  position: relative;
+}
+
+.call__link::before {
+  content: '';
+  background-image: url('../../../images/call/tick.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 62px;
+  height: 60px;
+  position: absolute;
+  top: -40px;
+  left: -60px;
+}
+
+.call__link::after {
+  content: '';
+  background-image: url('../../../images/call/tick.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 62px;
+  height: 60px;
+  position: absolute;
+  bottom: -40px;
+  right: -60px;
+  rotate: 180deg;
 }
