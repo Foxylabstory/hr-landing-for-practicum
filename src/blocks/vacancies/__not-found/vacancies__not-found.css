@@ -1,0 +1,9 @@
+.vacancies__not-found {
+    width: 100%;
+    background-color: #EAEAEA;
+    margin: 90px 0;
+    padding: 55px 0 60px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}

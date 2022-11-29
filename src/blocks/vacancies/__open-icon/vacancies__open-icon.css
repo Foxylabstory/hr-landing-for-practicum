@@ -2,8 +2,8 @@
    background: url(../../../images/vacancies/open-icon.svg);
    grid-area: icon;
    background-repeat: no-repeat;
-   width: 39px;
-   height: 19px;
+   width: 60px;
+   height: 60px;
    transition: transform 1s;
 
 }

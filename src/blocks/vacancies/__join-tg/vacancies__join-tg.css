@@ -1,0 +1,14 @@
+.vacancies__join-tg {
+    width: 315px;
+    height: 60px;
+    border: 1px solid #373737;
+    backdrop-filter: blur(6px);
+    border-radius: 120px;
+    background-color: transparent;
+    font-style: var(--primary-font-style);
+    font-weight: var(--secondary-font-weight-400);
+    font-size: 18px;
+    line-height: 48px;
+
+    color: var(--primary-font-color);
+}

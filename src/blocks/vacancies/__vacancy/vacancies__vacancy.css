@@ -1,5 +1,5 @@
 .vacancies__vacancy {
-    background-color: var(--primary-element-background-color);
+    background-color: var(--primary-background-color);
     padding: 0;
     box-sizing: border-box;
 }

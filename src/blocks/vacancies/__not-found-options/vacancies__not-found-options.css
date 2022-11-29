@@ -1,0 +1,6 @@
+.vacancies__not-found-options {
+    margin: 0 auto 0;
+    display: grid;
+    grid-template-columns: repeat(2, 315px);
+    gap: 30px;
+}
