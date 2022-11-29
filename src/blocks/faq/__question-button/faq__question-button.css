@@ -1,0 +1,11 @@
+.faq__question-button {
+    background-color: transparent;
+    border: none;
+    padding: 0 150px 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
