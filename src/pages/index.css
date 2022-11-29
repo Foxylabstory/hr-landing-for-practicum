@@ -5,10 +5,20 @@
 @import url('../blocks/page/page.css');
 
 @import url('../blocks/header/header.css');
+@import url('../blocks/header/__image/header__image.css');
 
+@import url('../blocks/nav/nav.css');
 @import url('../blocks/nav/__list/nav__list.css');
 @import url('../blocks/nav/__list-item/nav__list-item.css');
 @import url('../blocks/nav/__link/nav__link.css');
+@import url('../blocks/nav/__button/nav__button.css');
+
+
+
+@import url('../blocks/call/call.css');
+@import url('../blocks/call/call__header/call__header.css');
+@import url('../blocks/call/__message/call__message.css');
+@import url('../blocks/call/__link/call__link.css');
 
 @import url('../blocks/conditions/conditions.css');
 @import url('../blocks/conditions/__container/conditions__container.css');

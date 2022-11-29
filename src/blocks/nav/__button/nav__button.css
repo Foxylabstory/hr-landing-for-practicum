@@ -1,0 +1,18 @@
+.nav__button {
+  width: 175px;
+  height: 45px;
+  border-radius: 120px;
+  margin-left: 29px;
+  background-color: var(--primary-button-background-color);
+  font-family: var(--primary-font-family);
+  color: var(--secondary-font-color);
+  text-decoration: none;
+  font-style: var(--primary-font-style);
+  font-weight: var(--secondary-font-weight-400);
+  font-size: 18px;
+  line-height: 20px;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
