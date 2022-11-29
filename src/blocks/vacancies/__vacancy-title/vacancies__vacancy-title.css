@@ -1,0 +1,13 @@
+.vacancies__vacancy-title {
+    font-style: var(--primary-font-style);
+    font-weight: var(--primary-font-weight-500);
+    font-size: 32px;
+    line-height: 48px;
+    text-align: left;
+
+    color: var(--primary-font-color);
+
+    grid-area: title;
+    margin: 0;
+    padding: 0;
+}

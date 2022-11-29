@@ -1,0 +1,14 @@
+.vacancies__apply {
+    width: 315px;
+    height: 60px;
+    border: none;
+    backdrop-filter: blur(6px);
+    border-radius: 120px;
+    background-color:  #373737;
+    font-style: var(--primary-font-style);
+    font-weight: var(--secondary-font-weight-400);
+    font-size: 18px;
+    line-height: 48px;
+
+    color: var(--secondary-font-color)
+}

@@ -15,6 +15,7 @@
 
 
 
+
 @import url('../blocks/call/call.css');
 @import url('../blocks/call/call__header/call__header.css');
 @import url('../blocks/call/__message/call__message.css');
@@ -66,6 +67,7 @@
 @import url('../blocks/product/card/__courses/card__courses.css');
 @import url('../blocks/product/education/__faculties/_higher/education__faculties_higher.css');
 
+
 /* Stories */
 @import url('../blocks/stories/stories.css');
 @import url('../blocks/stories/__header/stories__header.css');
@@ -78,6 +80,53 @@
 @import url('../blocks/stories/story/__job/story__job.css');
 @import url('../blocks/stories/story/__text/story__text.css');
 @import url('../blocks/stories/slider/slider.css');
+
+/* Vacancies */
+@import url(../blocks/vacancies/vacancies.css);
+@import url(../blocks/vacancies/__apply-button/vacancies__apply-button.css);
+@import url(../blocks/vacancies/__area-filter/vacancies__area-filter.css);
+@import url(../blocks/vacancies/__area/vacancies__area.css);
+@import url(../blocks/vacancies/__description-header/vacancies__description-header.css);
+@import url(../blocks/vacancies/__description-text/vacancies__description-text.css);
+@import url(../blocks/vacancies/__found/vacancies__found.css);
+@import url(../blocks/vacancies/__list/vacancies__list.css);
+@import url(../blocks/vacancies/__open-icon/vacancies__open-icon.css);
+@import url(../blocks/vacancies/__open-icon/_opened/vacancies__open-icon_opened.css);
+@import url(../blocks/vacancies/__options/vacancies__options.css);
+@import url(../blocks/vacancies/__position-filter/vacancies__position-filter.css);
+@import url(../blocks/vacancies/__position/vacancies__position.css);
+@import url(../blocks/vacancies/__position/_checked/vacancies__position_checked.css);
+@import url(../blocks/vacancies/__share-button-text/vacancies__share-button-text.css);
+@import url(../blocks/vacancies/__share-button/vacancies__share-button.css);
+@import url(../blocks/vacancies/__share-icon/vacancies__share-icon.css);
+@import url(../blocks/vacancies/__title/vacancies__title.css);
+@import url(../blocks/vacancies/__vacancy-info/vacancies__vacancy-info.css);
+@import url(../blocks/vacancies/__vacancy-description/vacancies__vacancy-description.css);
+@import url(../blocks/vacancies/__vacancy-subtitle/vacancies__vacancy-subtitle.css);
+@import url(../blocks/vacancies/__vacancy-summary-button/vacancies__vacancy-summary-button.css);
+@import url(../blocks/vacancies/__vacancy-title/vacancies__vacancy-title.css);
+@import url(../blocks/vacancies/__vacancy/vacancies__vacancy.css);
+@import url(../blocks/vacancies/__vacancy-summary-container/vacancies__vacancy-summary-container.css);
+@import url(../blocks/vacancies/__not-found/vacancies__not-found.css);
+@import url(../blocks/vacancies/__not-found-text/vacancies__not-found-text.css);
+@import url(../blocks/vacancies/__not-found-title/vacancies__not-found-title.css);
+@import url(../blocks/vacancies/__not-found-options/vacancies__not-found-options.css);
+@import url(../blocks/vacancies/__join-tg/vacancies__join-tg.css);
+@import url(../blocks/vacancies/__apply/vacancies__apply.css);
+
+/* FAQ */
+@import url('../blocks/faq/__answer-text/faq__answer-text.css');
+@import url('../blocks/faq/__answer/faq__answer.css');
+@import url('../blocks/faq/__container/faq__container.css');
+@import url('../blocks/faq/__item/faq__item.css');
+@import url('../blocks/faq/__open-icon/_opened/faq__open-icon_opened.css');
+@import url('../blocks/faq/__open-icon/faq__open-icon.css');
+@import url('../blocks/faq/__question-button/faq__question-button.css');
+@import url('../blocks/faq/__question-text/faq__question-text.css');
+@import url('../blocks/faq/__title/faq__title.css');
+@import url('../blocks/faq/faq.css');
+
+
 
 /* Footer */
 @import url('../blocks/footer/footer.css');
@@ -93,6 +142,7 @@
 @import url('../blocks/footer/__help/footer__help.css');
 @import url('../blocks/footer/__services/footer__services.css');
 @import url('../blocks/footer/__link/_underline/footer__link_underline.css');
+
 
 
 .ol {
