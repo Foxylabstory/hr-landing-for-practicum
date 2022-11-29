@@ -1,6 +1,6 @@
 import "../pages/index.css";
 
-import { vacancyBtns } from "../utils/constants.js";
+import { vacancyBtns,faqBtns } from "../utils/constants.js";
 
 function setAccordion(accordionBtns, iconSelector, openedPostfix) {
   for (let i = 0; i < accordionBtns.length; i++) {
@@ -18,3 +18,4 @@ function setAccordion(accordionBtns, iconSelector, openedPostfix) {
   }
 }
 setAccordion(vacancyBtns, "vacancies__open-icon", "_opened");
+setAccordion(faqBtns, "faq__open-icon", "_opened")

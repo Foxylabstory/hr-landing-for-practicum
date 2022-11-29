@@ -1,0 +1,9 @@
+.faq__title {
+    margin: 0 150px 40px;
+    font-style: var(--primary-font-style);
+    font-weight: var(--primary-font-weight-500);
+    font-size: 40px;
+    line-height: 48px;
+
+    color: var(--primary-font-color);
+}

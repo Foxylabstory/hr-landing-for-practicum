@@ -1,0 +1,4 @@
+.faq__open-icon_opened {
+    transform: rotate(45deg);
+    transition: transform 1s;
+}
