@@ -1,0 +1,9 @@
+.story{
+  width: 566px;
+  height: 328px;
+  display: grid;
+  grid-template-columns: 247px 320px;
+  background-color: #FFDE98;
+  border-radius: 50px;
+
+}

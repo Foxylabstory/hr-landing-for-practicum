@@ -66,6 +66,19 @@
 @import url('../blocks/product/card/__courses/card__courses.css');
 @import url('../blocks/product/education/__faculties/_higher/education__faculties_higher.css');
 
+/* Stories */
+@import url('../blocks/stories/stories.css');
+@import url('../blocks/stories/__header/stories__header.css');
+@import url('../blocks/stories/__block/stories__block.css');
+@import url('../blocks/stories/story/story.css');
+@import url('../blocks/stories/story/__avatar/story__avatar.css');
+@import url('../blocks/stories/story/__info/story__info.css');
+@import url('../blocks/stories/story/__person/story__person.css');
+@import url('../blocks/stories/story/__name/story__name.css');
+@import url('../blocks/stories/story/__job/story__job.css');
+@import url('../blocks/stories/story/__text/story__text.css');
+@import url('../blocks/stories/slider/slider.css');
+
 /* Footer */
 @import url('../blocks/footer/footer.css');
 @import url('../blocks/footer/__contacts/footer__contacts.css');

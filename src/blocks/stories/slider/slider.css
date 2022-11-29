@@ -1,0 +1,41 @@
+.container {
+  max-width: 1132px;
+  height: 400px;
+  margin: auto;
+  background: #f1f1f1;
+}
+
+.slider-prev {
+  background-image: url(../../../images/stories/prev.svg);
+  justify-self: end;
+}
+
+.slider-next {
+  background-image: url(../../../images/stories/next.svg);
+}
+
+.button{
+  width: 30px;
+  height: 30px;
+  background-size: cover;
+  border: none;
+}
+
+.slider {
+  margin: auto;
+  overflow: hidden;
+}
+
+.slider-line {
+  width: 1150x;
+  display: flex;
+  position: relative;
+  left: 0;
+  transition: all ease 1s;
+}
+
+.box{
+  display: grid;
+  grid-template-columns: 1fr 25px 1fr;
+  margin-top: 40px;
+}
