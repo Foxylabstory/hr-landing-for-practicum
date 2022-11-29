@@ -1,0 +1,7 @@
+.header__image {
+  background-image: url('../../../images/header/PracticumsLogo.svg');
+  background-position: cover;
+  width: 160px;
+  height: 30px;
+  margin-top: 25px;
+}

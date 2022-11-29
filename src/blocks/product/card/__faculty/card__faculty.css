@@ -1,0 +1,6 @@
+.card__faculty{
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  padding: 20px 20px 0 20px;
+}

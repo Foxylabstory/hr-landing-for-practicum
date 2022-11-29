@@ -1,5 +1,6 @@
 .footer__menu{
-    display: flex;
-    justify-content: space-between;
-    gap: 160px;
+  display: grid;
+  grid-template-columns: 125px 204px;
+  justify-content: space-between;
+  gap: 160px;
 }

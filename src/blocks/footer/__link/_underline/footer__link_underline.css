@@ -1,0 +1,8 @@
+.footer__link_underline{
+  text-decoration: underline;
+  color: black;
+}
+
+.footer__link_underline:hover{
+  color: #04b;
+}

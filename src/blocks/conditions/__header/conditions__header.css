@@ -1,0 +1,8 @@
+.conditions__header {
+  font-style: var(--primary-font-style);
+  font-weight: var(--primary-font-weight-500);
+  font-size: 40px;
+  line-height: 120%;
+  max-width: 640px;
+  margin: 0;
+}

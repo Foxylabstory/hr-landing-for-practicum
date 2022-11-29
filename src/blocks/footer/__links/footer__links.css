@@ -1,5 +1,7 @@
 .footer__links{
-  display: flex;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 65px 34px 34px;
+  margin-bottom: 33px;
   gap: 5px;
+  align-items: center;
 }
