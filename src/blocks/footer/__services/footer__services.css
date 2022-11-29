@@ -1,5 +1,5 @@
 .footer__services{
   display: grid;
-  grid-template-rows: 120px 80px 80px;
+  grid-template-rows: 120px auto auto;
   gap: 30px;
 }

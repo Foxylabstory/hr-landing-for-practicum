@@ -67,6 +67,20 @@
 @import url('../blocks/product/card/__courses/card__courses.css');
 @import url('../blocks/product/education/__faculties/_higher/education__faculties_higher.css');
 
+
+/* Stories */
+@import url('../blocks/stories/stories.css');
+@import url('../blocks/stories/__header/stories__header.css');
+@import url('../blocks/stories/__block/stories__block.css');
+@import url('../blocks/stories/story/story.css');
+@import url('../blocks/stories/story/__avatar/story__avatar.css');
+@import url('../blocks/stories/story/__info/story__info.css');
+@import url('../blocks/stories/story/__person/story__person.css');
+@import url('../blocks/stories/story/__name/story__name.css');
+@import url('../blocks/stories/story/__job/story__job.css');
+@import url('../blocks/stories/story/__text/story__text.css');
+@import url('../blocks/stories/slider/slider.css');
+
 /* Vacancies */
 @import url(../blocks/vacancies/vacancies.css);
 @import url(../blocks/vacancies/__apply-button/vacancies__apply-button.css);
@@ -111,6 +125,7 @@
 @import url('../blocks/faq/__question-text/faq__question-text.css');
 @import url('../blocks/faq/__title/faq__title.css');
 @import url('../blocks/faq/faq.css');
+
 
 
 /* Footer */
