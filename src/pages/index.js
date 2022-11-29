@@ -6,7 +6,8 @@ let count = 0;
 let width;
 
 function init() {
-    width = document.querySelector('.story').offsetWidth;
+    width = document.querySelector('.story').offsetWidth + 40;
+    console.log(width);
     rollSlider();
 }
 

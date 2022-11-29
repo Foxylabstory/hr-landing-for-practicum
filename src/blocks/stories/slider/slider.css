@@ -1,8 +1,7 @@
 .container {
-  max-width: 1132px;
+  max-width: 1212px;
   height: 400px;
   margin: auto;
-  background: #f1f1f1;
 }
 
 .slider-prev {
@@ -36,6 +35,6 @@
 
 .box{
   display: grid;
-  grid-template-columns: 1fr 25px 1fr;
+  grid-template-columns: 1fr 60px 1fr;
   margin-top: 40px;
 }
