@@ -1,0 +1,11 @@
+.mobile__list {
+  width: 253px;
+  height: 100%;
+  background-color: var(--primary-background-color);
+  margin-left: auto;
+  margin-top: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}

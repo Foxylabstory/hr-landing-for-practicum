@@ -1,6 +1,7 @@
 .nav__list-item {
   list-style: none;
   margin-right: 45px;
+  padding: 0;
 }
 
 .nav__list-item:last-of-type {

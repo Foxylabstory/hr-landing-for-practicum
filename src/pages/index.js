@@ -1,7 +1,7 @@
 import "../pages/index.css";
 
 import { Popup } from "../components/Popup";
-import { vacanciyApplyBtns, vacancyBtns, faqBtns, applyBtn } from "../utils/constants.js";
+import { vacanciyApplyBtns, vacancyBtns, faqBtns, applyBtn, burgerBtn, mobileMenu, mobileMenuCloser, titleAnchors } from "../utils/constants.js";
 
 function setAccordion(accordionBtns, iconSelector, openedPostfix) {
   for (let i = 0; i < accordionBtns.length; i++) {
@@ -134,3 +134,28 @@ function selectJob(count){
   }
 }
 
+burgerBtn.addEventListener('click', function (params) {
+  mobileMenu.classList.add('mobile_opened');
+  mobileMenu.addEventListener('click', function (event) {
+    if (event.target === event.currentTarget) {
+      handleCloseBurgerMenu();
+    }
+  });
+  mobileMenuCloser.addEventListener('click', function (params) {
+    handleCloseBurgerMenu();
+  });
+  titleAnchors.forEach((title) => {
+    title.addEventListener('click', function (params) {
+      handleCloseBurgerMenu();
+    });
+  });
+});
+
+const handleCloseBurgerMenu = () => {
+  mobileMenu.classList.remove('mobile_opened');
+  titleAnchors.forEach((title) => {
+    title.removeEventListener('click', function (params) {
+      handleCloseBurgerMenu();
+    });
+  });
+}

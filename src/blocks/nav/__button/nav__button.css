@@ -18,3 +18,9 @@
   justify-content: center;
   align-items: center;
 }
+
+.nav__button:hover {
+  color: var(--secondary-font-color);
+  background-color: var(--from-light-to-hover-color);
+  border-color: transparent;
+}
