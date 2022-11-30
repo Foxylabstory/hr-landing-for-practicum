@@ -748,7 +748,59 @@
       </div>
 <!--       <script type="module" src="../src/pages/index.js"></script> -->
     </footer>
-  
+
+
+    <div class="popup popup_type_apply">
+      <div class="popup__container">
+        <button class="popup__close-btn" type="button" aria-label="Закрыть"></button>
+          <form class="form" name="apply-form" novalidate>
+            <h2 class="form__title">Оставьте свои контакты</h2>
+            <div class="form__container">
+              <label class="form__label">Имя
+                <input class="form__item" type="text" id="name">
+              </label>
+              <label class="form__label">Почта
+                <input class="form__item" type="text" id="email">
+              </label>
+              <label class="form__label">Telegram или телефон
+                <input class="form__item" type="text" id="tel-tg">
+              </label>
+              <label class="form__label">Ссылка на резюме
+                <input class="form__item" type="url" id="cv-link">
+              </label>
+              <label class="form__label">Какая роль вам ближе?
+                <select class="form__item" id="position">
+                  <option>Наставник</option>
+                  <option>Ревьюер</option>
+                </select>
+              </label>
+              <label class="form__label">Выберите направление (факультет)
+                <select id="area" class="form__item">
+                  <option>Программирование</option>
+                  <option>Аналитика</option>
+                  <option>Дизайн</option>
+                  <option>Маркетинг</option>
+                  <option>Менеджмент</option>
+                </select>
+              </label>
+              <label class="form__label">Перечислите набор технологий,  которыми вы владеете и уровень владения каждой
+                <textarea class="form__item form__item_type_text-area" id="stack"></textarea>
+              </label>
+              <label class="form__label">Расскажите нам о вашем опыте в образовании, если он есть (выступления, репетиторство, преподавание и т.д.)
+                <textarea class="form__item form__item_type_text-area" id="experience"></textarea>
+              </label>
+            </div>
+            <p class="form__disclaimer">Нажимая на кнопку, вы даете согласие АНО ДПО «ШАД» и ООО «ЯНДЕКС» на обработку указанных данных для целей рассмотрения анкеты и обратной связи по ней.</p>
+            <button class="form__submit-btn">Отправить</button>
+          </form>
+          <div class="form__thanks">
+            <img class="form__thanks-illustration" src="<%=require('./images/popup/fists.svg')%>" alt="Отбил">
+            <h3 class="form__thanks-title">Спасибо за ваш отклик!</h3>
+            <p class="form__thanks-text">Мы обработаем вашу анкету и свяжемся с вами, когда появятся подходящие предложения.</p>
+          </div>
+      </div>
+    </div>
+
     <!-- <div
       class="popup"
       id="">

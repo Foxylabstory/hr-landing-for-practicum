@@ -1,0 +1,7 @@
+.form {
+    margin: 25px auto 55px;
+    max-width: 770px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
