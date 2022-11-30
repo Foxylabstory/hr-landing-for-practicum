@@ -1,5 +1,11 @@
 .faq {
-    padding: 90px 0;
+    padding: 90px 0 61px;
     box-sizing: border-box;
     width: 100%;
 }
+
+@media (max-width: 700px) {
+    .faq {
+        padding: 50px 0 42px;
+    }
+  }

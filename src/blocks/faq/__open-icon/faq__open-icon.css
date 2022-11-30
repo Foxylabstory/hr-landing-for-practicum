@@ -1,7 +1,15 @@
 .faq__open-icon {
     background: url(../../../images/vacancies/open-icon.svg);
     background-repeat: no-repeat;
+    background-size: contain;
     width: 60px;
     height: 60px;
     transition: transform 1s;
+}
+
+@media (max-width: 700px) {
+    .faq__open-icon {
+        width: 40px;
+        height: 40px;
+    }
 }
