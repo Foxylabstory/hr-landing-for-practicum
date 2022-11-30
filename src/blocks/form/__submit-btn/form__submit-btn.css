@@ -1,0 +1,14 @@
+.form__submit-btn {
+    width: 361px;
+    height: 60px;
+    background: var(--secondary-element-background-color);
+    border: 1px solid var(--primary-font-color);
+    backdrop-filter: blur(6px);
+    border-radius: 120px;
+
+    font-style: var(--primary-font-style);
+    font-weight: var(--secondary-font-weight-400);
+    font-size: 18px;
+    line-height: 20px;
+    color: var(--secondary-font-color);
+}

@@ -1,0 +1,10 @@
+.form__title {
+    margin: 42px auto 40px;
+    font-style: var(--primary-font-style);
+    font-weight: var(--primary-font-weight-500);
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+
+    color: var(--primary-font-color);
+}

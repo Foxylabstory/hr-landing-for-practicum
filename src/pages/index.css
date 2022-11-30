@@ -128,7 +128,25 @@
 @import url('../blocks/footer/__services/footer__services.css');
 @import url('../blocks/footer/__link/_underline/footer__link_underline.css');
 
+/* PopUp */
+@import url('../blocks/popup/popup.css');
+@import url('../blocks/popup/__close-btn/popup__close-btn.css');
+@import url('../blocks/popup/__container/popup__container.css');
+@import url('../blocks/popup/_opened/popup_opened.css');
 
+/* Form */
+@import url('../blocks/form/form.css');
+@import url('../blocks/form/__container/form__container.css');
+@import url('../blocks/form/__disclaimer/form__disclaimer.css');
+@import url('../blocks/form/__item/form__item.css');
+@import url('../blocks/form/__item/_type/form__item_type_text-area.css');
+@import url('../blocks/form/__label/form__label.css');
+@import url('../blocks/form/__submit-btn/form__submit-btn.css');
+@import url('../blocks/form/__title/form__title.css');
+@import url('../blocks/form/__thanks-illustration/form__thanks-illustration.css');
+@import url('../blocks/form/__thanks-text/form__thanks-text.css');
+@import url('../blocks/form/__thanks-title/form__thanks-title.css');
+@import url('../blocks/form/__thanks/form__thanks.css');
 
 .ol {
   outline: solid 1px red;
