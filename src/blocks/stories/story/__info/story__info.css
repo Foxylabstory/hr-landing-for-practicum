@@ -1,6 +1,15 @@
 .story__info{
   margin: 25px 30px 25px 25px;
   display: grid;
-  grid-template-rows: auto 180px;
+  grid-template-rows: auto 136px;
   gap: 20px;
+}
+
+@media (max-width: 425px) {
+  .story__info {
+    gap: 15px;
+    width: 219px;
+    height: 136px;
+    margin: 15px 10px 25px 20px;
+  }
 }

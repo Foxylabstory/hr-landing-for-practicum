@@ -47,20 +47,27 @@ setApplyButtonsListeners();
 
 
 //-----------   Slider -----------------
-
-const images = document.querySelectorAll('.slider .slider-line img');
-const sliderLine = document.querySelector('.slider .slider-line');
+console.log(window.screen.width);
+const images = document.querySelectorAll('.slider__block .slider__line img');
+const sliderLine = document.querySelector('.slider__block .slider__line');
 let count = 0;
 let width;
+let gap
+
+if (window.screen.width>400){
+  gap = 40;
+} else {
+  gap = 14;
+}
 
 function init() {
-    width = document.querySelector('.story').offsetWidth + 40;
+    width = document.querySelector('.story').offsetWidth + gap;
     rollSlider();
 }
 
 init();
 
-document.querySelector('.slider-next').addEventListener('click', function () {
+document.querySelector('.slider__next').addEventListener('click', function () {
     count++;
     if (count >= images.length) {
         count = 0;
@@ -68,7 +75,7 @@ document.querySelector('.slider-next').addEventListener('click', function () {
     rollSlider();
 });
 
-document.querySelector('.slider-prev').addEventListener('click', function () {
+document.querySelector('.slider__prev').addEventListener('click', function () {
 
     count--;
     if (count < 0) {

@@ -1,0 +1,12 @@
+.slider__block {
+  overflow: hidden;
+}
+
+@media (max-width: 425px) {
+  .slider__block {
+    max-width: 250px;
+    max-height: 395px;
+    margin: 0;
+    overflow:visible
+  }
+}

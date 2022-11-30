@@ -7,3 +7,14 @@
   border-radius: 50px;
   margin: 0 20px;
 }
+
+@media (max-width: 425px) {
+  .story {
+    width: 250px;
+    height: 383px;
+    margin: 0 7px;
+    border-radius: 50px;
+    grid-template-columns: 250px;
+    grid-template-rows: 206px 190px;
+  }
+}

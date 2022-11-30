@@ -1,0 +1,13 @@
+.slider__container {
+  max-width: 1440px;
+  height: 400px;
+  margin: auto;
+}
+
+@media (max-width: 425px) {
+  .slider__container {
+    max-width: 375px;
+    max-height: 395px;
+    margin: 20px 0 0;
+  }
+}

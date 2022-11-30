@@ -246,7 +246,7 @@
         id="product"
         >
         <div class="value">
-          <h2 class="value__title">В чем ценность Практикума?</h2>
+          <h2 class="value__title">В чем <span class = "value__title_colour">ценность Практикума?</span></h2>
           <div class="value__block">
             <div class="value__image"></div>
             <div class="value__discription">
@@ -581,11 +581,13 @@
         aria-label=""></section>
       <section class="stories" aria-label="Истории ребят из нашей команды">
         <h2 class="stories__header">Истории ребят из нашей команды</h2>
-        <div class="container">
-          <div class="slider">
-              <div class="slider-line">
+        <div class="slider__container">
+          <div class="slider__block">
+              <div class="slider__line">
                 <div class="story">
-                  <img class="story__avatar" src="<%=require('../src/images/stories/reviewer1.png')%>" alt="Алиса Рерих"/>
+                  <div class="story__img-block">
+                    <img class="story__avatar" src="<%=require('../src/images/stories/reviewer1.png')%>" alt="Алиса Рерих"/>
+                  </div>
                   <div class="story__info">
                     <div class="story__person">
                       <p class="story__name">
@@ -603,7 +605,9 @@
                   </div>
                 </div>
                 <div class="story">
-                  <img class="story__avatar" src="<%=require('../src/images/stories/mentor1.png')%>" alt="Влад Путилов"/>
+                  <div class="story__img-block">
+                    <img class="story__avatar" src="<%=require('../src/images/stories/mentor1.png')%>" alt="Влад Путилов"/>
+                  </div>
                   <div class="story__info">
                     <div class="story__person">
                       <p class="story__name">
@@ -621,7 +625,9 @@
                   </div>
                 </div>
                 <div class="story">
-                  <img class="story__avatar" src="<%=require('../src/images/stories/reviewer2.png')%>" alt="Марина Светлакова"/>
+                  <div class="story__img-block">
+                    <img class="story__avatar" src="<%=require('../src/images/stories/reviewer2.png')%>" alt="Марина Светлакова"/>
+                  </div>
                   <div class="story__info">
                     <div class="story__person">
                       <p class="story__name">
@@ -639,10 +645,10 @@
                 </div>
               </div>
           </div>
-          <div class="box">
-            <button class="button slider-prev"></button>
+          <div class="slider__box">
+            <button class="slider__button slider__prev"></button>
             <div class="counter"></div>
-            <button class="button slider-next"></button>
+            <button class="slider__button slider__next"></button>
           </div>
         </div>
         </div>

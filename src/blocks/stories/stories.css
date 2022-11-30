@@ -3,3 +3,12 @@
   display: flex;
   flex-direction: column;
 }
+
+@media (max-width: 425px) {
+  .stories {
+    margin: 0;
+    max-width: 375px;
+    max-height: 570px;
+    padding-left: 15px;
+  }
+}

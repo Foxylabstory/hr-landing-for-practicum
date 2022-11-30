@@ -1,0 +1,5 @@
+.slider__box{
+  display: grid;
+  grid-template-columns: 1fr 60px 1fr;
+  margin-top: 40px;
+}
