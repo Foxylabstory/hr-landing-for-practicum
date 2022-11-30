@@ -1,0 +1,5 @@
+.slider__prev {
+  background-image: url(../../../../images/stories/prev.svg);
+  justify-self: end;
+  background-color: unset;
+}

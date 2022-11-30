@@ -1,0 +1,15 @@
+.slider__line {
+  width: 1150x;
+  display: flex;
+  position: relative;
+  left: 0;
+  transition: all ease 1s;
+}
+
+@media (max-width: 425px) {
+  .slider__block {
+    max-width: 250px;
+    max-height: 395px;
+    margin: 0;
+  }
+}

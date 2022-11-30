@@ -11,5 +11,5 @@
   transform: perspective(300px) rotateY(180deg);
   width: 100%;
   height: 100%;
-  background: white;
+  background: #E1F0E6;
 }
