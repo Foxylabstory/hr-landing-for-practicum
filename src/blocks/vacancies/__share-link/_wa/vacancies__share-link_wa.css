@@ -1,0 +1,13 @@
+.vacancies__share-link_wa::before {
+  content: '';
+  width: 24px;
+  height: 24px;
+  background-image: url('../../../../images/vacancies/wa.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-right: 13px;
+}
+
+.vacancies__share-link_tg:hover::before {
+  background-image: url('../../../../images/vacancies/wa.svg');
+}

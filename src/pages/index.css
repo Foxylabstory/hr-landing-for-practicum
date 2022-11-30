@@ -100,9 +100,16 @@
 @import url('../blocks/vacancies/__share-button/vacancies__share-button.css');
 @import url('../blocks/vacancies/__share-button/_checked/vacancies__share-button_checked.css');
 @import url('../blocks/vacancies/__share-box/vacancies__share-box.css');
+@import url('../blocks/vacancies/__share-box/_visible/vacancies__share-box_visible.css');
 @import url('../blocks/vacancies/__share-item/vacancies__share-item.css');
 @import url('../blocks/vacancies/__share-link/vacancies__share-link.css');
+@import url('../blocks/vacancies/__share-link/_chain/vacancies__share-link_chain.css');
+@import url('../blocks/vacancies/__share-link/_vk/vacancies__share-link_vk.css');
+@import url('../blocks/vacancies/__share-link/_tg/vacancies__share-link_tg.css');
+@import url('../blocks/vacancies/__share-link/_wa/vacancies__share-link_wa.css');
+
 @import url('../blocks/vacancies/__share-icon/vacancies__share-icon.css');
+
 @import url('../blocks/vacancies/__title/vacancies__title.css');
 @import url('../blocks/vacancies/__vacancy-info/vacancies__vacancy-info.css');
 @import url('../blocks/vacancies/__vacancy-description/vacancies__vacancy-description.css');

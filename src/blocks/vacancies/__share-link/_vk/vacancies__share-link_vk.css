@@ -1,0 +1,13 @@
+.vacancies__share-link_vk::before {
+  content: '';
+  width: 24px;
+  height: 24px;
+  background-image: url('../../../../images/vacancies/vk.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-right: 13px;
+}
+
+.vacancies__share-link_vk:hover::before {
+  background-image: url('../../../../images/vacancies/chain.svg');
+}
