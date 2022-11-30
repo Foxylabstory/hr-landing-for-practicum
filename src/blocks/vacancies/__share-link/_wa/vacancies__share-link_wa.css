@@ -8,6 +8,6 @@
   margin-right: 13px;
 }
 
-.vacancies__share-link_tg:hover::before {
-  background-image: url('../../../../images/vacancies/wa.svg');
+.vacancies__share-link_wa:hover::before {
+  background-image: url('../../../../images/vacancies/wa-light.svg');
 }

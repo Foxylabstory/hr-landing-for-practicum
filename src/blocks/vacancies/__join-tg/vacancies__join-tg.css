@@ -9,6 +9,12 @@
     font-weight: var(--secondary-font-weight-400);
     font-size: 18px;
     line-height: 48px;
-
+    cursor: pointer;
     color: var(--primary-font-color);
+    transition: all 0.5s ease;
 }
+
+.vacancies__join-tg:hover {
+    background-color: var(--from-light-to-hover-color);
+    color: var(--secondary-font-color);
+  }
