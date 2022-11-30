@@ -7,10 +7,12 @@
 .slider-prev {
   background-image: url(../../../images/stories/prev.svg);
   justify-self: end;
+  background-color: unset;
 }
 
 .slider-next {
   background-image: url(../../../images/stories/next.svg);
+  background-color: unset;
 }
 
 .button{
@@ -21,7 +23,7 @@
 }
 
 .slider {
-  margin: auto;
+  margin-left: 155px;
   overflow: hidden;
 }
 

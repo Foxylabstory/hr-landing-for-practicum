@@ -1,0 +1,5 @@
+.result__block{
+  display: grid;
+  grid-template-columns: 535px 422px;
+  gap: 64px;
+}
