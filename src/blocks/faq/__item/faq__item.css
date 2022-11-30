@@ -2,4 +2,6 @@
     border: 1px solid #858585;
     border-right: none;
     border-left: none;
+    border-radius: 0;
+    padding: 0;
 }
