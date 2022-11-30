@@ -129,16 +129,16 @@
 .vacancies__not-found-options{display:grid;gap:30px;grid-template-columns:repeat(2,315px);margin:0 auto}
 .vacancies__join-tg{-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px);background-color:transparent;border:1px solid #373737;border-radius:120px;color:var(--primary-font-color);cursor:pointer;font-size:18px;font-style:var(--primary-font-style);font-weight:var(--secondary-font-weight-400);height:60px;line-height:48px;transition:all .5s ease;width:315px}.vacancies__join-tg:hover{background-color:var(--from-light-to-hover-color);color:var(--secondary-font-color)}
 .vacancies__apply{-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px);background-color:#373737;border:none;border-radius:120px;color:var(--secondary-font-color);cursor:pointer;font-size:18px;font-style:var(--primary-font-style);font-weight:var(--secondary-font-weight-400);height:60px;line-height:48px;transition:all .5s ease;width:315px}.vacancies__apply:hover{background-color:var(--from-dark-to-hover-color)}
-.faq__answer-text{color:var(--primary-font-color);font-size:20px;font-style:var(--primary-font-style);font-weight:var(--secondary-font-weight-400);line-height:28px;max-width:870px}
-.faq__answer{box-sizing:border-box;display:none;padding:0 150px 30px;width:100%}
+.faq__answer-text{color:var(--primary-font-color);font-size:20px;font-style:var(--primary-font-style);font-weight:var(--secondary-font-weight-400);line-height:28px;max-width:870px}@media (max-width:700px){.faq__answer-text{font-size:16px;line-height:19px}}
+.faq__answer{box-sizing:border-box;display:none;padding:0 150px 30px;width:100%}@media (max-width:700px){.faq__answer{padding:0 16px 20px}}
 .faq__container{list-style:none;margin:0;padding:0;width:100%}
-.faq__item{border:1px solid #858585;border-left:none;border-right:none}
+.faq__item{border:1px solid #858585;border-left:none;border-radius:0;border-right:none;padding:0}
 .faq__open-icon_opened{transform:rotate(45deg);transition:transform 1s}
-.faq__open-icon{background:url(2d5817df33fc9af332c4.svg);background-repeat:no-repeat;height:60px;transition:transform 1s;width:60px}
-.faq__question-button{align-items:center;background-color:transparent;border:none;box-sizing:border-box;display:flex;flex-direction:row;justify-content:space-between;padding:0 150px;width:100%}
-.faq__question-text{color:var(--primary-font-color);font-size:32px;font-style:var(--primary-font-style);font-weight:var(--primary-font-weight-500);margin:35px 0}
-.faq__title{color:var(--primary-font-color);font-size:40px;font-style:var(--primary-font-style);font-weight:var(--primary-font-weight-500);line-height:48px;margin:0 150px 40px}
-.faq{box-sizing:border-box;padding:90px 0;width:100%}
+.faq__open-icon{background:url(2d5817df33fc9af332c4.svg);background-repeat:no-repeat;background-size:contain;height:60px;transition:transform 1s;width:60px}@media (max-width:700px){.faq__open-icon{height:40px;width:40px}}
+.faq__question-button{align-items:center;background-color:transparent;border:none;box-sizing:border-box;display:flex;flex-direction:row;justify-content:space-between;padding:0 150px;width:100%}@media (max-width:700px){.faq__question-button{padding:0 15px}}
+.faq__question-text{color:var(--primary-font-color);font-size:32px;font-style:var(--primary-font-style);font-weight:var(--primary-font-weight-500);margin:35px 0}@media (max-width:700px){.faq__question-text{font-size:18px;line-height:21px;margin:19px 0}}
+.faq__title{color:var(--primary-font-color);font-size:40px;font-style:var(--primary-font-style);font-weight:var(--primary-font-weight-500);line-height:48px;margin:0 150px 40px}@media (max-width:700px){.faq__title{font-size:24px;line-height:28px;margin:0 15px 15px}}
+.faq{box-sizing:border-box;padding:90px 0 61px;width:100%}@media (max-width:700px){.faq{padding:50px 0 42px}}
 .footer{background:#e0e0e0;border-radius:20px 20px 0 0;display:flex;font-size:16px;font-weight:var(---secondary-font-weight-400);justify-content:space-between;letter-spacing:0;line-height:24px;max-width:1440px;min-height:575px;padding:40px 150px 0;text-align:left}a.footer__link,a.footer__link:active{color:#000;text-decoration:none}a.footer__link:hover{color:#04b;text-decoration:underline}@media (min-width:769px) and (max-width:1080px){.footer{flex-direction:column;gap:30px}}
 .footer__contacts{display:flex;flex-direction:column}
 .footer__phone{margin-bottom:33px}
