@@ -1,4 +1,4 @@
-import "../pages/index.css";
+/* import "../pages/index.css"; */
 
 import { vacancyBtns,faqBtns } from "../utils/constants.js";
 
@@ -20,7 +20,7 @@ function setAccordion(accordionBtns, iconSelector, openedPostfix) {
 setAccordion(vacancyBtns, "vacancies__open-icon", "_opened");
 setAccordion(faqBtns, "faq__open-icon", "_opened")
 
-//Slider
+//-----------   Slider -----------------
 
 const images = document.querySelectorAll('.slider .slider-line img');
 const sliderLine = document.querySelector('.slider .slider-line');
@@ -29,7 +29,6 @@ let width;
 
 function init() {
     width = document.querySelector('.story').offsetWidth + 40;
-    console.log(width);
     rollSlider();
 }
 
@@ -55,4 +54,50 @@ document.querySelector('.slider-prev').addEventListener('click', function () {
 function rollSlider() {
     sliderLine.style.transform = 'translate(-' + count * width + 'px)';
 
+}
+
+//-----------   Quiz -----------------
+let choice;
+let quiz = document.querySelectorAll('.test__choice');
+let resultImage = document.querySelector('.result__image');
+let resultText = document.querySelector('.result__text');
+
+
+document.querySelector('.test__button').addEventListener('click', () => {
+  countSelection();
+  document.querySelector('.test').style.setProperty("display", "none");
+  document.querySelector('.result').style.setProperty("display", "block");
+});
+
+document.querySelector('.result__choice_colour').addEventListener('click', () => {
+  document.querySelector('.result').style.setProperty("display", "none");
+  document.querySelector('.test').style.setProperty("display", "block");
+});
+
+
+for (let i = 0; i < quiz.length; i++){
+  quiz[i].addEventListener('click', () => {
+    quiz[i].classList.toggle("test__choice_colour");
+  });
+}
+
+function countSelection(){
+  let arrChoices = document.querySelectorAll(".test__choice_colour");
+  let result = 0;
+  arrChoices.forEach(choice => {
+    if (choice.classList.contains("mentor")){
+      result += 1;
+    }
+  })
+  selectJob(result)
+}
+
+function selectJob(count){
+  if (count >= 2){
+    resultImage.src = "../src/images/professions/result-mentor.png";
+    resultText.textContent = "Вам может быть интересна роль наставника";
+  } else {
+    resultImage.src = "../src/images/professions/result-reviewer.png";
+    resultText.textContent = "Вам может быть интересна роль ревьюера";
+  }
 }

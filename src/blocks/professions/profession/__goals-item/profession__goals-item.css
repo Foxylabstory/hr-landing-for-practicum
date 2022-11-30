@@ -1,0 +1,13 @@
+.profession__goals-item{
+  margin-bottom: 25px;
+}
+
+li{
+  padding-left: 40px;
+  color: #377D5A;
+  border-radius: 100px;
+}
+
+.profession__goals-item:last-child{
+  margin-bottom: 0;
+}

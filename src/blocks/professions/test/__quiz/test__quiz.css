@@ -1,0 +1,8 @@
+.test__quiz{
+  width: 1032px;
+  height: 96px;
+  margin: 30px auto 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 25px;
+}

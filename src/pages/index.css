@@ -39,6 +39,31 @@
 @import url('../blocks/conditions/__step/_center/conditions__step_center.css');
 @import url('../blocks/conditions/__step/_right/conditions__step_right.css');
 
+/* Professions */
+@import url('../blocks/professions/professions.css');
+@import url('../blocks/professions/test/test.css');
+@import url('../blocks/professions/test/__title/test__title.css');
+@import url('../blocks/professions/test/__text/test__text.css');
+@import url('../blocks/professions/test/__quiz/test__quiz.css');
+@import url('../blocks/professions/test/__quiz/_long/test__quiz_long.css');
+@import url('../blocks/professions/test/__choice/test__choice.css');
+@import url('../blocks/professions/test/__choice/_colour/test__choice_colour.css');
+@import url('../blocks/professions/test/__button/test__button.css');
+@import url('../blocks/professions/result/result.css');
+@import url('../blocks/professions/result/__block/result__block.css');
+@import url('../blocks/professions/result/__image/result__image.css');
+@import url('../blocks/professions/result/__menu/result__menu.css');
+@import url('../blocks/professions/result/__text/result__text.css');
+@import url('../blocks/professions/result/__choice/result__choice.css');
+@import url('../blocks/professions/result/__choice/_colour/result__choice_colour.css');
+@import url('../blocks/professions/profession/profession.css');
+@import url('../blocks/professions/profession/__block/profession__block.css');
+@import url('../blocks/professions/profession/__title/profession__title.css');
+@import url('../blocks/professions/profession/__goals/profession__goals.css');
+@import url('../blocks/professions/profession/__goals-item/profession__goals-item.css');
+@import url('../blocks/professions/profession/__text/profession__text.css');
+@import url('../blocks/professions/profession/__button/profession__button.css');
+
 /* Product and Faculties */
 @import url('../blocks/product/product.css');
 @import url('../blocks/product/value/value.css');
@@ -71,9 +96,7 @@
 /* Stories */
 @import url('../blocks/stories/stories.css');
 @import url('../blocks/stories/__header/stories__header.css');
-@import url('../blocks/stories/__block/stories__block.css');
 @import url('../blocks/stories/story/story.css');
-@import url('../blocks/stories/story/__avatar/story__avatar.css');
 @import url('../blocks/stories/story/__info/story__info.css');
 @import url('../blocks/stories/story/__person/story__person.css');
 @import url('../blocks/stories/story/__name/story__name.css');
