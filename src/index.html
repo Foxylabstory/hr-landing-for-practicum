@@ -37,7 +37,7 @@
 
   <body class="page">
     <header class="header">
-      <div class="header__image"></div>
+      <a href="https://practicum.yandex.ru" target="_blank" class="header__link"><div class="header__image"></div></a>
       <nav class="nav">
         <ul class="nav__list">
           <li class="nav__list-item"><a class="nav__link" href="#product">Кто мы и что создаём?</a></li>
@@ -46,8 +46,21 @@
         </ul>
         <a class="nav__button" href="#vacancies">Кого мы ищем</a>
       </nav>
+      <button class="header__burger"></button>
+      <nav class="mobile">
+        <ul class="mobile__list">
+          <button class="mobile__closer"></button>
+          <li class="mobile__item"><a href="#expert" class="mobile__link">Как стать экспертом?</a></li>
+          <li class="mobile__item"><a href="#profession" class="mobile__link">Какую профессию выбрать?</a></li>
+          <li class="mobile__item"><a href="#product" class="mobile__link">Ценности Практикума</a></li>
+          <li class="mobile__item"><a href="#education" class="mobile__link">Направления обучения</a></li>
+          <li class="mobile__item"><a href="#vacancies" class="mobile__link">Открытые предложения</a></li>
+          <li class="mobile__item"><a href="#stories" class="mobile__link">Истории ребят из команды</a></li>
+          <li class="mobile__item"><a href="#faq" class="mobile__link">Вопросы и ответы</a></li>
+          <li class="mobile__item"><a href="#footer" class="mobile__link">Контакты</a></li>
+        </ul>
+      </nav>
     </header>
-
     <main class="main">
       <section
         class="call"
@@ -123,7 +136,7 @@
           <h3 class="conditions__subheader">
             Как <span class="conditions__subheader_span">стать экспертом?</span>
           </h3>
-          <div class="conditions__steps"></div>
+          <div class="conditions__steps" id="expert"></div>
           <!-- <div class="conditions__steps">
             <div class="conditions__step conditions__step_left">Выберите роль и&nbsp;заполните&nbsp;заявку</div>
             <div class="conditions__first-arrow"></div>
@@ -137,7 +150,8 @@
       </section>
       <section
         class="professions"
-        aria-label="Выбор профессии">
+        aria-label="Выбор профессии"
+        id="profession">
         <h2 class="test__title">
           Какую профессию выбрать?
         </h2>
@@ -273,7 +287,7 @@
             </div>
           </div>
         </div>
-        <div class="education">
+        <div class="education" id="education">
           <h3 class="education__title">Коротко о направлениях обучения</h3>
           <div class="education__blocks">
             <div class="education__faculties">
@@ -435,7 +449,7 @@
         class="vacancies"
         aria-label="Вакансии"
         id="vacancies">
-        <section class="vacancies__found" aria-label="Доступные вакансии">
+        <section class="vacancies__found" aria-label="Доступные вакансии" id="vacancies">
           <h2 class="vacancies__title">Открытые предложения</h2>
           <ul class="vacancies__position-filter">
             <li class="vacancies__position vacancies__position_checked">Для наставников</li>
@@ -579,7 +593,7 @@
       <section
         class="block-7"
         aria-label=""></section>
-      <section class="stories" aria-label="Истории ребят из нашей команды">
+      <section class="stories" aria-label="Истории ребят из нашей команды" id="stories">
         <h2 class="stories__header">Истории ребят из нашей команды</h2>
         <div class="slider__container">
           <div class="slider__block">
