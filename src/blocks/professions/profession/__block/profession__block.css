@@ -1,0 +1,7 @@
+.profession__block{
+  display: flex;
+  flex-direction: column;
+  padding: 40px 65px 60px;
+  background: #FFFFFF;
+  border-radius: 50px;
+}

@@ -1,0 +1,18 @@
+.profession__button{
+  margin-top: 70px;
+  width: 315px;
+  height: 60px;
+  border-radius: 120px;
+  background: #373737;
+  font-size: 18px;
+  font-weight: var(--secondary-font-weight-400);
+  color: #FFFFFF;
+  line-height: 20px;
+  letter-spacing: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 70px auto 0;
+  text-decoration: none;
+  cursor: pointer;
+}

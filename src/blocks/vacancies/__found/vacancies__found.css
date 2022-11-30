@@ -1,3 +1,4 @@
 .vacancies__found {
-    margin: 60px 150px 45px;
+    margin: 60px auto 45px;
+    max-width: 1140px;
 }

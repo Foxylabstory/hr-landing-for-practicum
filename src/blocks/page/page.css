@@ -1,6 +1,7 @@
 :root {
   --primary-background-color: #FFF;
-  --secondary-background-color: #E1F0E6;;
+
+  --secondary-background-color: #E1F0E6;
 
   --primary-font-family: 'YS Text';
   --secondary-font-family: 'YS Display';
@@ -32,7 +33,15 @@
   --footer-background-background-color: #E0E0E0;
 
   --primary-element-background-color: #F5F5F5;
-  --secondary-element-background-color: #373737;
+  --secondary-element-background-color: #377D5A;
+
+  --from-dark-to-hover-color: #377D5A;
+  --from-dark-to-click-color: #32694E;
+  --from-dark-to-disable-color: #A3A3A3;
+
+  --from-light-to-hover-color: #377D5A;
+  --from-light-to-click-color: #3B5642;
+  --from-light-to-disable-color: transparent;
 }
 
 .page {

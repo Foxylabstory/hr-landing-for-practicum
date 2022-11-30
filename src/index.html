@@ -40,11 +40,11 @@
       <div class="header__image"></div>
       <nav class="nav">
         <ul class="nav__list">
-          <li class="nav__list-item"><a class="nav__link" href="#">Кто мы и что создаём?</a></li>
-          <li class="nav__list-item"><a class="nav__link" href="#">FAQ</a></li>
-          <li class="nav__list-item"><a class="nav__link" href="#">Контакты</a></li>
+          <li class="nav__list-item"><a class="nav__link" href="#product">Кто мы и что создаём?</a></li>
+          <li class="nav__list-item"><a class="nav__link" href="#faq">FAQ</a></li>
+          <li class="nav__list-item"><a class="nav__link" href="#footer">Контакты</a></li>
         </ul>
-        <a class="nav__button" href="#">Кого мы ищем</a>
+        <a class="nav__button" href="#vacancies">Кого мы ищем</a>
       </nav>
     </header>
 
@@ -52,9 +52,12 @@
       <section
         class="call"
         aria-label="призыв стать частью компании">
-        <h1 class="call__header">Станьте наставником или ревьюером</h1>
-        <p class="call__message">Делитесь своим опытом в программировании, анализе данных, менеджменте, маркетинге или дизайне и получайте дополнительный доход.</p>
-        <a class="call__link" href="#">Хочу делиться знаниями</a>
+        <div class="call__container">
+          <h1 class="call__header">Станьте наставником или ревьюером</h1>
+          <p class="call__message">Делитесь своим опытом в программировании, анализе данных, менеджменте, маркетинге или дизайне и получайте дополнительный доход.</p>
+          <a class="call__link" href="#vacancies">Хочу делиться знаниями</a>
+        </div>
+        <img class="call__image" src="<%=require('./images/call/main-image.svg')%>" alt="сосредоточенная молодая женщина">
       </section>
       <section
         class="conditions"
@@ -133,10 +136,115 @@
         </div>
       </section>
       <section
-        class="block-3"
-        aria-label=""></section>
+        class="professions"
+        aria-label="Выбор профессии">
+        <h2 class="test__title">
+          Какую профессию выбрать?
+        </h2>
+        <div class="test">
+          <h3 class="test__text">
+            Предлагаем вам пройти небольшой тест, чтобы определиться, какая профессия 
+            вам подойдёт. Просто нажимайте на баблы, которые про вас.
+          </h3>
+          <div class="test__quiz">
+            <button class="test__choice">
+              Вы хотите делиться опытом и мотивировать
+            </button>
+            <button class="test__choice mentor">
+              Вы хотите проводить вебинары
+            </button>
+            <button class="test__choice">
+              Вы хотите проверять код и проекты
+            </button>
+            <button class="test__choice">
+              Вы хотите оценивать работы
+            </button>
+          </div>
+          <div class="test__quiz_long">
+            <button class="test__choice">
+              Вы хотите освежить знание кода или теорию
+            </button>
+            <button class="test__choice">
+              Ваш опыт работы  до 2х лет, вы Джун/Джун+
+            </button>
+            <button class="test__choice mentor">
+              Ваш опыт работы более 2х лет, вы Мидл/Сеньор
+            </button>
+          </div>
+          <button class="test__button">
+            Узнать результат
+          </button>
+        </div>
 
-      <section class="product" aria-label="">
+        <div class="result result-reviewer hide">
+          <div class="result__block">
+            <img 
+              class="result__image" 
+              src ="<%=require('./images/professions/result-reviewer.png')%>"
+              alt="Изображение профессии" />
+            <div class="result__menu">
+              <p class="result__text">Вам может быть интересна роль ревьюера</p>
+              <a class="result__choice" href="#vacancies">
+                Узнать о вакансиях
+              </a>
+              <button class="result__choice result__choice_colour">
+                Пройти тест заново
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="result result-mentor hide">
+          <div class="result__block">
+            <img 
+              class="result__image" 
+              src ="<%=require('./images/professions/result-mentor.png')%>"
+              alt="Изображение профессии" />
+            <div class="result__menu">
+              <p class="result__text">Вам может быть интересна роль наставника</p>
+              <a class="result__choice" href="#vacancies">
+                Узнать о вакансиях
+              </a>
+              <button class="result__choice result__choice_colour">
+                Пройти тест заново
+              </button>
+            </div>
+          </div>
+        </div>
+        
+        <div class="profession">
+          <div class="profession__block">
+            <p class="profession__title">Задачи наставника</p>
+            <ul class="profession__goals">
+              <li class="profession__goals-item"><p class="profession__text">Помогать студентам ставить цели, рефлексировать и делать выводы</p></li>
+              <li class="profession__goals-item"><p class="profession__text">Отвечать на их вопросы в чате</p></li>
+              <li class="profession__goals-item"><p class="profession__text">Проводить вебинары и давать обратную связь 2 раза в месяц</p></li>
+              <li class="profession__goals-item"><p class="profession__text">Делиться опытом и мотивировать</p></li>
+            </ul>
+            <a class="profession__button" href="#vacancies">
+              Хочу стать наставником
+            </a>
+          </div>
+          <div class="profession__block">
+            <p class="profession__title">Задачи ревьюера</p>
+            <ul class="profession__goals">
+              <li class="profession__goals-item"><p class="profession__text">Проверять код и проекты студентов</p></li>
+              <li class="profession__goals-item"><p class="profession__text">Простыми словами объяснять им их ошибки</p></li>
+              <li class="profession__goals-item"><p class="profession__text">Давать корректирующую обратную связь</p></li>
+              <li class="profession__goals-item"><p class="profession__text">Оценивать работы — зачёт / незачёт</p></li>
+            </ul>
+            <a class="profession__button" href="#vacancies">
+              Хочу стать ревьюером
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section 
+        class="product"
+        aria-label=""
+        id="product"
+        >
         <div class="value">
           <h2 class="value__title">В чем ценность Практикума?</h2>
           <div class="value__block">
@@ -325,7 +433,8 @@
 
       <section
         class="vacancies"
-        aria-label="Вакансии">
+        aria-label="Вакансии"
+        id="vacancies">
         <section class="vacancies__found" aria-label="Доступные вакансии">
           <h2 class="vacancies__title">Открытые предложения</h2>
           <ul class="vacancies__position-filter">
@@ -333,7 +442,7 @@
             <li class="vacancies__position">Для ревьюеров</li>
           </ul>
           <ul class="vacancies__area-filter">
-            <li class="vacancies__area">Программирование</li>
+            <li class="vacancies__area vacancies__area_checked">Программирование</li>
             <li class="vacancies__area">Аналитика</li>
             <li class="vacancies__area">Дизайн</li>
             <li class="vacancies__area">Маркетинг</li>
@@ -359,11 +468,22 @@
                   <p class="vacancies__description-text">• Удалённое сотрудничество и ежемесячное вознаграждение;• частичную занятость и возможность совмещать участие в проекте с основной работой;• обмен опытом с разработчиками в нашем сообществе;• обучение в Школе наставников Яндекс.Практикума.</p>
                 </div>
                 <nav class="vacancies__options">
-                  <button class="vacancies__apply-button">Откликнуться</button>
-                  <button class="vacancies__share-button">
-                    <img class="vacancies__share-icon" src="./images/vacancies/share.svg" alt="Поделиться">
-                    <p class="vacancies__share-button-text">Поделиться</p>
-                  </button>
+                  <button class="vacancies__apply-button"aria-label="Откликнуться">Откликнуться</button>
+                  <button class="vacancies__share-button vacancies__share-button_checked" aria-label="Поделиться">Поделиться</button>
+                  <ul class="vacancies__share-box vacancies__share-box_visible">
+                    <li class="vacancies__share-item">
+                      <a href="#" class="vacancies__share-link vacancies__share-link_chain">Скопировать ссылку</a>
+                    </li>
+                    <li class="vacancies__share-item">
+                      <a href="#" class="vacancies__share-link vacancies__share-link_vk">ВКонтакте</a>
+                    </li>
+                    <li class="vacancies__share-item">
+                      <a href="#" class="vacancies__share-link vacancies__share-link_tg">Telegram</a>
+                    </li>
+                    <li class="vacancies__share-item">
+                      <a href="#" class="vacancies__share-link vacancies__share-link_wa">WhatsApp</a>
+                    </li>
+                  </ul>
                 </nav>
               </article>
             </li>
@@ -386,10 +506,21 @@
                 </div>
                 <nav class="vacancies__options">
                   <button class="vacancies__apply-button">Откликнуться</button>
-                  <button class="vacancies__share-button">
-                    <img class="vacancies__share-icon" src="./images/vacancies/share.svg" alt="Поделиться">
-                    <p class="vacancies__share-button-text">Поделиться</p>
-                  </button>
+                  <button class="vacancies__share-button">Поделиться</button>
+                  <ul class="vacancies__share-box">
+                    <li class="vacancies__share-item">
+                      <a href="#" class="vacancies__share-link vacancies__share-link_chain">Скопировать ссылку</a>
+                    </li>
+                    <li class="vacancies__share-item">
+                      <a href="#" class="vacancies__share-link vacancies__share-link_vk">ВКонтакте</a>
+                    </li>
+                    <li class="vacancies__share-item">
+                      <a href="#" class="vacancies__share-link vacancies__share-link_tg">Telegram</a>
+                    </li>
+                    <li class="vacancies__share-item">
+                      <a href="#" class="vacancies__share-link vacancies__share-link_wa">WhatsApp</a>
+                    </li>
+                  </ul>
                 </nav>
               </article>
             </li>
@@ -412,10 +543,21 @@
                 </div>
                 <nav class="vacancies__options">
                   <button class="vacancies__apply-button">Откликнуться</button>
-                  <button class="vacancies__share-button">
-                    <img class="vacancies__share-icon" src="<%=require('./images/vacancies/share.svg')%>" alt="Поделиться">
-                    <p class="vacancies__share-button-text">Поделиться</p>
-                  </button>
+                  <button class="vacancies__share-button">Поделиться</button>
+                  <ul class="vacancies__share-box">
+                    <li class="vacancies__share-item">
+                      <a href="#" class="vacancies__share-link vacancies__share-link_chain">Скопировать ссылку</a>
+                    </li>
+                    <li class="vacancies__share-item">
+                      <a href="#" class="vacancies__share-link vacancies__share-link_vk">ВКонтакте</a>
+                    </li>
+                    <li class="vacancies__share-item">
+                      <a href="#" class="vacancies__share-link vacancies__share-link_tg">Telegram</a>
+                    </li>
+                    <li class="vacancies__share-item">
+                      <a href="#" class="vacancies__share-link vacancies__share-link_wa">WhatsApp</a>
+                    </li>
+                  </ul>
                 </nav>
               </article>
             </li>
@@ -433,15 +575,83 @@
       <section
         class="block-6"
         aria-label=""></section>
+
       <section
         class="block-7"
         aria-label=""></section>
-      <section
-        class="block-8"
-        aria-label=""></section>
+      <section class="stories" aria-label="Истории ребят из нашей команды">
+        <h2 class="stories__header">Истории ребят из нашей команды</h2>
+        <div class="container">
+          <div class="slider">
+              <div class="slider-line">
+                <div class="story">
+                  <img class="story__avatar" src="<%=require('../src/images/stories/reviewer1.png')%>" alt="Алиса Рерих"/>
+                  <div class="story__info">
+                    <div class="story__person">
+                      <p class="story__name">
+                        Алиса Рерих
+                      </p>
+                      <p class="story__job">
+                        Ревьюер, 3 года в проекте
+                      </p>
+                    </div>
+                    <p class="story__text">
+                      Классно, когда ты кому-то помогаешь и видишь реальные кейсы, 
+                      что люди меняют профессии, что они успешны.  
+                      Это тебя подпитывает!
+                    </p>
+                  </div>
+                </div>
+                <div class="story">
+                  <img class="story__avatar" src="<%=require('../src/images/stories/mentor1.png')%>" alt="Влад Путилов"/>
+                  <div class="story__info">
+                    <div class="story__person">
+                      <p class="story__name">
+                        Влад Путилов
+                      </p>
+                      <p class="story__job">
+                        Наставник, 7 месяцев в проекте
+                      </p>
+                    </div>
+                    <p class="story__text">
+                      За время своей карьеры мне нравилось помогать менее 
+                      опытным разработчикам, потому что это нормально, 
+                      что они многого не знают и у них полно вопросов. 
+                    </p>
+                  </div>
+                </div>
+                <div class="story">
+                  <img class="story__avatar" src="<%=require('../src/images/stories/reviewer2.png')%>" alt="Марина Светлакова"/>
+                  <div class="story__info">
+                    <div class="story__person">
+                      <p class="story__name">
+                        Марина Светлакова
+                      </p>
+                      <p class="story__job">
+                        Ревьюер, 1,5 года  в проекте
+                      </p>
+                    </div>
+                    <p class="story__text">
+                      У меня накопилось много опыта и знаний, которыми я хочу делиться. 
+                      Я считаю, что делясь знаниями, помогаю делать мир чуть-чуть лучше.
+                    </p>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="box">
+            <button class="button slider-prev"></button>
+            <div class="counter"></div>
+            <button class="button slider-next"></button>
+          </div>
+        </div>
+        </div>
+      </section>
+
       <section
         class="faq"
-        aria-label="Вопросы и ответы">
+        aria-label="Вопросы и ответы"
+        id="faq">
         <h2 class="faq__title">Вопросы и ответы</h2>
         <ul class="faq__container">
           <li class="faq__item">
@@ -475,33 +685,25 @@
       </section>
     </main>
 
-    <footer class="footer">
+    <footer
+      class="footer"
+      id="footer"
+      >
       <div class="footer__contacts">
         <div class="footer__phone">
           <p class="footer__text_font">8-800-700-93-29</p>
           <p class="footer__text">Звонок по России бесплатный</p>
         </div>
         <div class="footer__links">
-          <a class="footer__link footer__journal" href="https://thecode.media/" target="_blank">Журнал</a>
+          <a class="footer__link footer__journal" href="https://thecode.media/" target="_blank">
+            Журнал
+          </a>
           <a class="footer__link" href="https://vk.com/yandex.practicum">
             <img src="<%=require('./images/footer/vkontakte.svg')%>" class="logo__vkontakte" alt = "Вконтакте">
           </a>
           <a class="footer__link" href="https://t.me/practicum_experts" target="_blank">
             <img src="<%=require('./images/footer/telegram.svg')%>" class="logo__telegram" alt = "Телеграмм">
           </a>
-          <a
-            class="footer__journal"
-            href="https://thecode.media/"
-            >Журнал</a
-          >
-          <img
-            src="./images/footer/vkontakte.svg"
-            class="logo__vkontakte"
-            alt="Вконтакте" />
-          <img
-            src="./images/footer/telegram.svg"
-            class="logo__telegram"
-            alt="Телеграмм" />
         </div>
         <div class="footer__copyright">
           <p class="footer__text">&copy; 2022 АНО ДПО «ШАД», ООО «Яндекс»</p>
@@ -544,7 +746,9 @@
           </p>
         </div>
       </div>
+<!--       <script type="module" src="../src/pages/index.js"></script> -->
     </footer>
+
 
     <div class="popup popup_type_apply">
       <div class="popup__container">
@@ -596,7 +800,6 @@
           </div>
       </div>
     </div>
-
 
     <!-- <div
       class="popup"

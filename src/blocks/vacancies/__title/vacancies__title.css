@@ -1,9 +1,22 @@
 .vacancies__title {
-    font-style: var(--primary-font-style);
-    font-weight: var(--primary-font-weight-500);
-    font-size: 40px;
-    line-height: 48px;
-    color: var(--primary-font-color);
+  font-style: var(--primary-font-style);
+  font-weight: var(--primary-font-weight-500);
+  font-size: 40px;
+  line-height: 48px;
+  color: var(--primary-font-color);
 
-    margin: 0 0 40px;
+  margin: 0 0 40px;
+  position: relative;
+}
+
+.vacancies__title::after {
+  position: absolute;
+  content: '';
+  background-image: url('../../../images/vacancies/tick-40x40.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+  top: -25px;
+  left: 459px;
 }

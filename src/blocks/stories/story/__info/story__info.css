@@ -1,0 +1,6 @@
+.story__info{
+  margin: 25px 30px 25px 25px;
+  display: grid;
+  grid-template-rows: auto 180px;
+  gap: 20px;
+}
