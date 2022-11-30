@@ -1,4 +1,4 @@
-/* import "../pages/index.css"; */
+import "../pages/index.css";
 
 import { vacancyBtns,faqBtns } from "../utils/constants.js";
 
@@ -58,20 +58,28 @@ function rollSlider() {
 
 //-----------   Quiz -----------------
 let choice;
-let quiz = document.querySelectorAll('.test__choice');
-let resultImage = document.querySelector('.result__image');
-let resultText = document.querySelector('.result__text');
+const quiz = document.querySelectorAll('.test__choice');
+const resultMentor = document.querySelector('.result-mentor');
+const resultReviewer = document.querySelector('.result-reviewer');
+const test = document.querySelector('.test');
+const testButton = document.querySelector('.test__button');
+const resultButton = document.querySelector('.result__choice');
 
-
-document.querySelector('.test__button').addEventListener('click', () => {
-  countSelection();
-  document.querySelector('.test').style.setProperty("display", "none");
-  document.querySelector('.result').style.setProperty("display", "block");
+testButton.addEventListener('click', () => {
+  let job = countSelection();
+  test.classList.toggle("hide");
+  job.classList.toggle("hide");
 });
 
-document.querySelector('.result__choice_colour').addEventListener('click', () => {
-  document.querySelector('.result').style.setProperty("display", "none");
-  document.querySelector('.test').style.setProperty("display", "block");
+resultMentor.querySelector('.result__choice_colour').addEventListener('click', () => {
+  resultMentor.classList.toggle("hide");
+  test.classList.toggle("hide");
+});
+
+
+resultReviewer.querySelector('.result__choice_colour').addEventListener('click', () => {
+  resultReviewer.classList.toggle("hide");
+  test.classList.toggle("hide");
 });
 
 
@@ -83,21 +91,19 @@ for (let i = 0; i < quiz.length; i++){
 
 function countSelection(){
   let arrChoices = document.querySelectorAll(".test__choice_colour");
-  let result = 0;
+  let count = 0;
   arrChoices.forEach(choice => {
     if (choice.classList.contains("mentor")){
-      result += 1;
+      count += 1;
     }
   })
-  selectJob(result)
+  return selectJob(count)
 }
 
 function selectJob(count){
   if (count >= 2){
-    resultImage.src = "../src/images/professions/result-mentor.png";
-    resultText.textContent = "Вам может быть интересна роль наставника";
+    return resultMentor
   } else {
-    resultImage.src = "../src/images/professions/result-reviewer.png";
-    resultText.textContent = "Вам может быть интересна роль ревьюера";
+    return resultReviewer
   }
 }

@@ -173,16 +173,35 @@
           </button>
         </div>
 
-        <div class="result">
+        <div class="result result-reviewer hide">
           <div class="result__block">
-            <img class="result__image" src ="#">
-
-            </img>
+            <img 
+              class="result__image" 
+              src ="<%=require('./images/professions/result-reviewer.png')%>"
+              alt="Изображение профессии" />
             <div class="result__menu">
-              <p class="result__text"></p>
-              <button class="result__choice">
+              <p class="result__text">Вам может быть интересна роль ревьюера</p>
+              <a class="result__choice" href="#vacancies">
                 Узнать о вакансиях
+              </a>
+              <button class="result__choice result__choice_colour">
+                Пройти тест заново
               </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="result result-mentor hide">
+          <div class="result__block">
+            <img 
+              class="result__image" 
+              src ="<%=require('./images/professions/result-mentor.png')%>"
+              alt="Изображение профессии" />
+            <div class="result__menu">
+              <p class="result__text">Вам может быть интересна роль наставника</p>
+              <a class="result__choice" href="#vacancies">
+                Узнать о вакансиях
+              </a>
               <button class="result__choice result__choice_colour">
                 Пройти тест заново
               </button>
@@ -199,7 +218,9 @@
               <li class="profession__goals-item"><p class="profession__text">Проводить вебинары и давать обратную связь 2 раза в месяц</p></li>
               <li class="profession__goals-item"><p class="profession__text">Делиться опытом и мотивировать</p></li>
             </ul>
-            <button class="profession__button">Хочу стать наставником</button>
+            <a class="profession__button" href="#vacancies">
+              Хочу стать наставником
+            </a>
           </div>
           <div class="profession__block">
             <p class="profession__title">Задачи ревьюера</p>
@@ -209,7 +230,9 @@
               <li class="profession__goals-item"><p class="profession__text">Давать корректирующую обратную связь</p></li>
               <li class="profession__goals-item"><p class="profession__text">Оценивать работы — зачёт / незачёт</p></li>
             </ul>
-            <button class="profession__button">Хочу стать ревьюером</button>
+            <a class="profession__button" href="#vacancies">
+              Хочу стать ревьюером
+            </a>
           </div>
         </div>
       </section>
@@ -403,7 +426,8 @@
 
       <section
         class="vacancies"
-        aria-label="Вакансии">
+        aria-label="Вакансии"
+        id="vacancies">
         <section class="vacancies__found" aria-label="Доступные вакансии">
           <h2 class="vacancies__title">Открытые предложения</h2>
           <ul class="vacancies__position-filter">
@@ -678,7 +702,7 @@
           </p>
         </div>
       </div>
-      <script type="module" src="../src/pages/index.js"></script>
+<!--       <script type="module" src="../src/pages/index.js"></script> -->
     </footer>
   
     <!-- <div
