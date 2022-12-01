@@ -1,0 +1,7 @@
+.footer__telegram{
+  background-image: url(../../../images/footer/telegram.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 30px;
+  height: 30px;
+}

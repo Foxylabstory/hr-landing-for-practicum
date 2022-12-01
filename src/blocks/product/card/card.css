@@ -3,6 +3,7 @@
   width: 360px;
   height: 186px;
   margin-right: 8px;
+  cursor: pointer;
 }
 
 .card:last-child {

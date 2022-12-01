@@ -191,10 +191,13 @@
 @import url('../blocks/footer/__links/footer__links.css');
 @import url('../blocks/footer/__link/footer__link.css');
 @import url('../blocks/footer/__journal/footer__journal.css');
+@import url('../blocks/footer/__vkontakte/footer__vkontakte.css');
+@import url('../blocks/footer/__telegram/footer__telegram.css');
 @import url('../blocks/footer/__info/footer__info.css');
 @import url('../blocks/footer/__menu/footer__menu.css');
 @import url('../blocks/footer/__help/footer__help.css');
 @import url('../blocks/footer/__services/footer__services.css');
+@import url('../blocks/footer/__services-text/footer__services-text.css');
 @import url('../blocks/footer/__link/_underline/footer__link_underline.css');
 
 /* PopUp */

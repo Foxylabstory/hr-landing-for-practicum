@@ -1,7 +1,8 @@
 .footer{
-  background: #E0E0E0;
-  display: flex;
+  background: #E1F0E6;
   padding: 40px 150px 0 150px;
+  display: grid;
+  grid-template-rows: 160px auto;
   justify-content: space-between;
   font-size: 16px;
   font-weight: var(---secondary-font-weight-400);
@@ -11,6 +12,7 @@
   max-width: 1440px;
   min-height: 575px;
   border-radius: 20px 20px 0 0;
+  border-radius: 50px 50px 0px 0px;
 }
 
 a.footer__link:active,
@@ -28,5 +30,16 @@ a.footer__link:hover{
   .footer {
     flex-direction: column;
     gap: 30px;
+  }
+}
+
+@media (max-width: 425px) {
+  .footer {
+    margin: 0;
+    max-width: 375px;
+    max-height: 605px;
+    padding: 25px 15px 30px 15px;
+    grid-template-columns: 340px;
+    grid-template-rows: 230px 305px;
   }
 }
