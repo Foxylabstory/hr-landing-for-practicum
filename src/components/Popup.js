@@ -8,12 +8,31 @@ export class Popup {
     this._thanks = this._popup.querySelector('.form__thanks');
     this._title = this._form.querySelector('.form__title');
     this._inputs = [...this._popup.querySelectorAll('.form__item')];
+    this._body = document.body
+    this._left = 0;
+    this._top = 0;
   }
   open(vacancyName) {
     document.addEventListener('keydown', this._handleEscClose);
     this._setGrid();
     this._setVacancy(vacancyName);
     this._showThanks(false);
+
+
+    var doc = document.documentElement;
+    this._left = (window.pageXOffset || doc.scrollLeft) - (doc.clientLeft || 0);
+    this._top = (window.pageYOffset || doc.scrollTop) - (doc.clientTop || 0);
+
+    var oldWidth = this._body.innerWidth;
+
+    this._body.style.overflow = 'hidden';
+    this._body.width= oldWidth;
+
+    this._body.style.position = 'absolute';
+    this._body.style.overflowX = "hidden";
+    this._body.style.overflowY = "scroll !important" ;
+    this._body.width= oldWidth;
+
     this._popup.classList.add('popup_opened');
   }
 
@@ -21,6 +40,13 @@ export class Popup {
     this._popup.classList.remove('popup_opened');
     document.removeEventListener('keydown', this._handleEscClose);
     this._form.reset();
+    const scrollY = document.body.style.top;
+    this._body.style.position = '';
+    this._body.style.overflow = '';
+    this._body.style.top = '';
+    this._body.width = "auto";
+
+    window.scrollTo( this._left, this._top);
   }
 
   _handleEscClose = (evt) => {
