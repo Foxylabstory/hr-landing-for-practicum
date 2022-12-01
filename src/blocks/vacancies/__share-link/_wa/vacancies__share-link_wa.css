@@ -11,3 +11,12 @@
 .vacancies__share-link_wa:hover::before {
   background-image: url('../../../../images/vacancies/wa-light.svg');
 }
+
+@media (max-width: 900px) {
+  .vacancies__share-link_wa::before {
+    margin-right: 0;
+    top: 25%;
+    left: 25%;
+    position: absolute;
+  }
+}

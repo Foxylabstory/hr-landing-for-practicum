@@ -12,3 +12,13 @@
   opacity: 0;
   transition: all 0.5s ease;
 }
+
+@media (max-width: 900px) {
+  .vacancies__share-box {
+    width: 70px;
+    min-height: 220px;
+    left: 80%;
+    bottom: -5px;
+    border-radius: 50px;
+  }
+}

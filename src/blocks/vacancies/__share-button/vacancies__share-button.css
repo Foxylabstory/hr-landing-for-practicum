@@ -43,6 +43,7 @@
     width: 100%;
     max-width: 345px;
     padding-left: 40px;
+    justify-content: center;
   }
   .vacancies__share-button::before {
     left: 100px;
