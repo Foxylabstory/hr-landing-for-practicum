@@ -1,4 +1,4 @@
 .vacancies__open-icon_opened {
     transform: rotate(45deg);
-    transition: transform 1s;
+    transition: transform 1s ease;
 }

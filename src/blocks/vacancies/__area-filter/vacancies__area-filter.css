@@ -9,3 +9,10 @@
     box-sizing: border-box;
     flex-wrap: wrap;
 }
+
+@media (max-width: 900px) {
+    .vacancies__area-filter {
+        margin: 0 0 14px;
+        padding: 5px 0;
+    }
+}

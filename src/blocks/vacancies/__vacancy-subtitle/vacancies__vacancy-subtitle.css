@@ -11,3 +11,11 @@
     margin: 0 0 30px;
     padding: 0;
 }
+
+@media (max-width: 900px) {
+    .vacancies__vacancy-subtitle {
+        font-size: 14px;
+        line-height: 16px;
+        margin: 10px 0;
+    }
+}

@@ -134,7 +134,6 @@
 @import url('../blocks/vacancies/__apply-button/vacancies__apply-button.css');
 @import url('../blocks/vacancies/__area-filter/vacancies__area-filter.css');
 @import url('../blocks/vacancies/__area/vacancies__area.css');
-@import url('../blocks/vacancies/__area/__area_checked/vacancies__area_checked.css');
 @import url('../blocks/vacancies/__description-header/vacancies__description-header.css');
 @import url('../blocks/vacancies/__description-text/vacancies__description-text.css');
 @import url('../blocks/vacancies/__found/vacancies__found.css');
@@ -148,7 +147,6 @@
 @import url('../blocks/vacancies/__position-container/vacancies__position-container.css');
 @import url('../blocks/vacancies/__area-radio/vacancies__area-radio.css');
 @import url('../blocks/vacancies/__area-container/vacancies__area-container.css');
-@import url('../blocks/vacancies/__position/_checked/vacancies__position_checked.css');
 @import url('../blocks/vacancies/__share-button-text/vacancies__share-button-text.css');
 @import url('../blocks/vacancies/__share-button/vacancies__share-button.css');
 @import url('../blocks/vacancies/__share-button/_checked/vacancies__share-button_checked.css');

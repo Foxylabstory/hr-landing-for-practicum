@@ -37,3 +37,11 @@
 	background: var(--primary-button-background-color);
     color: var(--secondary-font-color);
 }
+
+@media (max-width: 900px) {
+    .vacancies__position {
+        font-size: 16px;
+        width: 155px;
+        height: 40px;
+    }
+}

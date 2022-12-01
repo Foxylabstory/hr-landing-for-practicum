@@ -7,3 +7,10 @@
     display: flex;
     flex-direction: column;
 }
+
+@media (max-width: 900px) {
+    .vacancies__not-found {
+        margin: 0;
+        padding: 30px 15px 40px;
+    }
+}

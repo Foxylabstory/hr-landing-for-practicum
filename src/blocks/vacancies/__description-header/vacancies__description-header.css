@@ -8,3 +8,10 @@
 
     margin: 0 0 10px;
 }
+
+@media (max-width: 900px) {
+    .vacancies__description-header {
+        font-size: 18px;
+        line-height: 21px; 
+    }
+}

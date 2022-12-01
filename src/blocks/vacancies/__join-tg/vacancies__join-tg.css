@@ -17,4 +17,11 @@
 .vacancies__join-tg:hover {
     background-color: var(--from-light-to-hover-color);
     color: var(--secondary-font-color);
-  }
+}
+
+@media (max-width: 900px) {
+    .vacancies__join-tg {
+       max-width: 345px;
+       line-height: 20px;
+    }
+}

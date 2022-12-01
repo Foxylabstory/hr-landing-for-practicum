@@ -2,3 +2,9 @@
     display: none;
     padding: 10px 0 73px;
 }
+
+@media (max-width: 900px) {
+    .vacancies__vacancy-info {
+        padding: 10px 0 25px;
+    }
+}

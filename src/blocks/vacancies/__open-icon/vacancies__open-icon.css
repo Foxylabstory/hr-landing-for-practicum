@@ -4,9 +4,24 @@
    background-repeat: no-repeat;
    width: 60px;
    height: 60px;
+   background-size: contain;
    transition: transform 1s ease, background 1s ease;
 }
 
 .vacancies__open-icon:hover {
    background: url(../../../images/vacancies/hover-icon.svg);
+   width: 60px;
+   height: 60px;
+   background-size: contain;
+}
+
+@media (max-width: 900px) {
+   .vacancies__open-icon {
+      width: 30px;
+      height: 30px;
+   }
+   .vacancies__open-icon:hover {
+      width: 30px;
+      height: 30px;
+   }
 }

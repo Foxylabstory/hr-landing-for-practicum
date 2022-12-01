@@ -9,3 +9,9 @@
     padding: 0;
     overflow: hidden;
 }
+
+@media (max-width: 900px) {
+    .vacancies__position-filter {
+        margin: 0 0 15px;
+    }
+}
