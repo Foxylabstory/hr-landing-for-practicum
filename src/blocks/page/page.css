@@ -55,8 +55,8 @@ html {
   scroll-behavior: smooth;
 }
 
-@media (max-width: 1280px) {
+/* @media (max-width: 1280px) {
   .page {
-    margin: 0 15px;
+    padding: 0 15px;
   }
-}
+} */
