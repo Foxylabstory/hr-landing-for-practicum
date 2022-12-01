@@ -1,5 +1,5 @@
 .card__back{
-  border: 1px solid black;
+  outline: 1px solid black;
   border-radius: 20px;
   display: flex;
   flex-direction: column;

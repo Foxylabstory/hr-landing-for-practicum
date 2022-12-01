@@ -4,7 +4,7 @@
   width: 540px;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 900px) {
   .value__discription {
     width: 100%;
   }
