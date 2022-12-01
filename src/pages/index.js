@@ -104,7 +104,7 @@ var splide = new Splide( '.splide', {
   perMove: 1,
   wheel: true,
   //padding: '2rem',
-  focus  : 'center',
+  focus  : 0,
   omitEnd: true,
   autoWidth: true,
   autoplay: true,
