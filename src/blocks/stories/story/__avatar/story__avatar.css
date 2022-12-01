@@ -2,7 +2,7 @@
   margin: 0;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 665px) {
   .story__avatar {
     display: block;
     width: 100%;
