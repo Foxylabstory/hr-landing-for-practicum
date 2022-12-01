@@ -177,14 +177,29 @@ var splide = new Splide( '.splide', {
 splide.mount();
 
 //-----------   Quiz -----------------
-let choice;
+
 const quiz = document.querySelectorAll('.test__choice');
 const resultMentor = document.querySelector('.result-mentor');
 const resultReviewer = document.querySelector('.result-reviewer');
 const test = document.querySelector('.test');
 const testButton = document.querySelector('.test__button');
-const resultButton = document.querySelector('.result__choice');
-console.log(111);
+const middle = document.querySelector('.middle');
+const senior = document.querySelector('.senior');
+
+function checkChoice(choice){
+  if(choice.classList.contains('test__choice_colour')){
+    toggleButton(choice)
+  }
+}
+
+function toggleButton(exp){
+  if (exp === middle){
+    senior.classList.remove('test__choice_colour');
+  } else {
+    middle.classList.remove('test__choice_colour');
+  }
+}
+
 testButton.addEventListener('click', () => {
   let job = countSelection();
   test.classList.toggle("hide");
@@ -206,6 +221,9 @@ resultReviewer.querySelector('.result__choice_colour').addEventListener('click',
 for (let i = 0; i < quiz.length; i++){
   quiz[i].addEventListener('click', () => {
     quiz[i].classList.toggle("test__choice_colour");
+    if (quiz[i].classList.contains('exp')){
+      checkChoice(quiz[i]);
+    }
   });
 }
 
