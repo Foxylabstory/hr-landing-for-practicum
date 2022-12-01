@@ -11,4 +11,17 @@
     font-size: 18px;
     line-height: 20px;
     color: var(--secondary-font-color);
+    cursor: pointer;
+    transition: all 0.5s ease;
+
+}
+.form__submit-btn:hover {
+    background-color: var(--from-dark-to-hover-color);
+}
+
+@media (max-width: 850px) {
+    .form__submit-btn {
+        max-width: 400px;
+        width: 100%;
+    }
 }

@@ -35,42 +35,17 @@ export class Popup {
     });
     return data;
   }
+  
   _setGrid () {
     for (let i = 0; i < this._inputs.length; i++) {
       this._inputs[i].style.gridArea = this._inputs[i].id;
     }
-    const labels = this._form.querySelectorAll(".form__item_type_text-area");
+  }
 
-    for (let i = 0; i < labels.length; i++) {
-      labels[i].parentNode.style.gridArea = labels[i].id;
-    }
+  _setVacancy (vacancyName) {
+    this._title.textContent = vacancyName ? vacancyName :  "Оставьте свои контакты";
   }
-  _vacancyNameToTitle (vacancyName) {
-    //return `Хочу стать ${vacancyName.charAt(0).toLowerCase()}${vacancyName.slice(1)}`;
-    return "Хочу стать "+ vacancyName;
-  }
-  _setVacancy (vacancyName){
-    if (vacancyName)
-    {
-      this._title.textContent = this._vacancyNameToTitle(vacancyName);
-      this._form.querySelector ("#position").style.display = "none";
-      this._form.querySelector ("#area").style.display = "none";
-      const experience = this._form.querySelector ("#experience").parentNode;
-      experience.style.display = "flex";
-      experience.style.gridArea = "area";
-      this._form.querySelector ("#stack").parentNode.style.gridArea = "position";
-    }
-    else {
-      this._title.textContent = "Оставьте свои контакты";
-      this._form.querySelector ("#position").style.display = "block";
-      this._form.querySelector ("#area").style.display = "block";
-      this._form.querySelector ("#experience").parentNode.style.display = "none";
-    }
-    // this._title.textContent = isDefined ? this._vacancyNameToTitle(vacancyName) : ;
-    // this._form.querySelector ("#position").style.display = isDefined ? "none" : "flex";
-    // this._form.querySelector ("#area").style.display = isDefined ? "none" : "flex";
-    // this._form.querySelector ("#experience").parentNode.style.display = isDefined ? "flex" : "none";
-  }
+
   _showThanks (isShow) {
     this._form.style.display = isShow ? "none" : "flex";
     this._thanks.style.display = isShow ? "flex" : "none";

@@ -23,20 +23,19 @@ function setAccordion(accordionBtns, iconSelector, openedPostfix) {
     });
   }
 }
-function setApplyButtonsListeners () {
-  for (let i = 0; i < vacanciyApplyBtns.length; i++) {
-    vacanciyApplyBtns[i].addEventListener('click', openPopUpWithVacancy);
-  }
-}
-
-function handleApplicationSubmit(data) {
-  console.log (data);
-}
 
 setAccordion(vacancyBtns, "vacancies__open-icon", "_opened");
 setAccordion(faqBtns, "faq__open-icon", "_opened")
 
 //-----------   PopUp -----------------
+function setApplyButtonsListeners () {
+  for (let i = 0; i < vacanciyApplyBtns.length; i++) {
+    vacanciyApplyBtns[i].addEventListener('click', openPopUpWithVacancy);
+  }
+}
+function handleApplicationSubmit(data) {
+  console.log (data);
+}
 
 function openPopUpEmpty () {
   popUp.open();
