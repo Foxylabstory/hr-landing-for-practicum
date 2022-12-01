@@ -246,7 +246,7 @@
         id="product"
         >
         <div class="value">
-          <h2 class="value__title">В чем <span class = "value__title_colour">ценность Практикума?</span></h2>
+          <h2 class="value__title">В чем ценность Практикума?</h2>
           <div class="value__block">
             <div class="value__image"></div>
             <div class="value__discription">
@@ -581,13 +581,11 @@
         aria-label=""></section>
       <section class="stories" aria-label="Истории ребят из нашей команды">
         <h2 class="stories__header">Истории ребят из нашей команды</h2>
-        <div class="slider__container">
-          <div class="slider__block">
-              <div class="slider__line">
+        <div class="container">
+          <div class="slider">
+              <div class="slider-line">
                 <div class="story">
-                  <div class="story__img-block">
-                    <img class="story__avatar" src="<%=require('../src/images/stories/reviewer1.png')%>" alt="Алиса Рерих"/>
-                  </div>
+                  <img class="story__avatar" src="<%=require('../src/images/stories/reviewer1.png')%>" alt="Алиса Рерих"/>
                   <div class="story__info">
                     <div class="story__person">
                       <p class="story__name">
@@ -605,9 +603,7 @@
                   </div>
                 </div>
                 <div class="story">
-                  <div class="story__img-block">
-                    <img class="story__avatar" src="<%=require('../src/images/stories/mentor1.png')%>" alt="Влад Путилов"/>
-                  </div>
+                  <img class="story__avatar" src="<%=require('../src/images/stories/mentor1.png')%>" alt="Влад Путилов"/>
                   <div class="story__info">
                     <div class="story__person">
                       <p class="story__name">
@@ -625,9 +621,7 @@
                   </div>
                 </div>
                 <div class="story">
-                  <div class="story__img-block">
-                    <img class="story__avatar" src="<%=require('../src/images/stories/reviewer2.png')%>" alt="Марина Светлакова"/>
-                  </div>
+                  <img class="story__avatar" src="<%=require('../src/images/stories/reviewer2.png')%>" alt="Марина Светлакова"/>
                   <div class="story__info">
                     <div class="story__person">
                       <p class="story__name">
@@ -645,10 +639,10 @@
                 </div>
               </div>
           </div>
-          <div class="slider__box">
-            <button class="slider__button slider__prev"></button>
+          <div class="box">
+            <button class="button slider-prev"></button>
             <div class="counter"></div>
-            <button class="slider__button slider__next"></button>
+            <button class="button slider-next"></button>
           </div>
         </div>
         </div>
@@ -691,31 +685,21 @@
       </section>
     </main>
 
-    <footer
-      class="footer"
-      id="footer"
-      >
+    <footer class="footer" id="footer">
       <div class="footer__contacts">
-        <div class="footer__phone">
-          <p class="footer__text_font">8-800-700-93-29</p>
-          <p class="footer__text">Звонок по России бесплатный</p>
+        <div class="footer__phone-block">
+          <div class="footer__phone">
+            <p class="footer__text_font">8-800-700-93-29</p>
+            <p class="footer__text">Звонок по России бесплатный</p>
+          </div>
+          <div class="footer__links">
+            <a class="footer__link footer__journal" href="https://thecode.media/" target="_blank">
+              Журнал
+            </a>
+            <a class="footer__vkontakte" href="https://vk.com/yandex.practicum" target="_blank"></a>
+            <a class="footer__telegram" href="https://t.me/practicum_experts" target="_blank"></a>
+          </div>
         </div>
-        <div class="footer__links">
-          <a class="footer__link footer__journal" href="https://thecode.media/" target="_blank">
-            Журнал
-          </a>
-          <a class="footer__link" href="https://vk.com/yandex.practicum">
-            <img src="<%=require('./images/footer/vkontakte.svg')%>" class="logo__vkontakte" alt = "Вконтакте">
-          </a>
-          <a class="footer__link" href="https://t.me/practicum_experts" target="_blank">
-            <img src="<%=require('./images/footer/telegram.svg')%>" class="logo__telegram" alt = "Телеграмм">
-          </a>
-        </div>
-        <div class="footer__copyright">
-          <p class="footer__text">&copy; 2022 АНО ДПО «ШАД», ООО «Яндекс»</p>
-        </div>
-      </div>
-      <div class="footer__info">
         <div class="footer__menu">
           <div class="footer__help">
             <a class="footer__link footer__text" href="https://yandex.ru/support/praktikum/feedback.html" target="_blank">Помощь</a>
@@ -728,25 +712,25 @@
             <a class="footer__link footer__text" href="https://practicum.yandex.ru/reviews" target="_blank">Отзывы</a>
           </div>
         </div>
+      </div>
+      <div class="footer__info">
+        <div class="footer__copyright">
+          <p class="footer__text">&copy; 2022 АНО ДПО «ШАД», ООО «Яндекс»</p>
+        </div>
         <div class="footer__services">
-          <p class="footer__text">
+          <p class="footer__services-text">
             Информация на данной странице описывает возможные варианты получения дополнительного
             дохода в месяц (т.н. подработка). Не является предложением о работе. Размещенные
             объявления о потребности в тех или иных услугах не являются вакансиями.
           </p>
 
-          <p class="footer__text">
+          <p class="footer__services-text">
             Образовательные услуги оказываются АНО ДПО «ШАД». 
             ШАД — это 
-            <a class="footer__link_underline footer__text" href="https://practicum.yandex.ru/employment/" target="_blank">Школа анализа данных</a>, основанная Яндексом и оказывающая 
+            <a class="footer__link_underline" href="https://practicum.yandex.ru/employment/" target="_blank">Школа анализа данных</a>, основанная Яндексом и оказывающая 
             образовательные услуги на основании 
-            <a class="footer__link_underline footer__text" href="https://practicum.yandex.ru/employment/" target="_blank">Лицензии № 036031</a>
-            от 24 марта 2015 года. 
-            Образовательные услуги оказываются АНО ДПО «ШАД». ШАД — это Школа анализа данных,
-            основанная Яндексом и оказывающая образовательные услуги на основании Лицензии № 036031
-            от 24 марта 2015 года.
-          </p>
-          <p class="footer__text">
+            <a class="footer__link_underline" href="https://practicum.yandex.ru/employment/" target="_blank">Лицензии № 036031</a>
+            от 24 марта 2015 года. </br></br>
             Сертификат о прохождении обучения по программе дополнительного профессионального
             образования также выдается АНО ДПО «ШАД».
           </p>

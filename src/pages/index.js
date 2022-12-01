@@ -47,7 +47,6 @@ setApplyButtonsListeners();
 
 
 //-----------   Slider -----------------
-console.log(window.screen.width);
 const images = document.querySelectorAll('.slider__block .slider__line img');
 const sliderLine = document.querySelector('.slider__block .slider__line');
 let count = 0;
@@ -85,7 +84,7 @@ document.querySelector('.slider__prev').addEventListener('click', function () {
 });
 
 function rollSlider() {
-    sliderLine.style.transform = 'translate(-' + count * width + 'px)';
+  sliderLine.style.transform = 'translate(-' + count * width + 'px)';
 
 }
 
@@ -97,7 +96,7 @@ const resultReviewer = document.querySelector('.result-reviewer');
 const test = document.querySelector('.test');
 const testButton = document.querySelector('.test__button');
 const resultButton = document.querySelector('.result__choice');
-
+console.log(111);
 testButton.addEventListener('click', () => {
   let job = countSelection();
   test.classList.toggle("hide");

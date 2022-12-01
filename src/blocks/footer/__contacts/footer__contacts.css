@@ -1,4 +1,5 @@
 .footer__contacts{
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 270px 460px;
+  gap: 410px;
 }
