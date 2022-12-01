@@ -59,6 +59,7 @@
 @import url('../blocks/professions/test/__quiz/test__quiz.css');
 @import url('../blocks/professions/test/__quiz/_long/test__quiz_long.css');
 @import url('../blocks/professions/test/__choice/test__choice.css');
+@import url('../blocks/professions/test/__choice-box/test__choice-box.css');
 @import url('../blocks/professions/test/__choice/_colour/test__choice_colour.css');
 @import url('../blocks/professions/test/__button/test__button.css');
 @import url('../blocks/professions/result/result.css');

@@ -1,19 +1,19 @@
 .test__quiz_long{
-  grid-template-columns: repeat(auto-fill, minmax(300px, 327px));
-  width: 1032px;
+  grid-template-columns:625px 327px;
+  width: 977px;
   height: 96px;
   margin: 25px auto 0;
   display: grid;
-  gap: 25px;
+
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 400px) {
   .test__quiz_long {
     width: 333px;
     margin: 0;
-    height: 175px;
-    grid-template-columns: 165px 165px;
-    grid-auto-flow: row dense;
+    height: 138px;
+    grid-template-columns: minmax(231px, 333px);
+    grid-template-rows: 63px 63px;
     gap: 15px;
   }
 }

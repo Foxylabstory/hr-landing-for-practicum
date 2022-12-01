@@ -3,17 +3,16 @@
   height: 96px;
   margin: 30px auto 0;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 25px;
+  grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 400px) {
   .test__quiz {
-    width: 307px;
+    width: 100%;
     height:fit-content;
-    grid-template-columns: 150px 150px;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 80px 80px;
     gap: 15px;
-    margin-top: 15px;
+    margin: 15px 0 0;
   }
 }

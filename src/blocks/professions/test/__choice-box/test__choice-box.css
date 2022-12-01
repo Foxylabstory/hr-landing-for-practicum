@@ -1,0 +1,16 @@
+.test__choice-box{
+  display: grid;
+  grid-template-columns: 300px 300px;
+}
+
+@media (max-width: 400px) {
+  .test__choice-box {
+    width: 333px;
+    margin: 0;
+    height: 133px;
+    grid-template-columns: 168px 150px;
+    grid-template-rows: 63px;
+    justify-items: stretch;
+    gap: 15px;
+  }
+}
