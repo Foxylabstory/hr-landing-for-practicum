@@ -5,3 +5,11 @@
   font-size: 24px;
   line-height: 133%;
 }
+
+@media (max-width: 950px) {
+  .conditions__plate-header {
+    font-size: 18px;
+    line-height: 21px;
+    /* display: none; */
+  }
+}

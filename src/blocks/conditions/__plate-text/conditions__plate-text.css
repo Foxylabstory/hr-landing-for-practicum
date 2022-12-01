@@ -6,3 +6,10 @@
   line-height: 144%;
   color: var(--secondary-font-color-alfa);
 }
+
+@media (max-width: 950px) {
+  .conditions__plate-text {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}

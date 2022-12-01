@@ -4,3 +4,18 @@
   gap: 26px;
   margin-top: 40px;
 }
+
+@media (max-width: 950px) {
+  .conditions__plates {
+    gap: 15px;
+  }
+}
+
+@media (max-width: 750px) {
+  .conditions__plates {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0;
+  }
+}

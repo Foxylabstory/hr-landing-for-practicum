@@ -1,3 +1,11 @@
 .conditions__plate-image {
   margin: 23px 22px 23px 13px;
 }
+
+@media (max-width: 950px) {
+  .conditions__plate-image {
+    min-width: 125px;
+    min-height: 100px;
+    margin: 5px 10px 30px 10px;
+  }
+}
