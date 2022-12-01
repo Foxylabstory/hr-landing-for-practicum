@@ -5,3 +5,9 @@
   line-height: 117%;
   max-width: 680px;
 }
+
+@media (max-width: 1020px) {
+  .call__header {
+    display: none;
+  }
+}

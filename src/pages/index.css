@@ -23,7 +23,9 @@
 @import url('../blocks/mobile/mobile__link/mobile__link.css');
 
 @import url('../blocks/call/call.css');
-@import url('../blocks/call/call__header/call__header.css');
+@import url('../blocks/call/__header/call__header.css');
+@import url('../blocks/call/__header/_hidden/call__header_hidden.css');
+@import url('../blocks/call/__container/call__container.css');
 @import url('../blocks/call/__message/call__message.css');
 @import url('../blocks/call/__link/call__link.css');
 @import url('../blocks/call/__image/call__image.css');
