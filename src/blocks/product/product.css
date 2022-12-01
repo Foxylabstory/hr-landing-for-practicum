@@ -3,4 +3,12 @@
   flex-direction: column;
   padding: 60px 150px 100px 150px;
   max-width: 1140px;
+  margin: 0 auto;
+}
+
+@media (max-width: 425px) {
+  .product {
+    width: 345px;
+    padding: 30px 15px 40px 15px;
+  }
 }

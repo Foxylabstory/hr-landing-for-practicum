@@ -7,3 +7,12 @@
 .education__faculties:last-child {
   margin-bottom: 0;
 }
+
+@media (max-width: 425px) {
+  .education__faculties {
+    width: 345px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin-bottom: 0;
+  }
+}

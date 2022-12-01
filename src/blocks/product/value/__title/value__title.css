@@ -7,3 +7,11 @@
   text-align: left;
   margin-bottom: 40px;
 }
+
+@media (max-width: 425px) {
+  .value__title {
+  font-size: 24px;
+  line-height: 28px;
+  margin: 0 0 15px;
+  }
+}

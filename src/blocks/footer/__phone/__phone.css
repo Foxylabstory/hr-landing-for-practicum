@@ -2,3 +2,8 @@
   margin-bottom: 33px;
 }
 
+@media (max-width: 425px) {
+  .footer__phone {
+    margin-bottom: 20px;
+  }
+}

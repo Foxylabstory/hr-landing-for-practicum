@@ -2,3 +2,10 @@
   display: flex;
   justify-content: space-around;
 }
+
+@media (max-width: 425px) {
+  .value__block {
+    flex-direction: column;
+
+  }
+}

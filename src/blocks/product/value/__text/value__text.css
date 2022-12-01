@@ -11,3 +11,10 @@
 .value__text:last-child{
   margin-bottom:0;
 }
+
+@media (max-width: 425px) {
+  .value__text {
+    font-size: 18px;
+    line-height: 21px;
+  }
+}

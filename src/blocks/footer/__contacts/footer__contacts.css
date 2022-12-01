@@ -3,3 +3,11 @@
   grid-template-columns: 270px 460px;
   gap: 410px;
 }
+
+@media (max-width: 425px) {
+  .footer__contacts {
+    grid-template-columns: 1fr;
+    grid-template-rows: 105px 105px;
+    gap: 20px;
+  }
+}

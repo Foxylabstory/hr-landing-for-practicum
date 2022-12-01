@@ -1,5 +1,15 @@
 .footer__services{
+  width: 460px;
   display: grid;
-  grid-template-rows: 120px auto;
+  grid-template-rows: auto auto;
   gap: 30px;
+}
+
+@media (max-width: 425px) {
+  .footer__services {
+    max-width: 336px;
+    font-size: 14px;
+    line-height: 16px;
+    gap: 15px;
+  }
 }

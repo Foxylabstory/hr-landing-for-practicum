@@ -6,3 +6,10 @@
   align-items: center;
   align-content: center;
 }
+
+@media (max-width: 425px) {
+  .footer__links {
+    margin-bottom: 0;
+    height: 44px;
+  }
+}

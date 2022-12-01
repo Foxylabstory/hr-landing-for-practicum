@@ -15,3 +15,16 @@
 .card__center:hover > .card__back{
   transform: perspective(1300px) rotateY(0deg);
 }
+
+@media (max-width: 425px) {
+  .card__center{
+    transform: translate(-50%, -50%);
+  }
+
+  .card__center:hover > .card__front{
+    transform: none;
+  }
+  .card__center:hover > .card__back{
+    transform: none;
+  }
+}

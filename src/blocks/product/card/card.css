@@ -9,3 +9,11 @@
 .card:last-child {
   margin-right: 0;
 }
+
+@media (max-width: 425px) {
+  .card {
+    width: 345px;
+    height: 140px;
+    margin: 0 0 5px;
+  }
+}
