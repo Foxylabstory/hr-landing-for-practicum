@@ -755,18 +755,13 @@
           <h2 class="vacancies__not-found-title">Не нашли себя в открытых предложениях?</h2>
           <p class="vacancies__not-found-text">Вы можете отслеживать актуальные вакансии в нашем Telegram-канале или рассказать о себе, заполнив форму.</p>
           <nav class="vacancies__not-found-options">
+            <a href= "tg://resolve?domain=themarfa">
             <button class="vacancies__join-tg">Вступить в Telegram канал</button>
+          </a>
             <button class="vacancies__apply">Оставить заявку</button>
           </nav>  
         </section >
       </section>
-      <section
-        class="block-6"
-        aria-label=""></section>
-
-      <section
-        class="block-7"
-        aria-label=""></section>
 
         <section class="splide stories" aria-labelledby="Истории ребят из нашей команды" id="stories">
           <h2 class="stories__header" id="Истории ребят из нашей команды">Истории ребят из нашей команды</h2>
@@ -1005,17 +1000,17 @@
     <div class="popup popup_type_apply">
       <div class="popup__container">
         <button class="popup__close-btn" type="button" aria-label="Закрыть"></button>
-          <form class="form" name="apply-form" novalidate>
+          <form class="form" name="apply-form">
             <h2 class="form__title">Оставьте свои контакты</h2>
             <div class="form__container">
-                <input class="form__item" type="text" id="name" placeholder="Имя" name="name">
-                <input class="form__item" type="text" id="email" placeholder="Почта" name="email">
-                <input class="form__item" type="tel" id="telephone" placeholder="+7 (       )     -     -    " name="telephone">
-                <input class="form__item" type="url" id="cv-link" placeholder="Ссылка на резюме" name="cv-link">
+                <input class="form__item" type="text" id="name" placeholder="Имя" name="name" required>
+                <input class="form__item" type="text" id="email" placeholder="Почта" name="email" required>
+                <input class="form__item" type="tel" id="telephone" placeholder="+7 (       )     -     -    " name="telephone" required>
+                <input class="form__item" type="url" id="cv-link" placeholder="Ссылка на резюме" name="cv-link" required>
                 <textarea class="form__item form__item_type_text-area" id="about" placeholder="О себе" name="about"></textarea>
             </div>
             <p class="form__disclaimer">Нажимая на кнопку, вы даете согласие АНО ДПО «ШАД» и ООО «ЯНДЕКС» на обработку указанных данных для целей рассмотрения анкеты и обратной связи по ней.</p>
-            <button class="form__submit-btn">Отправить</button>
+            <button class="form__submit-btn" type="submit">Отправить</button>
           </form>
           <div class="form__thanks">
             <img class="form__thanks-illustration" src="<%=require('./images/popup/fists.svg')%>" alt="Отбил">
