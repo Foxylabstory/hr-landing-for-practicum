@@ -5,3 +5,10 @@
   max-width: 745px;
   margin: 0;
 }
+
+@media (max-width:570px) {
+  .call__message {
+    font-size: 16px;
+    line-height: 19px;
+  }
+}

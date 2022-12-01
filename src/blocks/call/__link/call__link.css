@@ -44,3 +44,24 @@
   right: -60px;
   rotate: 180deg;
 }
+
+@media (max-width:1275px) {
+  .call__link {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width:480px) {
+  .call__link {
+    margin: 20px auto 40px;
+  }
+
+  .call__link::before {
+    display: none;
+  }
+  
+  .call__link::after {
+    display: none;
+  }
+}
