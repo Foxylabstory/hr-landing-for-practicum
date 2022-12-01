@@ -1,15 +1,19 @@
 .card__courses_mobile{
-  visibility: hidden;
+  display: none;
 }
 
 @media (max-width: 425px) {
   .card__courses_mobile {
-    visibility: visible;
+    display: block;
     font-style: normal;
     font-weight: var(--primary-font-weight-500);
     font-size: 16px;
     line-height: 18px;
     opacity: 1;
     color: #377D5A;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+    text-decoration: none;
   }
 }
