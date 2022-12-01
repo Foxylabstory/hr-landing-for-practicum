@@ -5,3 +5,11 @@
 /*   visibility: hidden; */
 /*   display: none; */
 }
+
+@media (max-width: 425px) {
+  .result {
+    width: 375px;
+    height: 590px;
+    padding: 0;
+  }
+}

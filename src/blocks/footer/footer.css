@@ -34,8 +34,8 @@ a.footer__link:hover{
 
 @media (max-width: 425px) {
   .footer {
-    margin: 0 auto;
-    width: 375px;
+    margin: 0;
+    width: 345px;
     max-height: 605px;
     padding: 25px 15px 30px 15px;
     grid-template-columns: 345px;

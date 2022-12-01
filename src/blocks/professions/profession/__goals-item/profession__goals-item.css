@@ -11,3 +11,12 @@ li{
 .profession__goals-item:last-child{
   margin-bottom: 0;
 }
+
+@media (max-width: 425px) {
+  .profession__goals-item {
+    margin-bottom: 20px;
+  }
+  li{
+    padding-left: 20px;
+  }
+}

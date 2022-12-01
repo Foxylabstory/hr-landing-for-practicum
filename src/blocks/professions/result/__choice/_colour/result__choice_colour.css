@@ -3,3 +3,9 @@
   margin-top: 20px;
   background-color: unset;
 }
+
+@media (max-width: 425px) {
+  .result__choice_colour{
+    margin-top: 15px;
+  }
+}

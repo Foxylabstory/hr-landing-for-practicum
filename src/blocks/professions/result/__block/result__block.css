@@ -3,3 +3,11 @@
   grid-template-columns: 535px 422px;
   gap: 64px;
 }
+
+@media (max-width: 425px) {
+  .result__block {
+    width: 375px;
+    height: 590px;
+    position: relative;
+  }
+}

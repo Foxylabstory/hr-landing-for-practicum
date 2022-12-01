@@ -17,3 +17,9 @@
   cursor: pointer;
   text-decoration: none;
 }
+
+@media (max-width: 425px) {
+  .result__choice{
+    margin: 280px auto 0;
+  }
+}

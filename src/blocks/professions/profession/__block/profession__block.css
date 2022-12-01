@@ -5,3 +5,10 @@
   background: #FFFFFF;
   border-radius: 50px;
 }
+
+@media (max-width: 425px) {
+  .profession__block {
+    padding: 25px 15px 30px;
+    border-radius: 30px;
+  }
+}

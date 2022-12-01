@@ -1,6 +1,13 @@
 .result__image{
   width: 535px;
   height: 353px;
-  background: white;
+}
 
+@media (max-width: 425px) {
+  .result__image {
+    width: 345px;
+    height: 230px;
+    position: absolute;
+    top: 122px;
+  }
 }
