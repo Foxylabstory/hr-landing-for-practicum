@@ -4,3 +4,11 @@
   justify-content: space-between;
   gap: 160px;
 }
+
+@media (max-width: 425px) {
+  .footer__menu {
+    display: grid;
+    grid-template-columns: 125px 175px;
+    gap: 46px;
+  }
+}

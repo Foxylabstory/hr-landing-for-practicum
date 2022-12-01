@@ -1,6 +1,12 @@
 .footer__info{
-  max-width: 460px;
-  display: grid;
-  grid-template-columns: 315px 460px;
-  gap: 365px;
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 425px) {
+  .footer__info {
+    max-width: 375px;
+    display: flex;
+    flex-direction: column-reverse;
+  }
 }

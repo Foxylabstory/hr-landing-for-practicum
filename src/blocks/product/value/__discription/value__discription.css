@@ -3,3 +3,9 @@
   flex-direction: column;
   width: 540px;
 }
+
+@media (max-width: 425px) {
+  .value__discription {
+    width: 100%;
+  }
+}

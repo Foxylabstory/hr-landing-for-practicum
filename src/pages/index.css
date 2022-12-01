@@ -101,6 +101,7 @@
 @import url('../blocks/product/card/__coursename/card__coursename.css');
 @import url('../blocks/product/card/__description/card__description.css');
 @import url('../blocks/product/card/__courses/card__courses.css');
+@import url('../blocks/product/card/__courses/_mobile/card__courses_mobile.css');
 @import url('../blocks/product/education/__faculties/_higher/education__faculties_higher.css');
 
 
@@ -196,8 +197,10 @@
 @import url('../blocks/footer/__vkontakte/footer__vkontakte.css');
 @import url('../blocks/footer/__telegram/footer__telegram.css');
 @import url('../blocks/footer/__info/footer__info.css');
+@import url('../blocks/footer/__copyright/footer__copyright.css');
 @import url('../blocks/footer/__menu/footer__menu.css');
 @import url('../blocks/footer/__help/footer__help.css');
+@import url('../blocks/footer/__text/_big/footer__text_big.css');
 @import url('../blocks/footer/__services/footer__services.css');
 @import url('../blocks/footer/__services-text/footer__services-text.css');
 @import url('../blocks/footer/__link/_underline/footer__link_underline.css');

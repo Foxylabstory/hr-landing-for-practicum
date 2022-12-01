@@ -15,3 +15,9 @@
   border: solid 1px #377D5A;
 }
 
+@media (max-width: 425px) {
+  .card__front {
+    border: 1px solid #373737;
+    border-radius: 16px;
+  }
+}

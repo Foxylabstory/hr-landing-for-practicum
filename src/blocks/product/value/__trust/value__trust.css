@@ -7,3 +7,11 @@
   text-align: left;
   margin-bottom: 30px;
 }
+
+@media (max-width: 425px) {
+  .value__trust {
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 15px;
+  }
+}
