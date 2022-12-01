@@ -2,3 +2,10 @@
   margin: 35px 0 0;
   height: 243px;
 }
+
+@media (max-width: 425px) {
+  .profession__goals {
+    margin: 0;
+
+  }
+}

@@ -16,3 +16,9 @@
   text-decoration: none;
   cursor: pointer;
 }
+
+@media (max-width: 425px) {
+  .profession__goals-item {
+    margin-top: 33px;
+  }
+}

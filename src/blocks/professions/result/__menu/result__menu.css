@@ -1,3 +1,9 @@
 .result__menu{
   
 }
+
+@media (max-width: 425px) {
+  .result__menu{
+    width: 345px;
+  }
+}

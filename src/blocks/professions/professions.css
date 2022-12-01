@@ -4,3 +4,11 @@
   padding: 60px 150px 90px;
   background: #E1F0E6;
 }
+
+@media (max-width: 425px) {
+  .professions {
+    width: 345px;
+    margin: 0 auto;
+    padding: 30px 15px 40px;
+  }
+}

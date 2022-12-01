@@ -6,3 +6,12 @@
   text-align: left;
   margin: 0;
 }
+
+@media (max-width: 425px) {
+  .result__text{
+    font-size: 20px;
+    line-height: 26px;
+    margin-top: 50px;
+    width: 345px;
+  }
+}

@@ -1,4 +1,11 @@
 .test{
   width: 1140px;
-  height: 529px;
+}
+
+@media (max-width: 425px) {
+  .test {
+    width: 345px;
+    height:fit-content;
+    margin: 0 auto;
+  }
 }
