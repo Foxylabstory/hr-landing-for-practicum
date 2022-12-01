@@ -1,12 +1,12 @@
 .form__container {
     display: grid;
-    grid-template-columns: repeat(2, 361px);
-    column-gap: 40px;
-    row-gap: 20px;
+    grid-template-columns: repeat(2, 387px);
+    column-gap: 30px;
     grid-template-areas:
     "name email"
     "tel-tg cv-link"
     "position area"
     "stack stack"
     "experience experience";
+    margin: 0 0 20px;
 }

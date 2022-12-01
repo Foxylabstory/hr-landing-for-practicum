@@ -1,10 +1,10 @@
 .popup__container {
-  background: var(--secondary-background-color);
+  background: var(--primary-background-color);
   border-radius: 50px;
   margin: 0;
-  padding: 34px 36px 37px;
+  padding: 40px 36px 45px;
   box-sizing: border-box;
   position: relative;
-  width: 1271px;
+  width: 1140px;
 }
 
