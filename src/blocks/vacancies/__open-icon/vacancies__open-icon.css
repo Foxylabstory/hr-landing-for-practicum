@@ -6,6 +6,7 @@
    height: 60px;
    background-size: contain;
    transition: transform 1s ease, background 1s ease;
+   cursor: pointer;
 }
 
 .vacancies__open-icon:hover {

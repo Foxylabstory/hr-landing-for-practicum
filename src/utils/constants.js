@@ -9,6 +9,7 @@ const mobileMenuCloser = page.querySelector(".mobile__closer");
 const titleAnchors = page.querySelectorAll(".mobile__link");
 const positionFilter = page.querySelector(".vacancies__position-filter");
 const areaFilter = page.querySelector(".vacancies__area-filter");
+const shareButtons =page.querySelectorAll('.vacancies__share-button');
 
 const vacancies = [...page.querySelectorAll('.vacancies__vacancy')];
 const vacanciesContainer = page.querySelector(".vacancies__list");
@@ -28,5 +29,6 @@ export {
   areaFilter,
   vacancies,
   vacanciesContainer,
-  vacanciesNotFoundMessage
+  vacanciesNotFoundMessage,
+  shareButtons,
 };

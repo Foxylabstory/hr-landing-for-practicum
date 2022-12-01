@@ -3,7 +3,7 @@
     max-width: 1140px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1180px) {
     .vacancies__found {
         margin: 30px 15px 40px;
     }
