@@ -1,14 +1,15 @@
 .stories{
-  margin: 0 150px;
+  margin: 0 auto 100px auto;
+  max-width: 1140px;
   display: flex;
   flex-direction: column;
 }
 
-@media (max-width: 425px) {
+@media (max-width:665px) {
   .stories {
-    margin: 0;
-    max-width: 375px;
-    max-height: 570px;
-    padding-left: 15px;
+    margin: 0 auto 105px auto;
+    /* max-width: 375px;
+     min-height: 570px; 
+    padding-left: 15px; */
   }
 }

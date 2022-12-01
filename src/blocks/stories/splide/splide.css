@@ -1,0 +1,67 @@
+.splide__pagination {
+  display: none;
+}
+
+.splide__slide {
+  padding: 0;
+  margin-right: 15px;
+}
+
+.splide__arrows {
+  position: absolute;
+  bottom: -100px;
+  left: calc(50% - 50px);
+  width: 120px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.splide__arrow {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.splide__arrow:hover {
+  opacity: 0.6;
+}
+
+.splide__arrow--prev svg {
+  display: none;
+}
+
+.splide__arrow--prev {
+  background-image: url('../../../images/stories/prev.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  justify-self: end;
+  background-color: unset;
+}
+
+.splide__arrow--next svg {
+  display: none;
+}
+
+.splide__arrow--next {
+  background-image: url('../../../images/stories/next.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  justify-self: end;
+  background-color: unset;
+}
+
+@media (max-width: 665px) {
+  .splide__arrows {
+    bottom: -70px;
+  }
+}

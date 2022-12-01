@@ -1,4 +1,7 @@
+//import '@splidejs/splide/css';
+import '@splidejs/splide/css/core';
 import "../pages/index.css";
+import Splide from '@splidejs/splide';
 
 import { Popup } from "../components/Popup";
 import { vacanciyApplyBtns, vacancyBtns, faqBtns, applyBtn, burgerBtn, mobileMenu, mobileMenuCloser, titleAnchors } from "../utils/constants.js";
@@ -47,7 +50,7 @@ setApplyButtonsListeners();
 
 
 //-----------   Slider -----------------
-console.log(window.screen.width);
+/* console.log(window.screen.width);
 const images = document.querySelectorAll('.slider__block .slider__line img');
 const sliderLine = document.querySelector('.slider__block .slider__line');
 let count = 0;
@@ -87,7 +90,30 @@ document.querySelector('.slider__prev').addEventListener('click', function () {
 function rollSlider() {
     sliderLine.style.transform = 'translate(-' + count * width + 'px)';
 
-}
+} */
+
+// -----------------NewOne Slider (splide)--------------
+
+var splide = new Splide( '.splide', {
+  type: 'loop',
+  drag: 'free',
+  snap: true,
+  perPage: 2,
+  perMove: 1,
+  wheel: true,
+  //padding: '2rem',
+  focus  : 'center',
+  omitEnd: true,
+  autoWidth: true,
+  autoplay: true,
+  breakpoints: {
+    970: {
+      perPage: 1,
+    },
+  },
+} );
+
+splide.mount();
 
 //-----------   Quiz -----------------
 let choice;
