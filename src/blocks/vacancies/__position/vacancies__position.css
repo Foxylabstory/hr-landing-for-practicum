@@ -3,6 +3,7 @@
     font-weight: var(--secondary-font-weight-400);
     font-size: 24px;
     line-height: 32px;
+    border: 1px solid #858585;
 
     padding: 0;
     margin: 0;
@@ -14,9 +15,10 @@
     justify-content: center;
 
     color: var(--primary-font-color);
-    background-color: var(--footer-background-background-color);
+    background-color: transparent;
     cursor: pointer;
     transition: background-color 0.5s ease, color 0.5s ease;
+    user-select: none;
 }
 
 .vacancies__position:hover {
@@ -24,9 +26,14 @@
     color: var(--secondary-font-color);
 }
 
-.vacancies__position:first-child {
+.vacancies__position-container:first-child .vacancies__position{
     border-radius: 15px 0px 0px 15px;
 }
-.vacancies__position:last-child {
+.vacancies__position-container:last-child .vacancies__position{
     border-radius: 0px 15px 15px 0px;
+}
+
+.vacancies__position-radio:checked + .vacancies__position {
+	background: var(--primary-button-background-color);
+    color: var(--secondary-font-color);
 }

@@ -1,0 +1,6 @@
+.vacancies__not-found-message {
+    display: none;
+    text-align: center;
+    font-size: 24px;
+    line-height: 32px;
+}

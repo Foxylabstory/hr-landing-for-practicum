@@ -452,18 +452,39 @@
         <section class="vacancies__found" aria-label="Доступные вакансии" id="vacancies">
           <h2 class="vacancies__title">Открытые предложения</h2>
           <ul class="vacancies__position-filter">
-            <li class="vacancies__position vacancies__position_checked">Для наставников</li>
-            <li class="vacancies__position">Для ревьюеров</li>
+            <li class="vacancies__position-container">
+              <input class="vacancies__position-radio" id ="position-mentor" type="radio" name="position-filter" value="mentor" checked>
+              <label class="vacancies__position" for="position-mentor">Для наставников</label>
+            </li>
+            <li class="vacancies__position-container">
+              <input class="vacancies__position-radio" id ="position-reviewer" type="radio" name="position-filter" value="reviewer">
+              <label class="vacancies__position" for="position-reviewer"> Для ревьюеров</label>
+            </li>
           </ul>
           <ul class="vacancies__area-filter">
-            <li class="vacancies__area vacancies__area_checked">Программирование</li>
-            <li class="vacancies__area">Аналитика</li>
-            <li class="vacancies__area">Дизайн</li>
-            <li class="vacancies__area">Маркетинг</li>
-            <li class="vacancies__area">Менеджмент</li>
+            <li class="vacancies__area-container">
+              <input class="vacancies__area-radio" id ="area-programming" type="radio" name="area-filter" value="programming" checked>
+              <label class="vacancies__area" for="area-programming">Программирование</label>
+            </li>
+            <li class="vacancies__area-container">
+              <input class="vacancies__area-radio" id ="area-analytics" type="radio" name="area-filter" value="analytics">
+              <label class="vacancies__area" for="area-analytics"> Аналитика</label>
+            </li>
+            <li class="vacancies__area-container">
+              <input class="vacancies__area-radio" id ="area-design" type="radio" name="area-filter" value="design">
+              <label class="vacancies__area" for="area-design">Дизайн</label>
+            </li>
+            <li class="vacancies__area-container">
+              <input class="vacancies__area-radio" id ="area-marketing" type="radio" name="area-filter" value="marketing">
+              <label class="vacancies__area" for="area-marketing"> Маркетинг</label>
+            </li>
+            <li class="vacancies__area-container">
+              <input class="vacancies__area-radio" id ="area-management" type="radio" name="area-filter" value="management">
+              <label class="vacancies__area" for="area-management"> Менеджмент</label>
+            </li>
           </ul>
           <ul class="vacancies__list">
-            <li class="vacancies__vacancy">
+            <li class="vacancies__vacancy" data-position="mentor" data-area="programming">
               <button class="vacancies__vacancy-summary-button">
                 <div class="vacancies__vacancy-summary-container">
                   <h3 class="vacancies__vacancy-title">Наставник на курс «Мидл фронтенд-разработчик»</h3>
@@ -501,7 +522,7 @@
                 </nav>
               </article>
             </li>
-            <li class="vacancies__vacancy">
+            <li class="vacancies__vacancy" data-position="mentor" data-area="programming">
               <button class="vacancies__vacancy-summary-button">
                 <div class="vacancies__vacancy-summary-container">
                   <h3 class="vacancies__vacancy-title">Наставник на курс «Инженер по тестированию»</h3>
@@ -538,7 +559,81 @@
                 </nav>
               </article>
             </li>
-            <li class="vacancies__vacancy">
+            <li class="vacancies__vacancy" data-position="reviewer" data-area="programming">
+              <button class="vacancies__vacancy-summary-button">
+                <div class="vacancies__vacancy-summary-container">
+                  <h3 class="vacancies__vacancy-title">Ревьюер на курс «Инженер по тестированию»</h3>
+                  <p class="vacancies__vacancy-subtitle">Оплата за ведение группы/ В среднем 50 000 ₽ в месяц </p>
+                  <div class="vacancies__open-icon"></div>
+                </div>
+              </button>
+              <article class="vacancies__vacancy-info">
+                <div class="vacancies__vacancy-description">
+                  <h4 class="vacancies__description-header"></h4>
+                  <p class="vacancies__description-text"></p>
+                  <h4 class="vacancies__description-header"></h4>
+                  <p class="vacancies__description-text"></p>
+                  <h4 class="vacancies__description-header"></h4>
+                  <p class="vacancies__description-text"></p>
+                </div>
+                <nav class="vacancies__options">
+                  <button class="vacancies__apply-button">Откликнуться</button>
+                  <button class="vacancies__share-button">Поделиться</button>
+                  <ul class="vacancies__share-box">
+                    <li class="vacancies__share-item">
+                      <a href="#" class="vacancies__share-link vacancies__share-link_chain">Скопировать ссылку</a>
+                    </li>
+                    <li class="vacancies__share-item">
+                      <a href="#" class="vacancies__share-link vacancies__share-link_vk">ВКонтакте</a>
+                    </li>
+                    <li class="vacancies__share-item">
+                      <a href="#" class="vacancies__share-link vacancies__share-link_tg">Telegram</a>
+                    </li>
+                    <li class="vacancies__share-item">
+                      <a href="#" class="vacancies__share-link vacancies__share-link_wa">WhatsApp</a>
+                    </li>
+                  </ul>
+                </nav>
+              </article>
+            </li>
+            <li class="vacancies__vacancy" data-position="mentor" data-area="analytics">
+              <button class="vacancies__vacancy-summary-button">
+                <div class="vacancies__vacancy-summary-container">
+                  <h3 class="vacancies__vacancy-title">Наставник на курс Аналитик данных</h3>
+                  <p class="vacancies__vacancy-subtitle">Оплата за ведение группы/ В среднем 50 000 ₽ в месяц </p>
+                  <div class="vacancies__open-icon"></div>
+                </div>
+              </button>
+              <article class="vacancies__vacancy-info">
+                <div class="vacancies__vacancy-description">
+                  <h4 class="vacancies__description-header"></h4>
+                  <p class="vacancies__description-text"></p>
+                  <h4 class="vacancies__description-header"></h4>
+                  <p class="vacancies__description-text"></p>
+                  <h4 class="vacancies__description-header"></h4>
+                  <p class="vacancies__description-text"></p>
+                </div>
+                <nav class="vacancies__options">
+                  <button class="vacancies__apply-button">Откликнуться</button>
+                  <button class="vacancies__share-button">Поделиться</button>
+                  <ul class="vacancies__share-box">
+                    <li class="vacancies__share-item">
+                      <a href="#" class="vacancies__share-link vacancies__share-link_chain">Скопировать ссылку</a>
+                    </li>
+                    <li class="vacancies__share-item">
+                      <a href="#" class="vacancies__share-link vacancies__share-link_vk">ВКонтакте</a>
+                    </li>
+                    <li class="vacancies__share-item">
+                      <a href="#" class="vacancies__share-link vacancies__share-link_tg">Telegram</a>
+                    </li>
+                    <li class="vacancies__share-item">
+                      <a href="#" class="vacancies__share-link vacancies__share-link_wa">WhatsApp</a>
+                    </li>
+                  </ul>
+                </nav>
+              </article>
+            </li>
+            <li class="vacancies__vacancy" data-position="mentor" data-area="programming">
               <button class="vacancies__vacancy-summary-button">
                 <div class="vacancies__vacancy-summary-container">
                   <h3 class="vacancies__vacancy-title">Наставник на курс «Алгориты для разработчиков»</h3>
@@ -576,6 +671,7 @@
               </article>
             </li>
           </ul>
+          <p class="vacancies__not-found-message">Таких вакансий пока нет. Чтобы посмотреть другие, поменяйте роль или направление.</p>
         </section >
         <section class="vacancies__not-found" aria-label="Подходящая вакансия не нашлась">
           <h2 class="vacancies__not-found-title">Не нашли себя в открытых предложениях?</h2>
