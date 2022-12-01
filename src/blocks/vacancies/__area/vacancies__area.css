@@ -18,3 +18,10 @@
 .vacancies__area-radio:checked + .vacancies__area {
     font-weight: var(--primary-font-weight-500);
 }
+
+@media (max-width: 900px) {
+    .vacancies__area {
+        font-size: 16px;
+        margin: 0 7px 7px 0;
+    }
+}

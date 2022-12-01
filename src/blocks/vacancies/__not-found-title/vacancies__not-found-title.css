@@ -9,3 +9,11 @@
 
     color: var(--primary-font-color);
 }
+
+@media (max-width: 900px) {
+    .vacancies__not-found-title {
+        width: 100%;
+        font-size: 24px;
+        line-height: 25px;
+    }
+}

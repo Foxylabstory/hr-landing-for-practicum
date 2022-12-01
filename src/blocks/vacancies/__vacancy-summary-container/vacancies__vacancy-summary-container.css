@@ -7,3 +7,9 @@
     "title icon"
     "subtitle icon";
 }
+
+@media (max-width: 900px) {
+    .vacancies__vacancy-summary-container {
+        grid-template-columns: auto 30px;
+    }
+}

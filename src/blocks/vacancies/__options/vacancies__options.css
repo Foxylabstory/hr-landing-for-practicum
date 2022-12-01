@@ -6,3 +6,11 @@
     justify-content: flex-start;
     position: relative;
 }
+
+@media (max-width: 900px) {
+    .vacancies__options {
+        margin: 0 0 0;
+        flex-direction: column;
+        align-items: center;
+    }
+}

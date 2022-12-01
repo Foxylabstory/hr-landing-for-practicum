@@ -4,3 +4,10 @@
     grid-template-columns: repeat(2, 315px);
     gap: 30px;
 }
+
+@media (max-width: 900px) {
+    .vacancies__not-found-options {
+        grid-template-columns: 100%;
+        gap: 15px;
+    }
+}

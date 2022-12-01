@@ -1,6 +1,17 @@
 .vacancies__not-found-message {
     display: none;
-    text-align: center;
-    font-size: 24px;
-    line-height: 32px;
+    font-style: var(--primary-font-style);
+    font-weight: var(--secondary-font-weight-400);
+    font-size: 18px;
+    line-height: 26px;
+    margin: 30px 0 100px;
+
+}
+
+@media (max-width: 900px) {
+    .vacancies__not-found-message {
+        font-size: 16px;
+        line-height: 19px;
+        margin: 30px 15px 50px;
+    }
 }
