@@ -2,3 +2,7 @@
   background-color: var(--from-light-to-click-color);
   color: var(--secondary-font-color);
 }
+
+.vacancies__share-button_checked::before {
+  background-image: url('../../../../images/vacancies/share-light.svg');
+}

@@ -4,10 +4,23 @@ import "../pages/index.css";
 import Splide from '@splidejs/splide';
 
 import { Popup } from "../components/Popup";
-import { vacanciyApplyBtns, vacancyBtns, faqBtns, applyBtn, burgerBtn, mobileMenu, mobileMenuCloser, titleAnchors,  positionFilter,
-  areaFilter,  vacancies,
+import {
+  page,
+  vacanciyApplyBtns,
+  vacancyBtns,
+  faqBtns,
+  applyBtn,
+  burgerBtn,
+  mobileMenu,
+  mobileMenuCloser,
+  titleAnchors,
+  positionFilter,
+  areaFilter,
+  vacancies,
   vacanciesContainer,
-  vacanciesNotFoundMessage } from "../utils/constants.js";
+  vacanciesNotFoundMessage,
+  shareButtons,
+} from "../utils/constants.js";
 
 function setAccordion(accordionBtns, iconSelector, openedPostfix) {
   for (let i = 0; i < accordionBtns.length; i++) {
@@ -88,6 +101,13 @@ function handlePositionChange (evt) {
 positionFilter.addEventListener('click', filterVacancies);
 areaFilter.addEventListener('click', filterVacancies);
 filterVacancies ();
+
+shareButtons.forEach((shareButton) => {
+  shareButton.addEventListener('click', function (event) {
+    event.target.nextElementSibling.classList.toggle('vacancies__share-box_visible');
+    event.target.classList.toggle('vacancies__share-button_checked');
+  }, true);
+});
 
 //-----------   Slider -----------------
 
@@ -208,6 +228,8 @@ function selectJob(count){
     return resultReviewer
   }
 }
+
+// ---------------Burger button on header ------------
 
 burgerBtn.addEventListener('click', function (params) {
   mobileMenu.classList.add('mobile_opened');
