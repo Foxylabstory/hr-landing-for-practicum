@@ -4,7 +4,10 @@ import "../pages/index.css";
 import Splide from '@splidejs/splide';
 
 import { Popup } from "../components/Popup";
-import { vacanciyApplyBtns, vacancyBtns, faqBtns, applyBtn, burgerBtn, mobileMenu, mobileMenuCloser, titleAnchors } from "../utils/constants.js";
+import { vacanciyApplyBtns, vacancyBtns, faqBtns, applyBtn, burgerBtn, mobileMenu, mobileMenuCloser, titleAnchors,  positionFilter,
+  areaFilter,  vacancies,
+  vacanciesContainer,
+  vacanciesNotFoundMessage } from "../utils/constants.js";
 
 function setAccordion(accordionBtns, iconSelector, openedPostfix) {
   for (let i = 0; i < accordionBtns.length; i++) {
@@ -48,6 +51,43 @@ applyBtn.addEventListener('click', openPopUpEmpty);
 
 setApplyButtonsListeners();
 
+//-----------   Vacancies -----------------
+function filterVacancies () {
+  let foundCounter = 0;
+  const positionChecked =  positionFilter.querySelector('.vacancies__position-radio:checked').value;
+  const areaChecked =  areaFilter.querySelector('.vacancies__area-radio:checked').value;
+  vacancies.forEach ((vacancy)=>{
+    if (vacancy.dataset.position===positionChecked && vacancy.dataset.area===areaChecked) {
+      foundCounter++;
+      vacancy.style.display = "block";
+    }
+    else {
+      vacancy.style.display = "none";
+    }
+  });
+  if (foundCounter===0) {
+    vacanciesContainer.style.display = "none";
+    vacanciesNotFoundMessage.style.display = "block";
+  }
+  else {
+    vacanciesContainer.style.display = "block";
+    vacanciesNotFoundMessage.style.display = "none";
+  }
+
+};
+
+function handlePositionChange (evt) {
+  console.log ("sel", evt.target.querySelector('.vacancies__position-radio'));
+  console.log ("tar", evt.target);
+  console.log ("evt", evt);
+
+}
+// document.querySelector('p').onclick = function(e) {
+//       alert(e.target.value);}
+  
+positionFilter.addEventListener('click', filterVacancies);
+areaFilter.addEventListener('click', filterVacancies);
+filterVacancies ();
 
 //-----------   Slider -----------------
 

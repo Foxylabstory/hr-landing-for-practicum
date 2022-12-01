@@ -144,6 +144,10 @@
 @import url('../blocks/vacancies/__options/vacancies__options.css');
 @import url('../blocks/vacancies/__position-filter/vacancies__position-filter.css');
 @import url('../blocks/vacancies/__position/vacancies__position.css');
+@import url('../blocks/vacancies/__position-radio/vacancies__position-radio.css');
+@import url('../blocks/vacancies/__position-container/vacancies__position-container.css');
+@import url('../blocks/vacancies/__area-radio/vacancies__area-radio.css');
+@import url('../blocks/vacancies/__area-container/vacancies__area-container.css');
 @import url('../blocks/vacancies/__position/_checked/vacancies__position_checked.css');
 @import url('../blocks/vacancies/__share-button-text/vacancies__share-button-text.css');
 @import url('../blocks/vacancies/__share-button/vacancies__share-button.css');
@@ -165,6 +169,7 @@
 @import url('../blocks/vacancies/__vacancy/vacancies__vacancy.css');
 @import url('../blocks/vacancies/__vacancy-summary-container/vacancies__vacancy-summary-container.css');
 @import url('../blocks/vacancies/__not-found/vacancies__not-found.css');
+@import url('../blocks/vacancies/__not-found-message/vacancies__not-found-message.css');
 @import url('../blocks/vacancies/__not-found-text/vacancies__not-found-text.css');
 @import url('../blocks/vacancies/__not-found-title/vacancies__not-found-title.css');
 @import url('../blocks/vacancies/__not-found-options/vacancies__not-found-options.css');

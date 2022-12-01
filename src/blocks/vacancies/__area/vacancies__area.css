@@ -1,5 +1,5 @@
 .vacancies__area {
-    margin: 0 20px 0 0;
+    margin: 0 20px 20px 0;
 
     font-style: var(--primary-font-style);
     font-weight: var(--secondary-font-weight-400);
@@ -7,4 +7,14 @@
     line-height: 32px;
 
     color: var(--primary-font-color);
+    cursor: pointer;
+    transition: color 0.5s ease;
+    user-select: none;
+}
+.vacancies__area:hover {
+    color: #616161
+}
+
+.vacancies__area-radio:checked + .vacancies__area {
+    font-weight: var(--primary-font-weight-500);
 }
