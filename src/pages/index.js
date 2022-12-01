@@ -1,7 +1,10 @@
+//import '@splidejs/splide/css';
+import '@splidejs/splide/css/core';
 import "../pages/index.css";
+import Splide from '@splidejs/splide';
 
 import { Popup } from "../components/Popup";
-import { vacanciyApplyBtns, vacancyBtns, faqBtns, applyBtn } from "../utils/constants.js";
+import { vacanciyApplyBtns, vacancyBtns, faqBtns, applyBtn, burgerBtn, mobileMenu, mobileMenuCloser, titleAnchors } from "../utils/constants.js";
 
 function setAccordion(accordionBtns, iconSelector, openedPostfix) {
   for (let i = 0; i < accordionBtns.length; i++) {
@@ -47,6 +50,9 @@ setApplyButtonsListeners();
 
 
 //-----------   Slider -----------------
+
+/* console.log(window.screen.width);
+
 const images = document.querySelectorAll('.slider__block .slider__line img');
 const sliderLine = document.querySelector('.slider__block .slider__line');
 let count = 0;
@@ -86,7 +92,30 @@ document.querySelector('.slider__prev').addEventListener('click', function () {
 function rollSlider() {
   sliderLine.style.transform = 'translate(-' + count * width + 'px)';
 
-}
+} */
+
+// -----------------NewOne Slider (splide)--------------
+
+var splide = new Splide( '.splide', {
+  type: 'loop',
+  drag: 'free',
+  snap: true,
+  perPage: 2,
+  perMove: 1,
+  wheel: true,
+  //padding: '2rem',
+  focus  : 'center',
+  omitEnd: true,
+  autoWidth: true,
+  autoplay: true,
+  breakpoints: {
+    970: {
+      perPage: 1,
+    },
+  },
+} );
+
+splide.mount();
 
 //-----------   Quiz -----------------
 let choice;
@@ -140,3 +169,28 @@ function selectJob(count){
   }
 }
 
+burgerBtn.addEventListener('click', function (params) {
+  mobileMenu.classList.add('mobile_opened');
+  mobileMenu.addEventListener('click', function (event) {
+    if (event.target === event.currentTarget) {
+      handleCloseBurgerMenu();
+    }
+  });
+  mobileMenuCloser.addEventListener('click', function (params) {
+    handleCloseBurgerMenu();
+  });
+  titleAnchors.forEach((title) => {
+    title.addEventListener('click', function (params) {
+      handleCloseBurgerMenu();
+    });
+  });
+});
+
+const handleCloseBurgerMenu = () => {
+  mobileMenu.classList.remove('mobile_opened');
+  titleAnchors.forEach((title) => {
+    title.removeEventListener('click', function (params) {
+      handleCloseBurgerMenu();
+    });
+  });
+}

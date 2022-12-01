@@ -7,7 +7,7 @@
   margin: 20px 0 5px;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 665px) {
   .story__name {
     font-size: 18px;
     font-weight: 500;

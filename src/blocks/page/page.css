@@ -50,3 +50,13 @@
   margin: 0 auto;
   font-family: var(--primary-font-family);
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (max-width: 1280px) {
+  .page {
+    margin: 0 15px;
+  }
+}

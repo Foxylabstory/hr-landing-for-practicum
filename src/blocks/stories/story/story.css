@@ -1,17 +1,18 @@
 .story{
   width: 566px;
-  height: 328px;
+  min-height: 328px;
   display: grid;
   grid-template-columns: 247px 320px;
   background-color: #FFDE98;
   border-radius: 50px;
   margin: 0 20px;
+  color: var(--primary-font-color);
 }
 
-@media (max-width: 425px) {
+@media (max-width: 665px) {
   .story {
     width: 250px;
-    height: 383px;
+    min-height: 383px;
     margin: 0 7px;
     border-radius: 50px;
     grid-template-columns: 250px;
