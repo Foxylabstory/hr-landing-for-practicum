@@ -8,3 +8,12 @@
     color: var(--primary-font-color);
     margin: 0 0 15px;
 }
+
+@media (max-width: 850px) {
+    .form__thanks-title {
+        max-width: 85%;
+        margin: 0 0 20px;
+        font-size: 20px;
+        line-height: 26px;
+    }
+}

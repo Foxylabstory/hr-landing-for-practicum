@@ -970,27 +970,11 @@
           <form class="form" name="apply-form" novalidate>
             <h2 class="form__title">Оставьте свои контакты</h2>
             <div class="form__container">
-                <input class="form__item" type="text" id="name" placeholder="ФИО">
-                <input class="form__item" type="text" id="email" placeholder="Почта">
-                <input class="form__item" type="text" id="tel-tg" placeholder="Telegram или телефон">
-                <input class="form__item" type="url" id="cv-link" placeholder="Ссылка на резюме">
-                <select class="form__item" id="position" placeholder="Выбрать позицию">
-                  <option>Наставник</option>
-                  <option>Ревьюер</option>
-                </select>
-                <select id="area" class="form__item" placeholder="Выбрать направление">
-                  <option>Программирование</option>
-                  <option>Аналитика</option>
-                  <option>Дизайн</option>
-                  <option>Маркетинг</option>
-                  <option>Менеджмент</option>
-                </select>
-              <label class="form__label">Перечислите набор технологий,  которыми вы владеете и уровень владения каждой
-                <textarea class="form__item form__item_type_text-area" id="stack"></textarea>
-              </label>
-              <label class="form__label">Расскажите нам о вашем опыте в образовании, если он есть (выступления, репетиторство, преподавание и т.д.)
-                <textarea class="form__item form__item_type_text-area" id="experience"></textarea>
-              </label>
+                <input class="form__item" type="text" id="name" placeholder="Имя" name="name">
+                <input class="form__item" type="text" id="email" placeholder="Почта" name="email">
+                <input class="form__item" type="tel" id="telephone" placeholder="+7 (       )     -     -    " name="telephone">
+                <input class="form__item" type="url" id="cv-link" placeholder="Ссылка на резюме" name="cv-link">
+                <textarea class="form__item form__item_type_text-area" id="about" placeholder="О себе" name="about"></textarea>
             </div>
             <p class="form__disclaimer">Нажимая на кнопку, вы даете согласие АНО ДПО «ШАД» и ООО «ЯНДЕКС» на обработку указанных данных для целей рассмотрения анкеты и обратной связи по ней.</p>
             <button class="form__submit-btn">Отправить</button>

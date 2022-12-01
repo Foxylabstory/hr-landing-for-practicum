@@ -5,6 +5,12 @@
     font-size: 32px;
     line-height: 48px;
     text-align: center;
-
     color: var(--primary-font-color);
+}
+
+@media (max-width: 850px) {
+    .form__title {
+        font-size: 18px;
+        line-height: 21px;
+    }
 }
