@@ -3,7 +3,7 @@
   justify-content: space-around;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 750px) {
   .value__block {
     flex-direction: column;
 

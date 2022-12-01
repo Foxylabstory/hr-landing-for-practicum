@@ -1,4 +1,4 @@
-.education__faculties{
+/* .education__faculties{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   margin-bottom: 11px;
@@ -8,11 +8,18 @@
   margin-bottom: 0;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 900px) {
   .education__faculties {
     width: 345px;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    margin-bottom: 0;
+    margin-bottom: 11px;
   }
+} */
+
+.education__faculties{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;/* 
+  margin-bottom: 11px; */
 }
