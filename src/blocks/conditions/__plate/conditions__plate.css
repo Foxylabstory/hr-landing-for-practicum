@@ -5,3 +5,17 @@
   border-radius: 16px;
   display: flex;
 }
+
+@media (max-width: 950px) {
+  .conditions__plate {
+    min-width: 345px;
+    min-height: 183px;
+    
+  }
+}
+
+@media (max-width: 750px) {
+  .conditions__plate {
+    margin-bottom: 15px;
+  }
+}

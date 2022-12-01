@@ -1,0 +1,79 @@
+.expert__step_right {
+  grid-column-start: 3;
+  grid-row-start: 3;
+  grid-row-end: span 2;
+  justify-self: end;
+  background-color: #FFBD5F;
+  position: relative;
+}
+
+.expert__step_right::before {
+  content: '';
+  position: absolute;
+  background-image: url('../../../../images/conditions/Arrow_left.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 130px;
+  height: 80px;
+  top: -64px;
+  left: -53px;
+}
+
+@media (max-width: 1110px) {
+  .expert__step_right {
+    grid-column-start: 1;
+    grid-row-start: 6;
+    grid-row-end: span 2;
+    
+  }
+}
+
+@media (max-width: 1000px) {
+  .expert__step_right::before {
+    left: -1px;
+  }
+}
+
+@media (max-width: 900px) {
+  .expert__step_right::before {
+    left: 55px;
+  }
+}
+
+@media (max-width: 800px) {
+  .expert__step_right::before {
+    left: 105px;
+  }
+}
+
+@media (max-width: 700px) {
+  .expert__step_right::before {
+    left: 155px;
+    rotate: 15deg;
+    top: -78px;
+  }
+}
+
+@media (max-width: 600px) {
+  .expert__step_right::before {
+    background-size: contain;
+    width: 70px;
+    height: 73px;
+    top: -60px;
+    left: 70px;
+    rotate: 20deg;
+  }
+}
+
+@media (max-width: 500px) {
+  .expert__step_right::before {
+    left: 120px;
+  }
+}
+
+@media (max-width: 414px) {
+  .expert__step_right::before {
+    left: 145px;
+  }
+}

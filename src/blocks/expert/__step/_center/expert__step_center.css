@@ -1,0 +1,72 @@
+.expert__step_center {
+  grid-column-start: 2;
+  grid-row-start: 2;
+  grid-row-end: span 2;
+  justify-self: center;
+  background-color: #FFDE98;
+  position: relative;
+  z-index: 1;
+}
+
+.expert__step_center::before {
+  content: '';
+  position: absolute;
+  background-image: url('../../../../images/conditions/Arrow_right.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 130px;
+  height: 80px;
+  top: -77px;
+  left: -65px;
+}
+
+@media (max-width: 1110px) {
+  .expert__step_center {
+    grid-column-start: 1;
+    grid-row-start: 4;
+    grid-row-end: span 2;
+  }
+
+  .expert__step_center::before {
+    rotate: 16deg;
+    top: -89px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .expert__step_center::before {
+    left: -1px;
+  }
+}
+
+@media (max-width: 900px) {
+  .expert__step_center::before {
+    left: 55px;
+  }
+}
+
+@media (max-width: 800px) {
+  .expert__step_center::before {
+    left: 105px;
+  }
+}
+
+@media (max-width: 700px) {
+  .expert__step_center::before {
+    left: 155px;
+  }
+}
+
+@media (max-width: 600px) {
+  .expert__step_center::before {
+    top: -90px;
+    left: 55px;
+  }
+}
+
+@media (max-width: 500px) {
+  .expert__step_center::before {
+    left: 105px;
+  }
+}

@@ -1,0 +1,7 @@
+.expert__step_left {
+  grid-column-start: 1;
+  grid-row-start: 1;
+  grid-row-end: span 2;
+  background-color: #FFECBD;
+  z-index: 2;
+}

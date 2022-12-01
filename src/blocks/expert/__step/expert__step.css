@@ -1,4 +1,4 @@
-.conditions__step {
+.expert__step {
   width: 350px;
   height: 145px;
   border-radius: 50px;
@@ -10,4 +10,18 @@
   display: flex;
   text-align: center;
   align-items: center;
+  margin-top: 30px;
+}
+
+.expert__step:first-of-type {
+  margin-top: 0;
+}
+
+@media (max-width: 600px) {
+  .expert__step {
+    width: 250px;
+    height: 105px;
+    font-size: 18px;
+    line-height: 21px;
+  }
 }

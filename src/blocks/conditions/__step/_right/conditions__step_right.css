@@ -1,6 +1,0 @@
-.conditions__step_right {
-  grid-column-start: 3;
-  grid-row-start: 4;
-  grid-row-end: span 2;
-  justify-self: end;
-}

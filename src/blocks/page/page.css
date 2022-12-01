@@ -9,7 +9,7 @@
   --primary-font-color: black;
   --secondary-font-color: #FFF;
   --secondary-font-color-alfa: rgba(0, 0, 0, 0.4);
-  --accent-font-color: #264BE0;
+  --accent-font-color: #377D5A;
 
   --primary-font-style: normal;
 
@@ -55,8 +55,8 @@ html {
   scroll-behavior: smooth;
 }
 
-@media (max-width: 1280px) {
+/* @media (max-width: 1280px) {
   .page {
-    margin: 0 15px;
+    padding: 0 15px;
   }
-}
+} */
