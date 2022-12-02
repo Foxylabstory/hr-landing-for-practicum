@@ -3,7 +3,7 @@
   grid-template-columns: 300px 300px;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 800px) {
   .test__choice-box {
     width: 333px;
     margin: 0;

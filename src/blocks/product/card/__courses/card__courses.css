@@ -9,7 +9,7 @@
   opacity: 0.5;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 500px) {
   .card__courses {
     font-size: 14px;
     line-height: 16px;

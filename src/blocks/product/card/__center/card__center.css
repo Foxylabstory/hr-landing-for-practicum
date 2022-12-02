@@ -16,7 +16,7 @@
   transform: perspective(1300px) rotateY(0deg);
 }
 
-@media (max-width: 425px) {
+@media (max-width: 500px) {
   .card__center{
     transform: translate(-50%, -50%);
   }

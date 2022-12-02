@@ -14,7 +14,7 @@
   background: #E1F0E6;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 500px) {
   .card__back{
     transform:none;
     visibility: hidden;

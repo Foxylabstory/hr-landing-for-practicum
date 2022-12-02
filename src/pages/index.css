@@ -51,6 +51,7 @@
 
 /* Professions */
 @import url('../blocks/professions/professions.css');
+@import url('../blocks/professions/__container/professions__container.css');
 @import url('../blocks/professions/test/test.css');
 @import url('../blocks/professions/result/hide.css');
 @import url('../blocks/professions/test/__title/test__title.css');
