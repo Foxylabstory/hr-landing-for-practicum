@@ -3,7 +3,7 @@
   height: 243px;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 825px) {
   .profession__goals {
     margin: 0;
 

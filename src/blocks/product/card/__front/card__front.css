@@ -14,7 +14,7 @@
   outline: solid 1px #377D5A;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 500px) {
   .card__front {
     outline: 1px solid #373737;
     border-radius: 16px;
