@@ -1,7 +1,7 @@
 .footer__contacts{
   display: grid;
   grid-template-columns: 270px 460px;
-  gap: 410px;
+  justify-content: space-between;
 }
 
 @media (max-width: 425px) {
