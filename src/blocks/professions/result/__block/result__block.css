@@ -2,6 +2,15 @@
   display: grid;
   grid-template-columns: 535px 422px;
   gap: 64px;
+  margin: 0 auto;
+}
+
+@media (max-width: 990px) {
+  .result__block {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
 }
 
 @media (max-width: 425px) {

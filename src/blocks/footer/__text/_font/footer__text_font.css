@@ -5,7 +5,7 @@
   margin: 0;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 990px) {
   .footer__text_font {
     font-size: 18px;
     line-height: 21px;
