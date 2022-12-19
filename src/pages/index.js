@@ -108,51 +108,6 @@ shareButtons.forEach((shareButton) => {
   }, true);
 });
 
-//-----------   Slider -----------------
-
-/* console.log(window.screen.width);
-
-const images = document.querySelectorAll('.slider__block .slider__line img');
-const sliderLine = document.querySelector('.slider__block .slider__line');
-let count = 0;
-let width;
-let gap
-
-if (window.screen.width>400){
-  gap = 40;
-} else {
-  gap = 14;
-}
-
-function init() {
-    width = document.querySelector('.story').offsetWidth + gap;
-    rollSlider();
-}
-
-init();
-
-document.querySelector('.slider__next').addEventListener('click', function () {
-    count++;
-    if (count >= images.length) {
-        count = 0;
-    }
-    rollSlider();
-});
-
-document.querySelector('.slider__prev').addEventListener('click', function () {
-
-    count--;
-    if (count < 0) {
-        count = images.length - 1;
-    }
-    rollSlider();
-});
-
-function rollSlider() {
-  sliderLine.style.transform = 'translate(-' + count * width + 'px)';
-
-} */
-
 // -----------------NewOne Slider (splide)--------------
 
 var splide = new Splide( '.splide', {

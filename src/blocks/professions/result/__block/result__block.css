@@ -5,6 +5,14 @@
   margin: 0 auto;
 }
 
+@media (max-width: 990px) {
+  .result__block {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+}
+
 @media (max-width: 425px) {
   .result__block {
     width: 375px;

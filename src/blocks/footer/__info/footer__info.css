@@ -4,6 +4,13 @@
   justify-content: space-between;
 }
 
+@media (max-width: 980px) {
+  .footer__info {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
 @media (max-width: 425px) {
   .footer__info {
     max-width: 375px;

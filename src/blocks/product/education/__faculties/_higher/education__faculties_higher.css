@@ -1,7 +1,5 @@
 @media (max-width: 500px) {
   .education__faculties_higher {
     width: 345px;
-    /* grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr; */
   }
 }

@@ -1,8 +1,16 @@
 .footer__menu{
-  display: grid;
-  grid-template-columns: 125px 204px;
+  display: flex;
   justify-content: space-between;
-  gap: 160px;
+  min-width: 460px;
+}
+
+@media (max-width: 990px) {
+  .footer__menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    min-width: 0;
+  }
 }
 
 @media (max-width: 425px) {
