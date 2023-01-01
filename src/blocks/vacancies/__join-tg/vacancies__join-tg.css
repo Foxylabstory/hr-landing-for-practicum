@@ -1,27 +1,27 @@
 .vacancies__join-tg {
-    width: 315px;
-    height: 60px;
-    border: 1px solid #373737;
-    backdrop-filter: blur(6px);
-    border-radius: 120px;
-    background-color: transparent;
-    font-style: var(--primary-font-style);
-    font-weight: var(--secondary-font-weight-400);
-    font-size: 18px;
-    line-height: 48px;
-    cursor: pointer;
-    color: var(--primary-font-color);
-    transition: all 0.5s ease;
+  width: 315px;
+  height: 60px;
+  border: 1px solid #373737;
+  backdrop-filter: blur(6px);
+  border-radius: 120px;
+  background-color: transparent;
+  font-style: var(--primary-font-style);
+  font-weight: var(--secondary-font-weight-400);
+  font-size: 18px;
+  line-height: 48px;
+  cursor: pointer;
+  color: var(--primary-font-color);
+  transition: all 0.5s ease;
 }
 
 .vacancies__join-tg:hover {
-    background-color: var(--from-light-to-hover-color);
-    color: var(--secondary-font-color);
+  background-color: var(--from-light-to-hover-color);
+  color: var(--secondary-font-color);
 }
 
 @media (max-width: 900px) {
-    .vacancies__join-tg {
-       max-width: 345px;
-       line-height: 20px;
-    }
+  .vacancies__join-tg {
+    max-width: 345px;
+    line-height: 20px;
+  }
 }

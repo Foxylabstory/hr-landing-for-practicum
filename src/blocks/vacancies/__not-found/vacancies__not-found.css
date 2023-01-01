@@ -1,16 +1,16 @@
 .vacancies__not-found {
-    width: 100%;
-    background-color: var(--secondary-background-color);
-    margin: 90px 0;
-    padding: 55px 0 60px;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
+  width: 100%;
+  background-color: var(--secondary-background-color);
+  margin: 90px 0;
+  padding: 55px 0 60px;
+  box-sizing: border-box;
+  display: flex;
+ flex-direction: column;
 }
 
 @media (max-width: 900px) {
-    .vacancies__not-found {
-        margin: 0;
-        padding: 30px 15px 40px;
-    }
+  .vacancies__not-found {
+    margin: 0;
+    padding: 30px 15px 40px;
+  }
 }

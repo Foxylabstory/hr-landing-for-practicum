@@ -8,14 +8,6 @@
 
 @media (max-width: 1280px) {
   .product {
-    /* width: 345px; */
     padding: 30px 15px 40px 15px;
   }
 }
-
-/* @media (max-width: 425px) {
-  .product {
-    width: 345px;
-    padding: 30px 15px 40px 15px;
-  }
-} */
