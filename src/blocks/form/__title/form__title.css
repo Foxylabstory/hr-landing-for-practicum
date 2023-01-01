@@ -1,16 +1,16 @@
 .form__title {
-    margin: 0 auto 25px;
-    font-style: var(--primary-font-style);
-    font-weight: var(--primary-font-weight-500);
-    font-size: 32px;
-    line-height: 48px;
-    text-align: center;
-    color: var(--primary-font-color);
+  margin: 0 auto 25px;
+  font-style: var(--primary-font-style);
+  font-weight: var(--primary-font-weight-500);
+  font-size: 32px;
+  line-height: 48px;
+  text-align: center;
+  color: var(--primary-font-color);
 }
 
 @media (max-width: 850px) {
-    .form__title {
-        font-size: 18px;
-        line-height: 21px;
-    }
+  .form__title {
+    font-size: 18px;
+    line-height: 21px;
+  }
 }

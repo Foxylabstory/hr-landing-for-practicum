@@ -7,7 +7,6 @@
 
 @media (max-width: 1025px) {
   .profession {
-    /* width: 345px; */
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
   }

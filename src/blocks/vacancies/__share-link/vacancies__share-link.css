@@ -22,9 +22,6 @@
   color: var(--secondary-font-color);
 }
 
-
-
-
 @media (max-width: 900px) {
   .vacancies__share-link span {
     display: none;

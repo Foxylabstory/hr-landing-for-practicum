@@ -10,10 +10,6 @@
   border: unset;
 }
 
-.test__choice:last-child{
-
-}
-
 @media (max-width: 425px) {
   .test__choice {
     font-size: 14px;

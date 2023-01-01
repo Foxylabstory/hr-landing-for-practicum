@@ -1,17 +1,16 @@
 .vacancies__position-filter {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-
-    margin: 0 0 25px;
-    padding: 0;
-    overflow: hidden;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0 0 25px;
+  padding: 0;
+  overflow: hidden;
 }
 
 @media (max-width: 900px) {
-    .vacancies__position-filter {
-        margin: 0 0 15px;
-    }
+  .vacancies__position-filter {
+    margin: 0 0 15px;
+  }
 }

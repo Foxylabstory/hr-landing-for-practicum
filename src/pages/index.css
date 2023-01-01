@@ -108,7 +108,6 @@
 @import url('../blocks/product/card/__courses/_mobile/card__courses_mobile.css');
 @import url('../blocks/product/education/__faculties/_higher/education__faculties_higher.css');
 
-
 /* Stories */
 @import url('../blocks/stories/stories.css');
 @import url('../blocks/stories/__header/stories__header.css');
@@ -120,7 +119,6 @@
 @import url('../blocks/stories/story/__name/story__name.css');
 @import url('../blocks/stories/story/__job/story__job.css');
 @import url('../blocks/stories/story/__text/story__text.css');
-
 @import url('../blocks/stories/splide/splide.css');
 
 /* Slider */

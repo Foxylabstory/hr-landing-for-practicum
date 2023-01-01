@@ -1,7 +1,7 @@
 .form__thanks {
-    display: none;
-    flex-direction: column;
-    align-items: center;
-    height: 100%;
-    justify-content: center;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  justify-content: center;
 }

@@ -1,16 +1,16 @@
 .form__item {
-    margin: 0 0 25px;
-    border: 2px solid #E0E0E0;
-    border-radius: 14px;
-    min-height: 50px;
-    padding: 10px 12px;
-    box-sizing: border-box;
+  margin: 0 0 25px;
+  border: 2px solid #E0E0E0;
+  border-radius: 14px;
+  min-height: 50px;
+  padding: 10px 12px;
+  box-sizing: border-box;
 }
 
 @media (max-width: 850px) {
-    .form__item {
-        margin: 0 0 20px;
-        min-height: 44px;
-        width: 100%;
-    }
+  .form__item {
+    margin: 0 0 20px;
+    min-height: 44px;
+    width: 100%;
+  }
 }

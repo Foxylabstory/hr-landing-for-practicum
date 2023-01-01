@@ -94,9 +94,7 @@ function handlePositionChange (evt) {
   console.log ("evt", evt);
 
 }
-// document.querySelector('p').onclick = function(e) {
-//       alert(e.target.value);}
-  
+
 positionFilter.addEventListener('click', filterVacancies);
 areaFilter.addEventListener('click', filterVacancies);
 filterVacancies ();
@@ -117,7 +115,6 @@ var splide = new Splide( '.splide', {
   perPage: 2,
   perMove: 1,
   wheel: true,
-  //padding: '2rem',
   focus  : 0,
   omitEnd: true,
   autoWidth: true,

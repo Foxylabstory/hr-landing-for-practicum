@@ -1,35 +1,36 @@
 .vacancies__title {
-    font-style: var(--primary-font-style);
-    font-weight: var(--primary-font-weight-500);
-    font-size: 40px;
-    line-height: 48px;
-    color: var(--primary-font-color);
-    margin: 0 0 40px;
-    position: relative;
+  font-style: var(--primary-font-style);
+  font-weight: var(--primary-font-weight-500);
+  font-size: 40px;
+  line-height: 48px;
+  color: var(--primary-font-color);
+  margin: 0 0 40px;
+  position: relative;
 }
 
 .vacancies__title::after {
-    position: absolute;
-    content: '';
-    background-image: url('../../../images/vacancies/tick-40x40.svg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 40px;
-    height: 40px;
-    top: -25px;
-    left: 459px;
+  position: absolute;
+  content: '';
+  background-image: url('../../../images/vacancies/tick-40x40.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 40px;
+  height: 40px;
+  top: -25px;
+  left: 459px;
 }
 
 @media (max-width: 900px) {
-    .vacancies__title {
-        font-size: 24px;
-        margin: 0 0 20px;
-    }
-    .vacancies__title::after {
-        width: 20px;
-        height: 16px;
-        left: 280px;
-        top: 0px;
-    }
+  .vacancies__title {
+    font-size: 24px;
+    margin: 0 0 20px;
+  }
+
+  .vacancies__title::after {
+    width: 20px;
+    height: 16px;
+    left: 280px;
+    top: 0px;
+  }
 }
