@@ -4,20 +4,17 @@
   font-size: 32px;
   line-height: 48px;
   text-align: left;
-
   color: var(--primary-font-color);
-
   grid-area: title;
   margin: 0;
   padding: 0;
-
 }
 
 @media (max-width: 900px) {
-    .vacancies__vacancy-title {
-        font-size: 20px;
-        line-height: 26px;
-        padding: 0 7px 0 0;
-        box-sizing: border-box;
-    }
+  .vacancies__vacancy-title {
+    font-size: 20px;
+    line-height: 26px;
+    padding: 0 7px 0 0;
+    box-sizing: border-box;
+  }
 }

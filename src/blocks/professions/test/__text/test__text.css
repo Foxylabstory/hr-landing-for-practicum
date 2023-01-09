@@ -7,11 +7,9 @@
   max-width: 824px;
 }
 
-@media (max-width: 825px) {
+@media (max-width: 425px) {
   .test__text {
-    /* max-width: 345px; */
     font-size: 16px;
     line-height: 19px;
-    margin: 0 auto
   }
 }

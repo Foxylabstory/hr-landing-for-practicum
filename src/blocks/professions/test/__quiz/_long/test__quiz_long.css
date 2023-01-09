@@ -1,19 +1,17 @@
 .test__quiz_long{
   grid-template-columns:625px 327px;
+  grid-template-rows: 80px;
   width: 977px;
-  height: 96px;
   margin: 25px auto 0;
   display: grid;
-
+  gap: 25px;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 1080px) {
   .test__quiz_long {
-    width: 333px;
-    margin: 0;
-    height: 138px;
-    grid-template-columns: minmax(231px, 333px);
-    grid-template-rows: 63px 63px;
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 100px;
     gap: 15px;
   }
 }

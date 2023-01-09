@@ -1,15 +1,14 @@
 .vacancies__vacancy-summary-button {
-    padding: 30px 0 0 0;
-    box-sizing: border-box;
-    margin: 0;
-    width: 100%;
-
-    border: none;
-    background-color: transparent;
+  padding: 30px 0 0 0;
+  box-sizing: border-box;
+  margin: 0;
+  width: 100%;
+  border: none;
+  background-color: transparent;
 }
 
 @media (max-width: 900px) {
-    .vacancies__vacancy-summary-button {
-        padding: 5px 0 0 0;
-    }
+  .vacancies__vacancy-summary-button {
+    padding: 5px 0 0 0;
+  }
 }

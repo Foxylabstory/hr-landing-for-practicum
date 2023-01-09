@@ -8,7 +8,7 @@
   line-height: 24px;
   letter-spacing: 0em;
   text-align: left;
-  max-width: 1440px;
+  max-width: 100%;
   min-height: 575px;
   border-radius: 20px 20px 0 0;
   border-radius: 50px 50px 0px 0px;
@@ -25,10 +25,9 @@ a.footer__link:hover{
   color: #04b;
 }
 
-@media (min-width: 769px) and (max-width: 1080px) {
+@media (max-width: 960px) {
   .footer {
-    flex-direction: column;
-    gap: 30px;
+    grid-template-rows: auto;
   }
 }
 

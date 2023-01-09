@@ -1,9 +1,7 @@
 .result{
   width: 1140px;
-  height: 529px;
-  padding: 80px 0 0 50px;
-/*   visibility: hidden; */
-/*   display: none; */
+  min-height: 529px;
+  padding: 50px;
 }
 
 @media (max-width: 425px) {

@@ -1,11 +1,11 @@
 .footer__contacts{
-  display: grid;
-  grid-template-columns: 270px 460px;
-  gap: 410px;
+  display: flex;
+  justify-content: space-between;
 }
 
 @media (max-width: 425px) {
   .footer__contacts {
+    display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 105px 105px;
     gap: 20px;

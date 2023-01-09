@@ -1,10 +1,10 @@
 .vacancies__vacancy-description {
-    margin: 0 0 40px;
-    max-width: 680px;
+  margin: 0 0 40px;
+  max-width: 680px;
 }
 
 @media (max-width: 900px) {
-    .vacancies__vacancy-description {
-        margin: 0 0 15px;
-    }
+  .vacancies__vacancy-description {
+    margin: 0 0 15px;
+  }
 }

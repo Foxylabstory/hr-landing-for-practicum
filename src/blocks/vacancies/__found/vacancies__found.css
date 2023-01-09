@@ -1,10 +1,10 @@
 .vacancies__found {
-    margin: 60px auto 45px;
-    max-width: 1140px;
+  margin: 60px auto 45px;
+  max-width: 1140px;
 }
 
 @media (max-width: 1180px) {
-    .vacancies__found {
-        margin: 30px 15px 40px;
-    }
+  .vacancies__found {
+    margin: 30px 15px 40px;
+  }
 }
