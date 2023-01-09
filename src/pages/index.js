@@ -104,7 +104,7 @@ filterVacancies ();
 shareButtons.forEach((shareButton) => {
   shareButton.addEventListener('click', function (event) {
     event.target.nextElementSibling.classList.toggle('vacancies__share-box_visible');
-    event.target.classList.toggle('vacancies__share-button_checked');
+    //event.target.classList.toggle('vacancies__share-button_checked');
   }, true);
 });
 
